@@ -340,6 +340,7 @@ input[type="checkbox"] {
 
 input[type="range"] {
     flex-grow: 1; /* Roztáhne se na zbytek místa */
+    width: 100%; /* Pojistka pro správnou šířku */
     accent-color: var(--btn-primary);
     cursor: pointer;
     height: 6px;
