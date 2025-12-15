@@ -376,6 +376,21 @@ input[type="range"]::-webkit-slider-thumb:hover {
     transform: scale(1.2);
 }
 
+/* Podpora pro Firefox (Thumb) - aby vypadal stejně jako v Chrome */
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: var(--btn-primary);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.1s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+input[type="range"]::-moz-range-thumb:hover {
+    transform: scale(1.2);
+}
+
 /* Úprava inputu čísla, když je vedle slideru */
 #set-count {
     width: 70px !important; /* !important přebije obecný styl pro inputy */
@@ -491,6 +506,91 @@ body.dark-mode #question-navigator {
     border-color: var(--text-muted);
 }
 
+/* --- Náhled otázek (Preview Controls) --- */
+#preview-controls {
+    margin-top: 20px;
+    border-top: 1px solid var(--input-border);
+    padding-top: 15px;
+}
+
+#preview-controls label {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--text-muted);
+    font-weight: 600;
+}
+
+.preview-inputs {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.preview-inputs input[type="number"] {
+    width: 80px;
+    text-align: center;
+}
+
+/* --- Dual Slider (Dvojitý posuvník) --- */
+.dual-slider-container {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.dual-slider-track {
+    position: absolute;
+    width: 100%;
+    height: 6px;
+    background-color: var(--input-border);
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.dual-slider-highlight {
+    position: absolute;
+    height: 6px;
+    background-color: var(--btn-primary);
+    z-index: 2;
+    border-radius: 5px;
+}
+
+/* Specifické styly pro inputy uvnitř dual slideru */
+.dual-slider-container input[type="range"] {
+    position: absolute;
+    pointer-events: none; /* Aby šlo kliknout "skrz" na ten druhý */
+    -webkit-appearance: none;
+    z-index: 3;
+    height: 10px;
+    width: 100%;
+    background: transparent; /* Průhledné pozadí, aby byl vidět track pod tím */
+    margin: 0;
+}
+
+/* Pro Firefox je nutné zprůhlednit track u dual slideru */
+.dual-slider-container input[type="range"]::-moz-range-track {
+    background: transparent;
+}
+
+/* Zpřístupnění klikání na "palec" (kolečko) */
+.dual-slider-container input[type="range"]::-webkit-slider-thumb {
+    pointer-events: all;
+    position: relative;
+    z-index: 4;
+}
+
+/* Zpřístupnění klikání na "palec" pro Firefox */
+.dual-slider-container input[type="range"]::-moz-range-thumb {
+    pointer-events: all;
+    position: relative;
+    z-index: 4;
+}
+
 /* --- Výpis všech otázek (Review mód) --- */
 .review-item {
     border-bottom: 1px solid var(--input-border);
@@ -514,4 +614,34 @@ body.dark-mode #question-navigator {
     font-weight: bold;
     background-color: var(--feedback-correct-bg);
     border: 1px solid var(--feedback-correct-border);
+}
+
+/* Plovoucí tlačítko "Zpět" v přehledu otázek */
+#review-back-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    
+    /* Minimalistický styl (kolečko) */
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background-color: var(--bg-container);
+    border-color: var(--btn-primary);
+    color: var(--btn-primary);
+}
+
+#review-back-btn:hover {
+    background-color: var(--btn-primary);
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.3);
 }
