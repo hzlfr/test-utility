@@ -38,10 +38,14 @@
             </div>
 
             <button class="btn" onclick="startQuiz()">Spustit test</button>
+            <button id="view-all-btn" class="btn btn-secondary hidden" onclick="showAllQuestions()">Otázky/Odpovědi</button>
         </div>
 
         <div id="quiz-interface" class="hidden">
-            <button class="btn-back" onclick="quitQuiz()">← Ukončit test</button>
+            <div class="quiz-header-row">
+                <button class="btn-back" onclick="quitQuiz()">← Ukončit test</button>
+                <button id="nav-toggle-btn" class="btn-back hidden" onclick="toggleNavigator()">Mapa otázek</button>
+            </div>
             <h3 id="quiz-title">Předmět</h3>
             <div class="score-board">Otázka <span id="current-q">1</span> z <span id="total-q">0</span></div>
             <div id="question-navigator" class="hidden"></div>
@@ -65,6 +69,12 @@
             <div id="detailed-report" class="error-report hidden"></div>
 
             <button class="btn" onclick="resetToMenu()">Zpět na nastavení</button>
+        </div>
+
+        <div id="all-questions-view" class="hidden">
+            <button class="btn-back" onclick="closeAllQuestions()">← Zpět do menu</button>
+            <h2 id="review-subject-title">Přehled otázek</h2>
+            <div id="questions-list-container"></div>
         </div>
     </div>
 
@@ -130,6 +140,10 @@
             const select = document.getElementById('subject-select');
             const key = select.value;
             if (!key) return;
+            
+            // Zobrazit tlačítko pro přehled otázek, jakmile je vybrán předmět
+            document.getElementById('view-all-btn').classList.remove('hidden');
+
             const totalAvailable = database[key].questions.length;
             document.getElementById('max-q-label').innerText = totalAvailable;
             const input = document.getElementById('set-count');
@@ -211,10 +225,13 @@
 
             // Nastavení zobrazení podle módu
             if (config.isTestMode) {
-                document.getElementById('question-navigator').classList.remove('hidden');
+                // V test módu zobrazíme tlačítko pro mapu, ale samotnou mapu skryjeme (otevře se až po kliknutí)
+                document.getElementById('nav-toggle-btn').classList.remove('hidden');
+                document.getElementById('question-navigator').classList.add('hidden'); 
                 document.getElementById('progress-bar-container').classList.add('hidden'); // V testu skryjeme barevný bar
                 renderNavigator();
             } else {
+                document.getElementById('nav-toggle-btn').classList.add('hidden');
                 document.getElementById('question-navigator').classList.add('hidden');
                 document.getElementById('progress-bar-container').classList.remove('hidden');
             }
@@ -446,6 +463,11 @@
             });
         }
 
+        function toggleNavigator() {
+            const nav = document.getElementById('question-navigator');
+            nav.classList.toggle('hidden');
+        }
+
         function updateNavigator() {
             const bubbles = document.querySelectorAll('.nav-bubble');
             bubbles.forEach((b, i) => {
@@ -460,7 +482,52 @@
                 saveCurrentResponse(); // Uložit aktuální před odchodem
             }
             currentIndex = index;
+            // Po kliknutí na číslo otázky mapu zase schováme, aby nezavazela
+            document.getElementById('question-navigator').classList.add('hidden');
             loadQuestion();
+        }
+
+        // --- Funkce pro zobrazení všech otázek a odpovědí ---
+        function showAllQuestions() {
+            const select = document.getElementById('subject-select');
+            const subjectKey = select.value;
+            if (!subjectKey) return;
+
+            const data = database[subjectKey];
+            document.getElementById('review-subject-title').innerText = data.title + " - Přehled otázek";
+            
+            const container = document.getElementById('questions-list-container');
+            container.innerHTML = '';
+
+            data.questions.forEach((q, index) => {
+                const item = document.createElement('div');
+                item.className = 'review-item';
+                
+                const qText = document.createElement('span');
+                qText.className = 'review-question';
+                qText.innerText = `${index + 1}. ${q.question}`;
+                item.appendChild(qText);
+
+                q.options.forEach((opt, i) => {
+                    const optDiv = document.createElement('div');
+                    optDiv.className = 'review-option';
+                    optDiv.innerText = opt;
+                    
+                    if (q.correct.includes(i)) {
+                        optDiv.classList.add('is-correct');
+                    }
+                    item.appendChild(optDiv);
+                });
+                container.appendChild(item);
+            });
+
+            document.getElementById('menu-box').classList.add('hidden');
+            document.getElementById('all-questions-view').classList.remove('hidden');
+        }
+
+        function closeAllQuestions() {
+            document.getElementById('all-questions-view').classList.add('hidden');
+            document.getElementById('menu-box').classList.remove('hidden');
         }
 
         function shuffleArray(array) {
