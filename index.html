@@ -44,6 +44,7 @@
             <button class="btn-back" onclick="quitQuiz()">← Ukončit test</button>
             <h3 id="quiz-title">Předmět</h3>
             <div class="score-board">Otázka <span id="current-q">1</span> z <span id="total-q">0</span></div>
+            <div id="question-navigator" class="hidden"></div>
             <div id="progress-bar-container"></div>
             
             <div id="quiz-box">
@@ -94,6 +95,7 @@
         let currentIndex = 0;
         let score = 0;
         let userAnswersLog = [];
+        let userResponses = []; // Pole pro uložení odpovědí v Test módu
         
         let config = {
             isTestMode: false,
@@ -199,12 +201,23 @@
             currentIndex = 0;
             score = 0;
             userAnswersLog = [];
+            userResponses = new Array(activeQuestions.length).fill(null); // Reset odpovědí
 
             document.getElementById('menu-box').classList.add('hidden');
             document.getElementById('quiz-interface').classList.remove('hidden');
             document.getElementById('quiz-title').innerText = database[subjectKey].title;
             document.getElementById('total-q').innerText = activeQuestions.length;
             document.getElementById('progress-bar-container').innerHTML = ''; // Vymazat progress bar
+
+            // Nastavení zobrazení podle módu
+            if (config.isTestMode) {
+                document.getElementById('question-navigator').classList.remove('hidden');
+                document.getElementById('progress-bar-container').classList.add('hidden'); // V testu skryjeme barevný bar
+                renderNavigator();
+            } else {
+                document.getElementById('question-navigator').classList.add('hidden');
+                document.getElementById('progress-bar-container').classList.remove('hidden');
+            }
 
             loadQuestion();
         }
@@ -227,6 +240,11 @@
                 // TEST MÓD
                 btn.innerText = (currentIndex === activeQuestions.length - 1) ? "Dokončit test" : "Další otázka";
                 btn.onclick = handleTestModeNext; 
+                
+                // Aktualizace navigace (zvýraznění aktivní bublinky)
+                if (config.isTestMode) {
+                    updateNavigator();
+                }
             } else {
                 // PROCVIČOVÁNÍ
                 btn.innerText = "Zkontrolovat";
@@ -262,34 +280,17 @@
                 li.appendChild(input);
                 li.appendChild(label);
                 optionsUl.appendChild(li);
+
+                // Obnovení odpovědi, pokud už byla vybrána (pouze pro Test mód)
+                if (config.isTestMode && userResponses[currentIndex] && userResponses[currentIndex].includes(index)) {
+                    input.checked = true;
+                }
             });
         }
 
-        // Funkce pro TEST MÓD (bez okamžité zpětné vazby)
+        // Funkce pro TEST MÓD (ukládání stavu a navigace)
         function handleTestModeNext() {
-            const userInputs = document.querySelectorAll('input[name="quiz-option"]:checked');
-            if (userInputs.length === 0) {
-                alert("V testovacím režimu musíš vybrat odpověď!");
-                return;
-            }
-            
-            const userAnswers = Array.from(userInputs).map(i => parseInt(i.value)).sort();
-            const currentQ = activeQuestions[currentIndex];
-            const correctAnswers = [...currentQ.correct].sort();
-
-            const isCorrect = JSON.stringify(userAnswers) === JSON.stringify(correctAnswers);
-            if (isCorrect) score++;
-
-            updateProgressBar(isCorrect);
-
-            // Logování pro report na konci
-            userAnswersLog.push({
-                question: currentQ.question,
-                options: currentQ.options,
-                userSelected: userAnswers,
-                correct: correctAnswers,
-                isCorrect: isCorrect
-            });
+            saveCurrentResponse();
 
             currentIndex++;
             if (currentIndex < activeQuestions.length) {
@@ -297,6 +298,14 @@
             } else {
                 showResults();
             }
+        }
+
+        function saveCurrentResponse() {
+            const userInputs = document.querySelectorAll('input[name="quiz-option"]:checked');
+            const values = Array.from(userInputs).map(i => parseInt(i.value)).sort();
+            
+            // Uložíme odpověď (nebo null, pokud nic nevybral)
+            userResponses[currentIndex] = values.length > 0 ? values : null;
         }
 
         // Funkce pro PROCVIČOVÁNÍ (s okamžitou zpětnou vazbou)
@@ -320,7 +329,7 @@
             if (isCorrect) {
                 score++;
                 feedback.className = 'feedback correct';
-                feedback.innerHTML = 'Správně! 👍';
+                feedback.innerHTML = 'Správně!';
             } else {
                 feedback.className = 'feedback wrong';
                 const correctText = correctAnswers.map(i => currentQ.options[i]).join('<br>');
@@ -343,6 +352,28 @@
         function showResults() {
             document.getElementById('quiz-interface').classList.add('hidden');
             document.getElementById('result-box').classList.remove('hidden');
+
+            // Pokud je Test mód, musíme teprve teď spočítat skóre
+            if (config.isTestMode) {
+                score = 0;
+                userAnswersLog = [];
+                
+                activeQuestions.forEach((q, index) => {
+                    const userSelected = userResponses[index] || [];
+                    const correct = [...q.correct].sort();
+                    const isCorrect = JSON.stringify(userSelected) === JSON.stringify(correct);
+                    
+                    if (isCorrect) score++;
+                    
+                    userAnswersLog.push({
+                        question: q.question,
+                        options: q.options,
+                        userSelected: userSelected,
+                        correct: correct,
+                        isCorrect: isCorrect
+                    });
+                });
+            }
 
             const total = activeQuestions.length;
             const percent = Math.round((score / total) * 100);
@@ -400,6 +431,36 @@
             setTimeout(() => {
                 segment.style.width = widthPercent + '%';
             }, 10);
+        }
+
+        // --- Funkce pro navigaci (Bublinky) ---
+        function renderNavigator() {
+            const nav = document.getElementById('question-navigator');
+            nav.innerHTML = '';
+            activeQuestions.forEach((_, index) => {
+                const bubble = document.createElement('div');
+                bubble.className = 'nav-bubble';
+                bubble.innerText = index + 1;
+                bubble.onclick = () => goToQuestion(index);
+                nav.appendChild(bubble);
+            });
+        }
+
+        function updateNavigator() {
+            const bubbles = document.querySelectorAll('.nav-bubble');
+            bubbles.forEach((b, i) => {
+                b.className = 'nav-bubble'; // Reset
+                if (i === currentIndex) b.classList.add('active');
+                if (userResponses[i] && userResponses[i].length > 0) b.classList.add('answered');
+            });
+        }
+
+        function goToQuestion(index) {
+            if (config.isTestMode) {
+                saveCurrentResponse(); // Uložit aktuální před odchodem
+            }
+            currentIndex = index;
+            loadQuestion();
         }
 
         function shuffleArray(array) {
