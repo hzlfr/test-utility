@@ -1576,7 +1576,7 @@ const database = {
                     "c) S vrstevníky vymýšlí nové hry, jsou 'tahouni'",
                     "d) Rozvinutý cit pro spravedlnost"
                 ],
-                correct: [1]
+                correct: [3]
             },
             {
                 id: 33,
@@ -1668,4 +1668,5 @@ const database = {
             }
         ]
     }
+
 };
