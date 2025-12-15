@@ -23,11 +23,11 @@
     --btn-text: #ffffff;
     
     --feedback-correct-bg: #d4edda;
-    --feedback-correct-text: #155724;
+    --feedback-correct-text: #2e7d32; /* Sytější zelená */
     --feedback-correct-border: #c3e6cb;
     
     --feedback-wrong-bg: #f8d7da;
-    --feedback-wrong-text: #721c24;
+    --feedback-wrong-text: #d32f2f; /* Sytější červená */
     --feedback-wrong-border: #f5c6cb;
     
     --shadow: 0 4px 15px rgba(0,0,0,0.1);
@@ -56,11 +56,11 @@ body.dark-mode {
     --btn-primary-hover: #2980b9;
     
     --feedback-correct-bg: #1e4d2b;
-    --feedback-correct-text: #d1e7dd;
+    --feedback-correct-text: #4caf50; /* Jasná zelená pro tmavý režim */
     --feedback-correct-border: #2b7a4b;
     
     --feedback-wrong-bg: #58151c;
-    --feedback-wrong-text: #f8d7da;
+    --feedback-wrong-text: #ff5252; /* Jasná červená pro tmavý režim */
     --feedback-wrong-border: #842029;
     
     --shadow: 0 4px 15px rgba(0,0,0,0.5);
@@ -272,7 +272,6 @@ input[type="checkbox"] {
 
 .error-question {
     font-weight: bold;
-    color: var(--feedback-wrong-text);
     display: block;
     margin-bottom: 5px;
 }
@@ -322,7 +321,7 @@ input[type="checkbox"] {
 
 /* --- Styly pro report v JS --- */
 .report-item-header { margin-bottom: 5px; }
-.report-user-answer { font-size: 0.9em; opacity: 0.8; }
+.report-user-answer { font-size: 0.9em; color: var(--feedback-wrong-text); font-weight: bold; }
 .report-correct-answer { 
     font-size: 0.9em; 
     color: var(--feedback-correct-text); 
@@ -401,4 +400,49 @@ input[type="range"]::-webkit-slider-thumb:hover {
     border-color: var(--feedback-wrong-border);
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* --- Navigace v testu (Bublinky) --- */
+#question-navigator {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.nav-bubble {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid var(--input-border);
+    background: var(--bg-container);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: var(--text-muted);
+    transition: all 0.2s;
+}
+
+.nav-bubble:hover {
+    border-color: var(--btn-primary);
+    background-color: var(--option-hover);
+}
+
+.nav-bubble.active {
+    border-color: var(--btn-primary);
+    background-color: var(--btn-primary);
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.nav-bubble.answered {
+    background-color: var(--input-border);
+    color: var(--text-main);
+    border-color: var(--text-muted);
 }
