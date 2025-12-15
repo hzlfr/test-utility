@@ -382,19 +382,23 @@ input[type="range"]::-webkit-slider-thumb:hover {
 
 /* Tlačítko zpět v testu */
 .btn-back {
-    background: var(--settings-bg);
+    background: var(--bg-container);
     border: 1px solid var(--input-border);
-    color: var(--text-main);
-    padding: 8px 16px;
-    border-radius: 6px;
+    color: var(--text-muted);
+    padding: 8px 20px;
+    border-radius: 30px;
     cursor: pointer;
-    font-size: 0.95em;
-    font-weight: 500;
-    margin-bottom: 15px;
-    transition: all 0.2s;
+    font-size: 0.9em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
 .btn-back:hover {
-    background-color: var(--input-border);
-    border-color: var(--text-muted);
+    background-color: var(--feedback-wrong-bg);
+    color: var(--feedback-wrong-text);
+    border-color: var(--feedback-wrong-border);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
