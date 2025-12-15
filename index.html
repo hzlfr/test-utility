@@ -63,7 +63,7 @@
             
             <div id="detailed-report" class="error-report hidden"></div>
 
-            <button class="btn" onclick="location.reload()">Zpět na nastavení</button>
+            <button class="btn" onclick="resetToMenu()">Zpět na nastavení</button>
         </div>
     </div>
 
@@ -151,6 +151,11 @@
 
         function quitQuiz() {
             document.getElementById('quiz-interface').classList.add('hidden');
+            document.getElementById('menu-box').classList.remove('hidden');
+        }
+
+        function resetToMenu() {
+            document.getElementById('result-box').classList.add('hidden');
             document.getElementById('menu-box').classList.remove('hidden');
         }
 
