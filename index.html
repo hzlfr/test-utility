@@ -41,6 +41,7 @@
         </div>
 
         <div id="quiz-interface" class="hidden">
+            <button class="btn-back" onclick="quitQuiz()">← Ukončit test</button>
             <h3 id="quiz-title">Předmět</h3>
             <div class="score-board">Otázka <span id="current-q">1</span> z <span id="total-q">0</span></div>
             <div id="progress-bar-container"></div>
@@ -146,6 +147,11 @@
             // Zajistí, že se hodnota propíše do obou prvků (slider i číslo)
             document.getElementById('set-count').value = val;
             document.getElementById('q-slider').value = val;
+        }
+
+        function quitQuiz() {
+            document.getElementById('quiz-interface').classList.add('hidden');
+            document.getElementById('menu-box').classList.remove('hidden');
         }
 
         function startQuiz() {
