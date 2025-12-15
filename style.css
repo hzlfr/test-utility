@@ -222,6 +222,17 @@ input[type="checkbox"] {
     background-color: var(--btn-primary-hover);
 }
 
+/* Tlačítko pro zobrazení všech otázek (sekundární styl) */
+.btn-secondary {
+    background-color: transparent;
+    color: var(--btn-primary);
+    border: 2px solid var(--btn-primary);
+    margin-top: 10px;
+}
+.btn-secondary:hover {
+    background-color: var(--option-hover);
+}
+
 /* --- Feedback --- */
 .feedback {
     margin-top: 20px;
@@ -402,14 +413,47 @@ input[type="range"]::-webkit-slider-thumb:hover {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+/* Specifický styl pouze pro Mapu otázek (oranžová) */
+#nav-toggle-btn:hover {
+    background-color: #fff3e0;
+    color: #e65100;
+    border-color: #ff9800;
+}
+
+body.dark-mode #nav-toggle-btn:hover {
+    background-color: rgba(230, 81, 0, 0.2);
+    color: #ffcc80;
+    border-color: #ffb74d;
+}
+
 /* --- Navigace v testu (Bublinky) --- */
 #question-navigator {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 5px;
     justify-content: center;
-    margin-bottom: 20px;
-    padding: 0 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid var(--input-border);
+    border-radius: 6px;
+    background-color: rgba(0,0,0,0.03);
+}
+
+body.dark-mode #question-navigator {
+    background-color: rgba(255,255,255,0.05);
+    border-color: #555;
+}
+
+/* Layout pro hlavičku testu (tlačítka v jedné řadě) */
+.quiz-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.quiz-header-row .btn-back {
+    margin-bottom: 0;
 }
 
 .nav-bubble {
@@ -445,4 +489,29 @@ input[type="range"]::-webkit-slider-thumb:hover {
     background-color: var(--input-border);
     color: var(--text-main);
     border-color: var(--text-muted);
+}
+
+/* --- Výpis všech otázek (Review mód) --- */
+.review-item {
+    border-bottom: 1px solid var(--input-border);
+    padding: 15px 0;
+}
+.review-question {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    color: var(--text-main);
+}
+.review-option {
+    margin-left: 15px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    color: var(--text-muted);
+}
+.review-option.is-correct {
+    color: var(--feedback-correct-text);
+    font-weight: bold;
+    background-color: var(--feedback-correct-bg);
+    border: 1px solid var(--feedback-correct-border);
 }
