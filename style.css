@@ -278,3 +278,103 @@ input[type="checkbox"] {
 }
 
 .hidden { display: none !important; }
+
+/* --- Progress Bar --- */
+#progress-bar-container {
+    width: 100%;
+    height: 12px;
+    background-color: var(--input-border);
+    border-radius: 6px;
+    margin: 10px 0 25px 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.progress-segment {
+    height: 100%;
+    transition: width 0.3s ease;
+}
+
+.progress-segment.correct { background-color: #28a745; }
+.progress-segment.wrong { background-color: #dc3545; }
+
+/* --- Specifické styly elementů (původně inline) --- */
+#quiz-title {
+    opacity: 0.7;
+    margin-bottom: 5px;
+}
+
+#set-count {
+    width: 80px;
+}
+
+#result-box {
+    text-align: center;
+}
+
+.score-text {
+    font-size: 1.5em;
+}
+
+#percentage-score {
+    opacity: 0.8;
+}
+
+/* --- Styly pro report v JS --- */
+.report-item-header { margin-bottom: 5px; }
+.report-user-answer { font-size: 0.9em; opacity: 0.8; }
+.report-correct-answer { 
+    font-size: 0.9em; 
+    color: var(--feedback-correct-text); 
+    font-weight: bold; 
+}
+
+/* --- Slider pro počet otázek --- */
+.slider-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+input[type="range"] {
+    flex-grow: 1; /* Roztáhne se na zbytek místa */
+    accent-color: var(--btn-primary);
+    cursor: pointer;
+    height: 6px;
+    background: var(--input-border);
+    border-radius: 5px;
+    outline: none;
+    -webkit-appearance: none; /* Nutné pro vlastní styl v Chrome/Safari */
+}
+
+/* Styl pro "thumb" (to kolečko na posuvníku) */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    background: var(--btn-primary);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.1s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+input[type="range"]::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+}
+
+/* Úprava inputu čísla, když je vedle slideru */
+#set-count {
+    width: 70px !important; /* !important přebije obecný styl pro inputy */
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.max-info {
+    color: var(--text-muted);
+    font-size: 0.9em;
+    white-space: nowrap;
+}
