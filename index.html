@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Univerzální Testovací Nástroj</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button id="theme-toggle-btn" title="Přepnout tmavý/světlý režim">🌗</button>
+
+    <div class="container">
+        <div id="menu-box">
+            <h1>Nastavení testu</h1>
+            
+            <select id="subject-select" onchange="updateMaxQuestions()">
+                <option value="" disabled selected>-- 1. Vyber předmět --</option>
+                </select>
+
+            <div class="settings-group">
+                <div class="settings-row">
+                    <label for="set-count">Počet otázek (max: <span id="max-q-label">0</span>):</label>
+                    <input type="number" id="set-count" min="1" value="10" style="width: 80px;">
+                </div>
+                <div class="settings-row">
+                    <label for="set-random">Náhodné pořadí otázek:</label>
+                    <input type="checkbox" id="set-random" checked>
+                </div>
+                <div class="settings-row">
+                    <label for="set-testmode" title="Nevidíš správné odpovědi hned, až na konci.">Režim 'Test' (výsledky až na konci):</label>
+                    <input type="checkbox" id="set-testmode">
+                </div>
+            </div>
+
+            <button class="btn" onclick="startQuiz()">Spustit test</button>
+        </div>
+
+        <div id="quiz-interface" class="hidden">
+            <h3 id="quiz-title" style="text-align:center; opacity: 0.7; margin-bottom:5px;">Předmět</h3>
+            <div class="score-board">Otázka <span id="current-q">1</span> z <span id="total-q">0</span></div>
+            
+            <div id="quiz-box">
+                <div class="question-text" id="question">Text otázky...</div>
+                <ul class="options-list" id="options"></ul>
+                
+                <div class="feedback" id="feedback"></div>
+                
+                <button class="btn" id="action-btn" onclick="handleAction()">Potvrdit</button>
+            </div>
+        </div>
+
+        <div id="result-box" class="hidden" style="text-align: center;">
+            <h2>Test dokončen!</h2>
+            <p style="font-size: 1.5em;">Skóre: <strong id="final-score"></strong></p>
+            <p id="percentage-score" style="opacity: 0.8;"></p>
+            
+            <div id="detailed-report" class="error-report hidden"></div>
+
+            <button class="btn" onclick="location.reload()">Zpět na nastavení</button>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+
+    <script>
+        // --- OVLÁDÁNÍ TEMAT (DARK MODE) ---
+        const themeBtn = document.getElementById('theme-toggle-btn');
+        
+        // Načíst uloženou preferenci
+        if (localStorage.getItem('theme') === 'dark') {
+            document.body.classList.add('dark-mode');
+        }
+
+        themeBtn.onclick = function() {
+            document.body.classList.toggle('dark-mode');
+            
+            // Uložit volbu
+            if (document.body.classList.contains('dark-mode')) {
+                localStorage.setItem('theme', 'dark');
+            } else {
+                localStorage.setItem('theme', 'light');
+            }
+        };
+
+        // --- LOGIKA APLIKACE ---
+        let activeQuestions = [];
+        let currentIndex = 0;
+        let score = 0;
+        let userAnswersLog = [];
+        
+        let config = {
+            isTestMode: false,
+            isRandom: true
+        };
+
+        window.onload = function() {
+            // Znovu zkontrolujeme theme při načtení
+            if (localStorage.getItem('theme') === 'dark') {
+                document.body.classList.add('dark-mode');
+            }
+
+            if (typeof database === 'undefined') {
+                alert("Chyba: Soubor data.js nebyl nalezen! Ujisti se, že je ve stejné složce.");
+                return;
+            }
+            
+            // Naplnění selectu
+            const select = document.getElementById('subject-select');
+            for (const key in database) {
+                const option = document.createElement('option');
+                option.value = key;
+                option.text = database[key].title;
+                select.appendChild(option);
+            }
+        };
+
+        function updateMaxQuestions() {
+            const select = document.getElementById('subject-select');
+            const key = select.value;
+            if (!key) return;
+            const totalAvailable = database[key].questions.length;
+            document.getElementById('max-q-label').innerText = totalAvailable;
+            const input = document.getElementById('set-count');
+            input.max = totalAvailable;
+            // Nastaví defaultně max, nebo nechá uživatelovu hodnotu pokud je menší
+            if(parseInt(input.value) > totalAvailable) {
+                input.value = totalAvailable;
+            }
+        }
+
+        function startQuiz() {
+            const select = document.getElementById('subject-select');
+            const subjectKey = select.value;
+
+            if (!subjectKey) {
+                alert("Prosím, vyber nejdříve předmět!");
+                return;
+            }
+
+            const requestedCount = parseInt(document.getElementById('set-count').value);
+            config.isRandom = document.getElementById('set-random').checked;
+            config.isTestMode = document.getElementById('set-testmode').checked;
+
+            // Hluboká kopie dat
+            let sourceData = JSON.parse(JSON.stringify(database[subjectKey].questions));
+            
+            if (config.isRandom) {
+                shuffleArray(sourceData);
+            }
+
+            const maxQ = sourceData.length;
+            const finalCount = (requestedCount > 0 && requestedCount <= maxQ) ? requestedCount : maxQ;
+            activeQuestions = sourceData.slice(0, finalCount);
+
+            currentIndex = 0;
+            score = 0;
+            userAnswersLog = [];
+
+            document.getElementById('menu-box').classList.add('hidden');
+            document.getElementById('quiz-interface').classList.remove('hidden');
+            document.getElementById('quiz-title').innerText = database[subjectKey].title;
+            document.getElementById('total-q').innerText = activeQuestions.length;
+
+            loadQuestion();
+        }
+
+        function loadQuestion() {
+            const qData = activeQuestions[currentIndex];
+            document.getElementById('current-q').innerText = currentIndex + 1;
+            document.getElementById('question').innerText = qData.question;
+
+            const optionsUl = document.getElementById('options');
+            optionsUl.innerHTML = '';
+            
+            const feedback = document.getElementById('feedback');
+            feedback.style.display = 'none';
+            feedback.className = 'feedback'; 
+
+            const btn = document.getElementById('action-btn');
+            
+            if (config.isTestMode) {
+                // TEST MÓD
+                btn.innerText = (currentIndex === activeQuestions.length - 1) ? "Dokončit test" : "Další otázka";
+                btn.onclick = handleTestModeNext; 
+            } else {
+                // PROCVIČOVÁNÍ
+                btn.innerText = "Zkontrolovat";
+                btn.onclick = handlePracticeCheck; 
+                btn.style.display = 'block';
+            }
+
+            const inputType = qData.correct.length > 1 ? 'checkbox' : 'radio';
+            
+            qData.options.forEach((opt, index) => {
+                const li = document.createElement('li');
+                li.className = 'option-item';
+                
+                const input = document.createElement('input');
+                input.type = inputType;
+                input.name = 'quiz-option';
+                input.value = index;
+                
+                li.onclick = (e) => {
+                    if(e.target !== input) {
+                        if (inputType === 'radio') {
+                            document.querySelectorAll('input[name="quiz-option"]').forEach(i => i.checked = false);
+                            input.checked = true;
+                        } else {
+                            input.checked = !input.checked;
+                        }
+                    }
+                };
+
+                const label = document.createElement('span');
+                label.innerText = opt;
+
+                li.appendChild(input);
+                li.appendChild(label);
+                optionsUl.appendChild(li);
+            });
+        }
+
+        // Funkce pro TEST MÓD (bez okamžité zpětné vazby)
+        function handleTestModeNext() {
+            const userInputs = document.querySelectorAll('input[name="quiz-option"]:checked');
+            if (userInputs.length === 0) {
+                alert("V testovacím režimu musíš vybrat odpověď!");
+                return;
+            }
+            
+            const userAnswers = Array.from(userInputs).map(i => parseInt(i.value)).sort();
+            const currentQ = activeQuestions[currentIndex];
+            const correctAnswers = [...currentQ.correct].sort();
+
+            const isCorrect = JSON.stringify(userAnswers) === JSON.stringify(correctAnswers);
+            if (isCorrect) score++;
+
+            // Logování pro report na konci
+            userAnswersLog.push({
+                question: currentQ.question,
+                options: currentQ.options,
+                userSelected: userAnswers,
+                correct: correctAnswers,
+                isCorrect: isCorrect
+            });
+
+            currentIndex++;
+            if (currentIndex < activeQuestions.length) {
+                loadQuestion();
+            } else {
+                showResults();
+            }
+        }
+
+        // Funkce pro PROCVIČOVÁNÍ (s okamžitou zpětnou vazbou)
+        function handlePracticeCheck() {
+            const userInputs = document.querySelectorAll('input[name="quiz-option"]:checked');
+            if (userInputs.length === 0) {
+                alert("Vyber odpověď!");
+                return;
+            }
+
+            const userAnswers = Array.from(userInputs).map(i => parseInt(i.value)).sort();
+            const currentQ = activeQuestions[currentIndex];
+            const correctAnswers = [...currentQ.correct].sort();
+
+            const isCorrect = JSON.stringify(userAnswers) === JSON.stringify(correctAnswers);
+            const feedback = document.getElementById('feedback');
+            const btn = document.getElementById('action-btn');
+
+            if (isCorrect) {
+                score++;
+                feedback.className = 'feedback correct';
+                feedback.innerHTML = 'Správně! 👍';
+            } else {
+                feedback.className = 'feedback wrong';
+                const correctText = correctAnswers.map(i => currentQ.options[i]).join('<br>');
+                feedback.innerHTML = `Špatně.<br>Správná odpověď:<br><span class="correct-answer-highlight">${correctText}</span>`;
+            }
+            
+            feedback.style.display = 'block';
+
+            btn.innerText = (currentIndex === activeQuestions.length - 1) ? "Zobrazit výsledky" : "Další otázka";
+            btn.onclick = function() {
+                currentIndex++;
+                if (currentIndex < activeQuestions.length) {
+                    loadQuestion();
+                } else {
+                    showResults();
+                }
+            };
+        }
+
+        function showResults() {
+            document.getElementById('quiz-interface').classList.add('hidden');
+            document.getElementById('result-box').classList.remove('hidden');
+
+            const total = activeQuestions.length;
+            const percent = Math.round((score / total) * 100);
+            
+            document.getElementById('final-score').innerText = `${score} / ${total}`;
+            document.getElementById('percentage-score').innerText = `Úspěšnost: ${percent} %`;
+
+            const reportContainer = document.getElementById('detailed-report');
+            reportContainer.innerHTML = ''; 
+            
+            // Report chyb se zobrazí jen pokud byl Test mód a byly nějaké chyby
+            if (config.isTestMode && score < total) {
+                reportContainer.classList.remove('hidden');
+                const h3 = document.createElement('h3');
+                h3.innerText = "Chybně zodpovězené otázky:";
+                reportContainer.appendChild(h3);
+
+                userAnswersLog.forEach((log, index) => {
+                    if (!log.isCorrect) {
+                        const div = document.createElement('div');
+                        div.className = 'error-item';
+                        
+                        const qTitle = document.createElement('span');
+                        qTitle.className = 'error-question';
+                        qTitle.innerText = `${index + 1}. ${log.question}`;
+                        
+                        const correctTxt = log.correct.map(i => log.options[i]).join(', ');
+                        const userTxt = log.userSelected.map(i => log.options[i]).join(', ');
+
+                        div.innerHTML = `
+                            <div style="margin-bottom:5px;">${qTitle.outerHTML}</div>
+                            <div style="font-size:0.9em; opacity: 0.8;">Tvoje odpověď: ${userTxt}</div>
+                            <div style="font-size:0.9em; color:var(--feedback-correct-text); font-weight:bold;">Správně: ${correctTxt}</div>
+                        `;
+                        reportContainer.appendChild(div);
+                    }
+                });
+            } else {
+                reportContainer.classList.add('hidden');
+            }
+        }
+
+        function shuffleArray(array) {
+            for (let i = array.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [array[i], array[j]] = [array[j], array[i]];
+            }
+            return array;
+        }
+    </script>
+
+</body>
+</html>
