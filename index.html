@@ -118,6 +118,9 @@
                 option.text = database[key].title;
                 select.appendChild(option);
             }
+
+            // Aktualizace slideru pro případ, že si prohlížeč pamatuje výběr po refreshi
+            updateMaxQuestions();
         };
 
         function updateMaxQuestions() {
