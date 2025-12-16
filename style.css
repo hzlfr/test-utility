@@ -22,6 +22,10 @@
     --btn-primary-hover: #2980b9;
     --btn-text: #ffffff;
     
+    /* Jemnější oranžová pro chybový režim */
+    --btn-warning: #e09e55; 
+    --btn-warning-hover: #cf8a3f;
+    
     --feedback-correct-bg: #d4edda;
     --feedback-correct-text: #2e7d32; /* Sytější zelená */
     --feedback-correct-border: #c3e6cb;
@@ -54,6 +58,9 @@ body.dark-mode {
     
     --btn-primary: #3498db;
     --btn-primary-hover: #2980b9;
+    
+    --btn-warning: #c78338;
+    --btn-warning-hover: #ad6e2b;
     
     --feedback-correct-bg: #1e4d2b;
     --feedback-correct-text: #4caf50; /* Jasná zelená pro tmavý režim */
@@ -222,6 +229,32 @@ input[type="checkbox"] {
     background-color: var(--btn-primary-hover);
 }
 
+/* Tlačítko pro procvičování chyb (oranžové) */
+.btn-warning {
+    background-color: var(--btn-warning);
+    color: var(--btn-text);
+    margin-top: 10px;
+}
+
+.btn-warning:hover {
+    background-color: var(--btn-warning-hover);
+}
+
+/* Tlačítko pro stav bez chyb (zelený obrys, neaktivní) */
+.btn-green-outline {
+    background-color: transparent;
+    color: var(--feedback-correct-text);
+    border: 2px solid var(--feedback-correct-text);
+    margin-top: 10px;
+    cursor: not-allowed;
+}
+
+.btn-green-outline:hover {
+    background-color: transparent;
+    color: var(--feedback-correct-text);
+    border-color: var(--feedback-correct-text);
+}
+
 /* Tlačítko pro zobrazení všech otázek (sekundární styl) */
 .btn-secondary {
     background-color: transparent;
@@ -231,6 +264,19 @@ input[type="checkbox"] {
 }
 .btn-secondary:hover {
     background-color: var(--option-hover);
+}
+
+/* Malé tlačítko (např. pro mazání historie) */
+.btn-small {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    width: auto;
+    display: inline-block;
+}
+
+.clear-history-container {
+    text-align: center;
+    margin-top: 10px;
 }
 
 /* --- Feedback --- */
