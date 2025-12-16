@@ -481,7 +481,18 @@ function updateNavigator() {
     bubbles.forEach((b, i) => {
         b.className = 'nav-bubble'; // Reset
         if (i === currentIndex) b.classList.add('active');
-        if (userResponses[i] && userResponses[i].length > 0) b.classList.add('answered');
+        if (userResponses[i] && userResponses[i].length > 0) {
+            b.classList.add('answered');
+            
+            if (!config.isTestMode) {
+                const q = activeQuestions[i];
+                const correct = JSON.stringify([...q.correct].sort());
+                const user = JSON.stringify([...userResponses[i]].sort());
+                
+                if (correct === user) b.classList.add('nav-correct');
+                else b.classList.add('nav-wrong');
+            }
+        }
     });
 }
 
