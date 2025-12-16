@@ -42,9 +42,6 @@
             
             <div id="preview-controls" class="hidden">
                 <button class="btn btn-secondary" onclick="showAllQuestions()">Zobrazit všechny otázky a odpovědi</button>
-                <div class="clear-history-container">
-                     <button id="clear-history-btn" class="btn btn-secondary btn-small hidden" onclick="handleClearHistoryClick()">Vymazat historii chyb</button>
-                </div>
             </div>
         </div>
 
@@ -436,6 +433,7 @@
                 score++;
                 feedback.className = 'feedback correct';
                 feedback.innerHTML = 'Správně!';
+                removeError(currentSubjectKey, currentQ.id); // Odstranit chybu, pokud uživatel odpověděl správně
             } else {
                 feedback.className = 'feedback wrong';
                 saveError(currentSubjectKey, currentQ.id); // Uložit chybu
@@ -470,7 +468,10 @@
                     const correct = [...q.correct].sort();
                     const isCorrect = JSON.stringify(userSelected) === JSON.stringify(correct);
                     
-                    if (isCorrect) score++;
+                    if (isCorrect) {
+                        score++;
+                        removeError(currentSubjectKey, q.id); // Odstranit chybu při správné odpovědi
+                    }
                     else {
                         // V test módu ukládáme chyby až na konci
                         saveError(currentSubjectKey, q.id);
@@ -637,35 +638,22 @@
             checkErrorHistory();
         }
 
-        function handleClearHistoryClick() {
-            const btn = document.getElementById('clear-history-btn');
-            if (btn.getAttribute('data-confirm') === 'true') {
-                localStorage.removeItem('quiz_error_stats');
+        function removeError(subjectKey, questionId) {
+            let stats = JSON.parse(localStorage.getItem('quiz_error_stats')) || {};
+            if (stats[subjectKey] && stats[subjectKey][questionId]) {
+                delete stats[subjectKey][questionId];
+                // Pokud už v předmětu nejsou žádné chyby, můžeme smazat i klíč předmětu (volitelné)
+                if (Object.keys(stats[subjectKey]).length === 0) {
+                    delete stats[subjectKey];
+                }
+                localStorage.setItem('quiz_error_stats', JSON.stringify(stats));
                 checkErrorHistory();
-            } else {
-                btn.setAttribute('data-confirm', 'true');
-                btn.innerText = "Opravdu?";
-                btn.className = 'btn btn-danger-outline btn-small';
             }
         }
 
         function checkErrorHistory() {
             const statsStr = localStorage.getItem('quiz_error_stats');
             const stats = statsStr ? JSON.parse(statsStr) : {};
-            
-            const clearBtn = document.getElementById('clear-history-btn');
-            
-            // Reset stavu tlačítka (pro jistotu)
-            clearBtn.setAttribute('data-confirm', 'false');
-            clearBtn.innerText = "Vymazat historii chyb";
-            clearBtn.className = 'btn btn-secondary btn-small';
-
-            // 1. Tlačítko "Vymazat historii" (Globální - zobrazí se, pokud existují jakékoli chyby)
-            if (Object.keys(stats).length > 0) {
-                clearBtn.classList.remove('hidden');
-            } else {
-                clearBtn.classList.add('hidden');
-            }
 
             // 2. Tlačítko "Procvičovat chyby" (Specifické pro vybraný předmět)
             const practiceBtn = document.getElementById('practice-errors-btn');
