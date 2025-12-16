@@ -40,22 +40,7 @@
             <button class="btn" onclick="startQuiz()">Spustit test</button>
             
             <div id="preview-controls" class="hidden">
-                <label>Prohlížet otázky (rozsah):</label>
-                
-                <!-- Dvojitý slider -->
-                <div class="dual-slider-container">
-                    <div class="dual-slider-track"></div>
-                    <div class="dual-slider-highlight" id="slider-highlight"></div>
-                    <input type="range" id="slider-from" min="1" value="1" oninput="syncDualSlider('slider')">
-                    <input type="range" id="slider-to" min="1" value="10" oninput="syncDualSlider('slider')">
-                </div>
-
-                <div class="preview-inputs">
-                    <input type="number" id="preview-from" min="1" value="1" onchange="syncDualSlider('input')">
-                    <span>až</span>
-                    <input type="number" id="preview-to" min="1" value="10" onchange="syncDualSlider('input')">
-                </div>
-                <button class="btn btn-secondary" onclick="showAllQuestions()">Zobrazit otázky/odpovědi</button>
+                <button class="btn btn-secondary" onclick="showAllQuestions()">Zobrazit všechny otázky a odpovědi</button>
             </div>
         </div>
 
@@ -175,69 +160,13 @@
                 input.value = totalAvailable;
                 slider.value = totalAvailable;
             }
-
-            // Nastavení rozsahu pro náhled (aby nešlo zadat víc, než je otázek)
-            const sFrom = document.getElementById('slider-from');
-            const sTo = document.getElementById('slider-to');
-            
-            sFrom.max = totalAvailable;
-            sTo.max = totalAvailable;
-            
-            // Reset hodnot
-            sFrom.value = 1;
-            sTo.value = totalAvailable;
-            
-            syncDualSlider('slider'); // Aktualizovat vizuál a inputy
         }
+
 
         function syncInputs(val) {
             // Zajistí, že se hodnota propíše do obou prvků (slider i číslo)
             document.getElementById('set-count').value = val;
             document.getElementById('q-slider').value = val;
-        }
-
-        // --- Logika pro Dual Slider (Od-Do) ---
-        function syncDualSlider(source) {
-            const sFrom = document.getElementById('slider-from');
-            const sTo = document.getElementById('slider-to');
-            const iFrom = document.getElementById('preview-from');
-            const iTo = document.getElementById('preview-to');
-            const highlight = document.getElementById('slider-highlight');
-            const max = parseInt(sFrom.max);
-
-            let valFrom, valTo;
-
-            if (source === 'slider') {
-                valFrom = parseInt(sFrom.value);
-                valTo = parseInt(sTo.value);
-            } else {
-                valFrom = parseInt(iFrom.value);
-                valTo = parseInt(iTo.value);
-            }
-
-            // Ošetření překřížení (From nesmí být větší než To)
-            if (valFrom > valTo) {
-                if (source === 'slider' && document.activeElement === sFrom) {
-                    valFrom = valTo; // Zastavit From o To
-                } else {
-                    valTo = valFrom; // Posunout To s From
-                }
-            }
-
-            // Aktualizace všech prvků
-            sFrom.value = valFrom;
-            sTo.value = valTo;
-            iFrom.value = valFrom;
-            iTo.value = valTo;
-            iFrom.max = max;
-            iTo.max = max;
-
-            // Výpočet pozice a šířky barevného pruhu
-            const percentFrom = ((valFrom - 1) / (max - 1)) * 100;
-            const percentTo = ((valTo - 1) / (max - 1)) * 100;
-            
-            highlight.style.left = percentFrom + "%";
-            highlight.style.width = (percentTo - percentFrom) + "%";
         }
 
         function quitQuiz() {
@@ -625,12 +554,7 @@
 
             const data = database[subjectKey];
             
-            // Omezíme počet otázek podle nastavení v sekci náhledu
-            let pFrom = parseInt(document.getElementById('preview-from').value) || 1;
-            let pTo = parseInt(document.getElementById('preview-to').value) || data.questions.length;
-            
-            // Ošetření, aby indexy dávaly smysl (slice bere indexy od 0)
-            const questionsToShow = data.questions.slice(Math.max(0, pFrom - 1), Math.min(data.questions.length, pTo));
+            const questionsToShow = data.questions;
 
             document.getElementById('review-subject-title').innerText = `${data.title} - Přehled otázek (zobrazeno ${questionsToShow.length})`;
             
@@ -643,8 +567,7 @@
                 
                 const qText = document.createElement('span');
                 qText.className = 'review-question';
-                // Zobrazíme reálné číslo otázky (pFrom + index)
-                qText.innerText = `${Math.max(1, pFrom) + index}. ${q.question}`;
+                qText.innerText = `${index + 1}. ${q.question}`;
                 item.appendChild(qText);
 
                 q.options.forEach((opt, i) => {
