@@ -299,15 +299,14 @@
             document.getElementById('progress-bar-container').innerHTML = ''; // Vymazat progress bar
 
             // Nastavení zobrazení podle módu
+            // Tlačítko mapy a navigátor dostupný vždy
+            document.getElementById('nav-toggle-btn').classList.remove('hidden');
+            document.getElementById('question-navigator').classList.add('hidden');
+            renderNavigator();
+
             if (config.isTestMode) {
-                // V test módu zobrazíme tlačítko pro mapu, ale samotnou mapu skryjeme (otevře se až po kliknutí)
-                document.getElementById('nav-toggle-btn').classList.remove('hidden');
-                document.getElementById('question-navigator').classList.add('hidden'); 
                 document.getElementById('progress-bar-container').classList.add('hidden'); // V testu skryjeme barevný bar
-                renderNavigator();
             } else {
-                document.getElementById('nav-toggle-btn').classList.add('hidden');
-                document.getElementById('question-navigator').classList.add('hidden');
                 document.getElementById('progress-bar-container').classList.remove('hidden');
             }
 
@@ -332,17 +331,36 @@
                 // TEST MÓD
                 btn.innerText = (currentIndex === activeQuestions.length - 1) ? "Dokončit test" : "Další otázka";
                 btn.onclick = handleTestModeNext; 
-                
-                // Aktualizace navigace (zvýraznění aktivní bublinky)
-                if (config.isTestMode) {
-                    updateNavigator();
-                }
             } else {
                 // PROCVIČOVÁNÍ
-                btn.innerText = "Zkontrolovat";
-                btn.onclick = handlePracticeCheck; 
+                if (userResponses[currentIndex]) {
+                    // Pokud už bylo zodpovězeno, zobrazíme feedback a tlačítko pro posun (bez skórování)
+                    const currentQ = activeQuestions[currentIndex];
+                    const correctAnswers = [...currentQ.correct].sort();
+                    const userAnswers = userResponses[currentIndex];
+                    const isCorrect = JSON.stringify(userAnswers) === JSON.stringify(correctAnswers);
+
+                    if (isCorrect) {
+                        feedback.className = 'feedback correct';
+                        feedback.innerHTML = 'Správně!';
+                    } else {
+                        feedback.className = 'feedback wrong';
+                        const correctText = correctAnswers.map(i => currentQ.options[i]).join('<br>');
+                        feedback.innerHTML = `Špatně.<br>Správná odpověď:<br><span class="correct-answer-highlight">${correctText}</span>`;
+                    }
+                    feedback.style.display = 'block';
+
+                    btn.innerText = (currentIndex === activeQuestions.length - 1) ? "Zobrazit výsledky" : "Další otázka";
+                    btn.onclick = function() { currentIndex++; (currentIndex < activeQuestions.length) ? loadQuestion() : showResults(); };
+                } else {
+                    btn.innerText = "Zkontrolovat";
+                    btn.onclick = handlePracticeCheck; 
+                }
                 btn.style.display = 'block';
             }
+
+            // Aktualizace navigace (zvýraznění aktivní bublinky)
+            updateNavigator();
 
             const inputType = qData.correct.length > 1 ? 'checkbox' : 'radio';
             
@@ -355,7 +373,24 @@
                 input.name = 'quiz-option';
                 input.value = index;
                 
+                // Pokud je procvičování a uživatel už odpověděl, zakážeme změnu
+                if (!config.isTestMode && userResponses[currentIndex]) {
+                    input.disabled = true;
+                    
+                    // Zvýraznění odpovědi, aby byla čitelná i když je disabled
+                    if (userResponses[currentIndex].includes(index)) {
+                        li.style.opacity = "1";
+                        li.style.fontWeight = "bold";
+                        li.style.border = "1px solid currentColor";
+                        li.style.borderRadius = "5px";
+                    } else {
+                        li.style.opacity = "0.5";
+                    }
+                }
+                
                 li.onclick = (e) => {
+                    if (input.disabled) return;
+                    
                     if(e.target !== input) {
                         if (inputType === 'radio') {
                             document.querySelectorAll('input[name="quiz-option"]').forEach(i => i.checked = false);
@@ -373,8 +408,8 @@
                 li.appendChild(label);
                 optionsUl.appendChild(li);
 
-                // Obnovení odpovědi, pokud už byla vybrána (pouze pro Test mód)
-                if (config.isTestMode && userResponses[currentIndex] && userResponses[currentIndex].includes(index)) {
+                // Obnovení odpovědi, pokud už byla vybrána
+                if (userResponses[currentIndex] && userResponses[currentIndex].includes(index)) {
                     input.checked = true;
                 }
             });
@@ -409,6 +444,26 @@
             }
 
             const userAnswers = Array.from(userInputs).map(i => parseInt(i.value)).sort();
+            
+            // Uložíme odpověď i v procvičovacím režimu pro potřeby mapy
+            userResponses[currentIndex] = userAnswers;
+            updateNavigator();
+
+            // Zablokování možností po odpovědi
+            document.querySelectorAll('input[name="quiz-option"]').forEach(input => {
+                input.disabled = true;
+                const li = input.parentElement;
+                if (input.checked) {
+                    // Zvýraznění právě vybrané odpovědi
+                    li.style.opacity = "1";
+                    li.style.fontWeight = "bold";
+                    li.style.border = "1px solid currentColor";
+                    li.style.borderRadius = "5px";
+                } else {
+                    li.style.opacity = "0.5";
+                }
+            });
+
             const currentQ = activeQuestions[currentIndex];
             const correctAnswers = [...currentQ.correct].sort();
 
