@@ -19,7 +19,7 @@
                 </select>
 
             <div class="settings-group">
-                <div class="settings-row" style="flex-direction: column; align-items: stretch;">
+                <div class="settings-row vertical">
                     <label for="set-count">Počet otázek:</label>
                     <div class="slider-container">
                         <input type="range" id="q-slider" min="1" value="10" oninput="syncInputs(this.value)">
@@ -38,9 +38,13 @@
             </div>
 
             <button class="btn" onclick="startQuiz()">Spustit test</button>
+            <button id="practice-errors-btn" class="btn btn-green-outline" onclick="startQuiz(true)" disabled>Žádné chyby k procvičování</button>
             
             <div id="preview-controls" class="hidden">
                 <button class="btn btn-secondary" onclick="showAllQuestions()">Zobrazit všechny otázky a odpovědi</button>
+                <div class="clear-history-container">
+                     <button id="clear-history-btn" class="btn btn-secondary btn-small hidden" onclick="handleClearHistoryClick()">Vymazat historii chyb</button>
+                </div>
             </div>
         </div>
 
@@ -109,6 +113,7 @@
         let score = 0;
         let userAnswersLog = [];
         let userResponses = []; // Pole pro uložení odpovědí v Test módu
+        let currentSubjectKey = ''; // Uložení klíče předmětu pro ukládání chyb
         
         let config = {
             isTestMode: false,
@@ -137,11 +142,16 @@
 
             // Aktualizace slideru pro případ, že si prohlížeč pamatuje výběr po refreshi
             updateMaxQuestions();
+            checkErrorHistory();
         };
 
         function updateMaxQuestions() {
             const select = document.getElementById('subject-select');
             const key = select.value;
+            
+            // Aktualizujeme stav tlačítka chyb při každé změně předmětu
+            checkErrorHistory();
+            
             if (!key) return;
             
             // Zobrazit tlačítko pro přehled otázek, jakmile je vybrán předmět
@@ -179,9 +189,10 @@
             document.getElementById('menu-box').classList.remove('hidden');
         }
 
-        function startQuiz() {
+        function startQuiz(isErrorMode = false) {
             const select = document.getElementById('subject-select');
             const subjectKey = select.value;
+            currentSubjectKey = subjectKey;
 
             if (!subjectKey) {
                 alert("Prosím, vyber nejdříve předmět!");
@@ -208,7 +219,26 @@
                 q.correct = combined.map((o, i) => o.isCorrect ? i : -1).filter(i => i !== -1);
             });
 
-            if (config.isRandom) {
+            if (isErrorMode) {
+                // --- LOGIKA PRO REŽIM CHYB ---
+                const stats = JSON.parse(localStorage.getItem('quiz_error_stats')) || {};
+                const subjectStats = stats[subjectKey] || {};
+                
+                // Vyfiltrujeme jen otázky, kde je počet chyb > 0
+                sourceData = sourceData.filter(q => (subjectStats[q.id] || 0) > 0);
+                
+                if (sourceData.length === 0) {
+                    alert("Skvělá práce! Pro tento předmět nemáš žádné zaznamenané chyby.");
+                    return;
+                }
+
+                if (config.isRandom) {
+                    shuffleArray(sourceData);
+                } else {
+                    // Seřadíme sestupně podle počtu chyb (nejvíce chyb nahoře)
+                    sourceData.sort((a, b) => (subjectStats[b.id] || 0) - (subjectStats[a.id] || 0));
+                }
+            } else if (config.isRandom) {
                 shuffleArray(sourceData);
             }
 
@@ -408,6 +438,7 @@
                 feedback.innerHTML = 'Správně!';
             } else {
                 feedback.className = 'feedback wrong';
+                saveError(currentSubjectKey, currentQ.id); // Uložit chybu
                 const correctText = correctAnswers.map(i => currentQ.options[i]).join('<br>');
                 feedback.innerHTML = `Špatně.<br>Správná odpověď:<br><span class="correct-answer-highlight">${correctText}</span>`;
             }
@@ -440,7 +471,11 @@
                     const isCorrect = JSON.stringify(userSelected) === JSON.stringify(correct);
                     
                     if (isCorrect) score++;
-                    
+                    else {
+                        // V test módu ukládáme chyby až na konci
+                        saveError(currentSubjectKey, q.id);
+                    }
+
                     userAnswersLog.push({
                         question: q.question,
                         options: q.options,
@@ -590,6 +625,75 @@
         function closeAllQuestions() {
             document.getElementById('all-questions-view').classList.add('hidden');
             document.getElementById('menu-box').classList.remove('hidden');
+        }
+
+        // --- Práce s chybami (LocalStorage) ---
+        function saveError(subjectKey, questionId) {
+            let stats = JSON.parse(localStorage.getItem('quiz_error_stats')) || {};
+            if (!stats[subjectKey]) stats[subjectKey] = {};
+            // Zvýšíme počítadlo chyb pro danou otázku
+            stats[subjectKey][questionId] = (stats[subjectKey][questionId] || 0) + 1;
+            localStorage.setItem('quiz_error_stats', JSON.stringify(stats));
+            checkErrorHistory();
+        }
+
+        function handleClearHistoryClick() {
+            const btn = document.getElementById('clear-history-btn');
+            if (btn.getAttribute('data-confirm') === 'true') {
+                localStorage.removeItem('quiz_error_stats');
+                checkErrorHistory();
+            } else {
+                btn.setAttribute('data-confirm', 'true');
+                btn.innerText = "Opravdu?";
+                btn.className = 'btn btn-danger-outline btn-small';
+            }
+        }
+
+        function checkErrorHistory() {
+            const statsStr = localStorage.getItem('quiz_error_stats');
+            const stats = statsStr ? JSON.parse(statsStr) : {};
+            
+            const clearBtn = document.getElementById('clear-history-btn');
+            
+            // Reset stavu tlačítka (pro jistotu)
+            clearBtn.setAttribute('data-confirm', 'false');
+            clearBtn.innerText = "Vymazat historii chyb";
+            clearBtn.className = 'btn btn-secondary btn-small';
+
+            // 1. Tlačítko "Vymazat historii" (Globální - zobrazí se, pokud existují jakékoli chyby)
+            if (Object.keys(stats).length > 0) {
+                clearBtn.classList.remove('hidden');
+            } else {
+                clearBtn.classList.add('hidden');
+            }
+
+            // 2. Tlačítko "Procvičovat chyby" (Specifické pro vybraný předmět)
+            const practiceBtn = document.getElementById('practice-errors-btn');
+            const select = document.getElementById('subject-select');
+            const subjectKey = select.value;
+            
+            // Zjistíme, zda má aktuální předmět nějaké chyby (počet > 0)
+            let subjectHasErrors = false;
+            if (subjectKey && stats[subjectKey]) {
+                for (const qId in stats[subjectKey]) {
+                    if (stats[subjectKey][qId] > 0) {
+                        subjectHasErrors = true;
+                        break;
+                    }
+                }
+            }
+
+            if (subjectHasErrors) {
+                practiceBtn.className = 'btn btn-warning';
+                practiceBtn.innerText = 'Procvičovat chyby';
+                practiceBtn.disabled = false;
+                practiceBtn.title = "Zobrazí pouze otázky, ve kterých jsi v minulosti chyboval(a)";
+            } else {
+                practiceBtn.className = 'btn btn-green-outline';
+                practiceBtn.innerText = 'Žádné chyby k procvičování';
+                practiceBtn.disabled = true;
+                practiceBtn.title = "V tomto předmětu zatím nemáš žádné zaznamenané chyby.";
+            }
         }
 
         function shuffleArray(array) {
