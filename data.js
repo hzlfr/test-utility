@@ -430,17 +430,6 @@ const database = {
     },
     {
         id: 42,
-        question: "Který termín/y se nepoužívá v reformní pedagogice? (Označte všechny správné odpovědi)",
-        options: [
-            "Přijetí dítěte takového, jaké je.",
-            "Tolerance pasivity dítěte.",
-            "Respektování přirozeného vývoje dítěte.",
-            "Důraz na maximální rozvoj dítěte po stránce intelektuální."
-        ],
-        correct: [1, 3]
-    },
-    {
-        id: 43,
         question: "Jaká oblast didaktického materiálu není obsazena v systému, který Marie Montessori?",
         options: [
             "jazykový materiál",
@@ -450,7 +439,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 44,
+        id: 43,
         question: "Myšlenku, „měli bychom se co nejvíce snažit o to, aby každá pomůcka měla v sobě zabudovanou určitou schopnost kontroly chyby. Jako příklad můžeme uvést trojrozměrné vkládací tvary. Skládají se z dřevěného hranolu s otvory pro válečky odstupňovaných odměrů, které se liší buď výškou, nebo průměrem\" vyslovil:",
         options: [
             "J. J. Rousseau - Emil čili o výchově",
@@ -461,7 +450,7 @@ const database = {
         correct: [2]
     },
     {
-        id: 45,
+        id: 44,
         question: "Myšlenku, „učitelé, když budou přívětiví a laskaví a nebudou žáky od sebe odpuzovat žádnou drsností, nýbrž vábit je k sobě otcovským smýšlením, chováním, když jim budou doporučovat učení(....), když pochválí časem pilnější žáky\" vyslovil:",
         options: [
             "J. J. Rousseau - Emil čili o výchově",
@@ -472,7 +461,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 46,
+        id: 45,
         question: "Dílo „Brána jazyků otevřená\" sloužila jako:",
         options: [
             "Filozofický text o vzniku světa",
@@ -483,7 +472,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 47,
+        id: 46,
         question: "Uvedené dílo je od autora? „Špatně se tedy starají o chlapce ti, kteří je nutí do učení proti jejich vůli. Neboť co si z toho konečně slibují? Nepřijímá-li žaludek pokrmy s chutí, a přece mu dávají, nic z toho nemůže vzejít než nechutenství a zvracení anebo aspoň špatné zažívání, porucha zdraví. Naproti tomu lačný žaludek přijímá chtivě všechno, cokoli mu dáš.... Horlivost v učení záleží na vůli, která se nedá nutit....\"",
         options: [
             "J. J. Rousseau",
@@ -494,7 +483,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 48,
+        id: 47,
         question: "Výše vedená ukázka je z díla:",
         options: [
             "Informatorium Školy mateřské",
@@ -505,7 +494,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 49,
+        id: 48,
         question: "Pojem makroprostředí v sobě zahrnuje:",
         options: [
             "Rodinné prostředí",
@@ -515,7 +504,7 @@ const database = {
         correct: [2]
     },
     {
-        id: 50,
+        id: 49,
         question: "Který níže jmenovaný pedagog nevycházel z pragmatismu?",
         options: [
             "S. Vrána",
@@ -526,7 +515,7 @@ const database = {
         correct: [3]
     },
     {
-        id: 51,
+        id: 50,
         question: "Prvorepublikoví učitele na měšťanských školách se většinou vzdělávali:",
         options: [
             "Na filozofické fakultě",
@@ -537,7 +526,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 52,
+        id: 51,
         question: "Co je to „osvojené kurikulum\"?",
         options: [
             "To, co učitel skutečně ve třídě realizuje",
@@ -548,7 +537,7 @@ const database = {
         correct: [3]
     },
     {
-        id: 53,
+        id: 52,
         question: "Styl výuky na waldorfských školách se liší od klasických škol... (Najdi jedno tvrzení, které není správné.)",
         options: [
             "Uspořádání výuky do epoch, absence učebnic.",
@@ -559,7 +548,7 @@ const database = {
         correct: [2]
     },
     {
-        id: 54,
+        id: 53,
         question: "Zlínské školství ve třicátých letech dvacátého století využívalo školskou koncepci (Jednotné vnitřně diferencované školy) navrženou...",
         options: [
             "O. Chlup",
@@ -570,7 +559,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 55,
+        id: 54,
         question: "Myšlenku, že: „lidská mysl je bílým papírem, bez jakýchkoliv tiskových typů, beze všech idejí\" vyslovil:",
         options: [
             "J. J. Rousseau",
@@ -581,7 +570,7 @@ const database = {
         correct: [2]
     },
     {
-        id: 56,
+        id: 55,
         question: "Waldorfské školství reprezentují tyto pojmy (musí odpovídat všechny pojmy):",
         options: [
             "Epocha, eurytmie, slavnosti během roku, bodové známkování.",
@@ -592,7 +581,7 @@ const database = {
         correct: [2]
     },
     {
-        id: 57,
+        id: 56,
         question: "Z jakého filozofického směru vychází následně výuková metoda, kterou prosazoval americký filozof a pedagog John Dewey?",
         options: [
             "Z pozitivismu",
@@ -603,7 +592,7 @@ const database = {
         correct: [3]
     },
     {
-        id: 58,
+        id: 57,
         question: "Kdo je představitelem 'Daltonského plánu'?",
         options: [
             "H. Parkhustová",
@@ -614,7 +603,7 @@ const database = {
         correct: [0]
     },
     {
-        id: 59,
+        id: 58,
         question: "V. Příhoda za I. republiky navrhoval školu:",
         options: [
             "Školu jednotnou",
@@ -625,18 +614,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 60,
-        question: "Autor 'Problémové metody' je:",
-        options: [
-            "W. Kilpatrick",
-            "S. Vrána",
-            "J. Dewey",
-            "V. Prihoda"
-        ],
-        correct: [2]
-    },
-    {
-        id: 61,
+        id: 59,
         question: "Učitelské ústavy byly zavedeny v roce:",
         options: [
             "1774",
@@ -647,7 +625,7 @@ const database = {
         correct: [2]
     },
     {
-        id: 62,
+        id: 60,
         question: "Který z následujících zákroků nepatří mezi nedirektivní zákroky:",
         options: [
             "Učitel mění tempo výuky",
@@ -658,7 +636,7 @@ const database = {
         correct: [3]
     },
     {
-        id: 63,
+        id: 61,
         question: "Středověká univerzita byla obvykle tvořena ze čtyř fakult. Která z následně uvedených k nim nepatřila:",
         options: [
             "Pedagogická",
@@ -669,7 +647,7 @@ const database = {
         correct: [0]
     },
     {
-        id: 64,
+        id: 62,
         question: "Kdo patřil mezi představitele pokusných škol 20. let dvacátého století:",
         options: [
             "L. V. Zankov",
@@ -680,7 +658,7 @@ const database = {
         correct: [3]
     },
     {
-        id: 65,
+        id: 63,
         question: "Kdo v níže jmenovaných usiloval o prosazení vysokoškolského vzdělání pro učitele škol obecných a měšťanských škol ve třicátých letech dvacátého století (Možnost více správných odpovědí):",
         options: [
             "O. Chlup",
@@ -690,7 +668,7 @@ const database = {
         correct: [0, 1]
     },
     {
-        id: 66,
+        id: 64,
         question: "Myšlenku, že: 'Všechno jest dobré, jak vychází z rukou původce všech věcí, vše zvrhá se v rukou Člověka' vyslovil:",
         options: [
             "J.J. Rousseau",
@@ -701,7 +679,7 @@ const database = {
         correct: [0]
     },
     {
-        id: 67,
+        id: 65,
         question: "Pojem 'vševěda' je spojen s dílem:",
         options: [
             "Petra Chelčického",
@@ -712,7 +690,7 @@ const database = {
         correct: [2]
     },
     {
-        id: 68,
+        id: 66,
         question: "Kurikulárním dokumentem vytvářeným na státní rovině je:",
         options: [
             "Školní vzdělávací program",
@@ -723,7 +701,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 69,
+        id: 67,
         question: "Označte, jaké tvrzení se nejvice vymyká charakteru alternativni Skoly:",
         options: [
             "Škola usiluje o celkovy vyvoj žáka.",
@@ -734,7 +712,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 70,
+        id: 68,
         question: "Pod pedagogickými principy chápeme:",
         options: [
             "Postupy vedoucí k dosažení stanoveného cíle",
@@ -745,7 +723,7 @@ const database = {
         correct: [3]
     },
     {
-        id: 71,
+        id: 69,
         question: "'Trojjediný systém' znamená:",
         options: [
             "Jde o unikátní systém, který využívala 'Škola práce na Kladně'",
@@ -756,7 +734,7 @@ const database = {
         correct: [2]
     },
     {
-        id: 72,
+        id: 70,
         question: "Kdo z následujících osob nebyl inspirací nebo východiskem pro vznik pokusných škol ve 20. letech 20. století?",
         options: [
             "Marie Montessori",
@@ -767,18 +745,7 @@ const database = {
         correct: [3]
     },
     {
-        id: 73,
-        question: "Záměrná výchova a uvědomělé sebeutváření jsou:",
-        options: [
-            "intencionální formou výchovy",
-            "funkcionální formou výuky",
-            "Bezděčným pedagogickým procesem",
-            "Nepřímým pedagogickým procesem"
-        ],
-        correct: [0]
-    },
-    {
-        id: 74,
+        id: 71,
         question: "Jak se jmenovala kniha, kterou sepsala Ellen Keyová?",
         options: [
             "Desetiletí dítěte",
@@ -789,7 +756,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 75,
+        id: 72,
         question: "Mezi moderní alternativní školy patří: (zaškrtni všechny možnosti):",
         options: [
             "Program 'Začít spolu'",
@@ -800,7 +767,7 @@ const database = {
         correct: [0, 1]
     },
     {
-        id: 76,
+        id: 73,
         question: "Pojem funkční gramotnost označuje:",
         options: [
             "Dovednost číst a psát",
@@ -810,7 +777,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 77,
+        id: 74,
         question: "Pojem socializace označuje:",
         options: [
             "Získávání znalostí a dovedností",
@@ -821,7 +788,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 78,
+        id: 75,
         question: "Pojetí tzv. transmisivní školy, resp. Tradiční výuky, nepopisuje jeden z níže uvedených výroků, jaký?",
         options: [
             "Učitel jako reprezentant toho, co má žák umět, ale neumí, co má vědět, ale neví!",
@@ -831,17 +798,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 79,
-        question: "Vzdělávací princip 'pomoz mi, abych to mohl udělat sám', je typický pro reformní koncepci:",
-        options: [
-            "R. Steiner",
-            "C. Freinet",
-            "M. Montessori"
-        ],
-        correct: [2]
-    },
-    {
-        id: 80,
+        id: 76,
         question: "Kvalitativní aspekt hodnocení žáka ve škole v sobě zahrnuje:",
         options: [
             "Sledování a rozvíjení znalosti žáků",
@@ -851,7 +808,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 81,
+        id: 77,
         question: "Pocit 'vrženosti' do světa je spojen:",
         options: [
             "S psychoanalýzou",
@@ -861,7 +818,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 82,
+        id: 78,
         question: "Pojem resilience označuje:",
         options: [
             "Nezdolnost, schopnost odolávat zátěži",
@@ -871,7 +828,7 @@ const database = {
         correct: [0]
     },
     {
-        id: 83,
+        id: 79,
         question: "Bloomova taxonomie kognitivních cílů představuje:",
         options: [
             "třídění úrovně náročnosti cílů, které klademe na žáky v procesu učení",
@@ -882,7 +839,7 @@ const database = {
         correct: [2]
     },
     {
-        id: 84,
+        id: 80,
         question: "Mezinárodní výzkumy PISA u žáků nezkoumají",
         options: [
             "matematickou gramotnost",
@@ -893,7 +850,7 @@ const database = {
         correct: [2]
     },
     {
-        id: 85,
+        id: 81,
         question: "Teorii jazykového kódu vypracoval a ověřil:",
         options: [
             "Johann Friedrich Herbart",
@@ -904,7 +861,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 86,
+        id: 82,
         question: "Pedeutologie se zabývá:",
         options: [
             "pedagogickým výzkumem",
@@ -915,7 +872,7 @@ const database = {
         correct: [2]
     },
     {
-        id: 87,
+        id: 83,
         question: "Legitimní autorita učitele je dána:",
         options: [
             "jeho vlastnostmi",
@@ -926,7 +883,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 88,
+        id: 84,
         question: "Hodnocení žáků známkou ve výuce nemá funkci:",
         options: [
             "motivační",
@@ -937,7 +894,7 @@ const database = {
         correct: [2]
     },
     {
-        id: 89,
+        id: 85,
         question: "Autorem teorie psychosociálního vývoje člověka, která je dělena do osmi stádií, je:",
         options: [
             "Erik H. Erikson",
@@ -948,7 +905,7 @@ const database = {
         correct: [0]
     },
     {
-        id: 90,
+        id: 86,
         question: "Pojem kurikulum můžeme v pedagogice charakterizovat jako:",
         options: [
             "obsah veškeré zkušenosti, kterou žáci získávají ve škole a v činnostech, ke škole se vztahujících, a také její plánování, hodnocení;",
@@ -959,7 +916,7 @@ const database = {
         correct: [0]
     },
     {
-        id: 91,
+        id: 87,
         question: "Pojem, který souvisí s koncepcí Lva Semjonoviče Vygotského, je:",
         options: [
             "peer program",
@@ -970,7 +927,7 @@ const database = {
         correct: [2]
     },
     {
-        id: 92,
+        id: 88,
         question: "Pojem projektové kurikulum vyjadřuje:",
         options: [
             "zařazování krátkých projektových prvků do výuky;",
@@ -981,7 +938,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 93,
+        id: 89,
         question: "Jak se nazývají nové závazné dokumenty, které na státní úrovni stanovují školám cíle a obsah vzdělávání?",
         options: [
             "rámcové vzdělávací programy",
@@ -992,7 +949,7 @@ const database = {
         correct: [0]
     },
     {
-        id: 94,
+        id: 90,
         question: "Jak jsou souhrnně označovány Jenská, Waldorfská, Montessori a Daltonská škola?",
         options: [
             "inovativní školy;",
@@ -1003,7 +960,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 95,
+        id: 91,
         question: "Reformní pedagogické hnutí je svým vznikem datováno v období:",
         options: [
             "18. století;",
@@ -1014,7 +971,7 @@ const database = {
         correct: [2]
     },
     {
-        id: 96,
+        id: 92,
         question: "Pro které typy škol je závazný Rámcový vzdělávací program pro základní vzdělávání (RVP ZV)?",
         options: [
             "mateřské školy;",
@@ -1025,7 +982,7 @@ const database = {
         correct: [3]
     },
     {
-        id: 97,
+        id: 93,
         question: "Složitý myšlenkový proces (operace), který odhlíží od nepodstatných znaků a vyčleňuje důležité znaky, se nazývá:",
         options: [
             "generalizace",
@@ -1036,7 +993,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 98,
+        id: 94,
         question: "Adekvátně pojatá výchova připravuje jedince na následující sociální role (označte nejméně vhodnou odpověď):",
         options: [
             "člověk, který je schopen prosadit vlastní zájem proti ostatním",
@@ -1047,18 +1004,7 @@ const database = {
         correct: [0]
     },
     {
-        id: 99,
-        question: "Pod pedagogickými principy chápeme:",
-        options: [
-            "postupy vedoucí k dosažení stanoveného cíle",
-            "způsob pedagogické organizace výchovné činnosti vychovávatelů a vychovávaných",
-            "jednotlivé postupy nebo způsoby činnosti vychovávatelů a vychovávaných",
-            "nejobecnější požadavky optimalizující výchovně vzdělávací činnost"
-        ],
-        correct: [3]
-    },
-    {
-        id: 100,
+        id: 95,
         question: "Mezi vnější funkcionální faktory ve školní výchově patří:",
         options: [
             "působení učitele při výuce",
@@ -1069,7 +1015,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 101,
+        id: 96,
         question: "Zamyslete se nad následující situací a určete, jaký druh učitelské autority tento učitel používá: Učitel se obrátí k žákům: 'Vážně jste mně zklamali. Promarňujete svůj čas a i čas školy. K tomu škola není. Škola je o učení. Všichni společně neseme za to odpovědnost. A teď přestaňte otálet a začněte pracovat!'",
         options: [
             "přirozená",
@@ -1080,7 +1026,7 @@ const database = {
         correct: [2]
     },
     {
-        id: 102,
+        id: 97,
         question: "Stav, kdy některá z objektivně významných potřeb není dlouhodobě uspokojována, se označuje jako:",
         options: [
             "krize",
@@ -1091,7 +1037,7 @@ const database = {
         correct: [2]
     },
     {
-        id: 103,
+        id: 98,
         question: "Zvolte nejvýstižnější charakteristiku pojmu syndrom CAN :",
         options: [
             "bití a týrání dítěte",
@@ -1102,7 +1048,7 @@ const database = {
         correct: [3]
     },
     {
-        id: 104,
+        id: 99,
         question: "Demence vzniká:",
         options: [
             "jako důsledek stárnutí",
@@ -1113,7 +1059,7 @@ const database = {
         correct: [3]
     },
     {
-        id: 105,
+        id: 100,
         question: "Trpím bludy a halucinacemi, pravděpodobně mám:",
         options: [
             "stres",
@@ -1124,7 +1070,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 106,
+        id: 101,
         question: "Vyčerpání fyzických a psychických sil, ztráta zájmu o práci, lhostejnost v profesionálních postojích se označuje pojmem:",
         options: [
             "zátěž",
@@ -1135,7 +1081,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 107,
+        id: 102,
         question: "Kdy byla založena pedagogická fakulta v ČB:",
         options: [
             "1897",
@@ -1146,7 +1092,7 @@ const database = {
         correct: [2]
     },
     {
-        id: 108,
+        id: 103,
         question: "Kdy byla založena Karlova Univerzita:",
         options: [
             "1497",
@@ -1157,7 +1103,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 109,
+        id: 104,
         question: "Co se stalo v letech 2001-2004 ve školství:",
         options: [
             "Rozvoj kompetencí napříč předměty (8 kompetencí pro život)",
@@ -1167,7 +1113,7 @@ const database = {
         correct: [1]
     },
     {
-        id: 110,
+        id: 105,
         question: "Jména 4 fakult po založení Karlovy Univerzity:",
         options: [
             "artistická, právnická, lékařská, teologická",
@@ -1177,7 +1123,7 @@ const database = {
         correct: [0]
     },
     {
-        id: 111,
+        id: 106,
         question: "Co bude nového ve Strategii 2030+:",
         options: [
             "Rozvoj kompetencí napříč předměty (8 kompetencí pro život)",
@@ -1187,7 +1133,7 @@ const database = {
         correct: [0]
     },
     {
-        id: 112,
+        id: 107,
         question: "Pojem anomie popisuje:",
         options: [
             "pocit zklamání a skepse ve vztahu k možnostem realizovat v daných společenských podmínkách své cíle, plány. prosadit se;",
@@ -1197,7 +1143,7 @@ const database = {
         correct: [0]
     },
     {
-        id: 113,
+        id: 108,
         question: "Výchova je v diskurzu současné pedagogiky (např. dle Pedagogické encyklopedie) chápána jako cílevědomé a záměrné působení na vychovávaného:",
         options: [
             "a to zejména přímým působením na vlastnosti osobnosti;",
@@ -1207,7 +1153,7 @@ const database = {
         correct: [2]
     },
     {
-        id: 114,
+        id: 109,
         question: "Který sociologický myslitel se zabýval pojmem Anomie a popsal ji jako stav, kde společnost trpí nedostatkem normativních pravidel a hodnot?",
         options: [
             "K. Marx",
