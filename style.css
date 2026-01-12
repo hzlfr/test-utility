@@ -476,20 +476,20 @@ input[type="range"]::-moz-range-thumb:hover {
 }
 
 /* Specifický styl pouze pro Mapu otázek (oranžová) */
-#nav-toggle-btn:hover {
+#nav-toggle-btn:hover, #fc-nav-toggle-btn:hover {
     background-color: #fff3e0;
     color: #e65100;
     border-color: #ff9800;
 }
 
-body.dark-mode #nav-toggle-btn:hover {
+body.dark-mode #nav-toggle-btn:hover, body.dark-mode #fc-nav-toggle-btn:hover {
     background-color: rgba(230, 81, 0, 0.2);
     color: #ffcc80;
     border-color: #ffb74d;
 }
 
 /* --- Navigace v testu (Bublinky) --- */
-#question-navigator {
+#question-navigator, #fc-navigator {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
@@ -501,7 +501,7 @@ body.dark-mode #nav-toggle-btn:hover {
     background-color: rgba(0,0,0,0.03);
 }
 
-body.dark-mode #question-navigator {
+body.dark-mode #question-navigator, body.dark-mode #fc-navigator {
     background-color: rgba(255,255,255,0.05);
     border-color: #555;
 }
@@ -702,3 +702,81 @@ body.dark-mode #question-navigator {
     border: 2px solid #dc3545 !important;
     color: #dc3545 !important;
 }
+
+/* --- Flashcards (Kartičky) --- */
+.flashcard-container {
+    width: 100%;
+    max-width: 600px;
+    height: 350px;
+    margin: 20px auto;
+    cursor: pointer;
+    position: relative;
+}
+
+.flashcard {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    box-shadow: var(--shadow);
+    border-radius: 15px;
+    border: 1px solid var(--input-border);
+    overflow: hidden;
+    transition: border-color 0.4s ease;
+}
+
+.flashcard.flipped {
+    border-color: var(--feedback-correct-text);
+}
+
+.flashcard-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: var(--bg-container);
+    color: var(--text-main);
+    overflow-y: auto;
+}
+
+.flashcard-front {
+    z-index: 2;
+    transition: opacity 0.4s ease;
+    opacity: 1;
+}
+
+.flashcard-back {
+    background-color: var(--feedback-correct-bg);
+    z-index: 1;
+}
+
+.flashcard.flipped .flashcard-front {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.fc-hint {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: var(--text-muted);
+    font-style: italic;
+}
+
+.fc-controls {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.fc-controls .btn {
+    flex: 1;
+    margin: 0;
+}
+
+/* Dark mode overrides */
