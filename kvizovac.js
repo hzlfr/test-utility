@@ -66,6 +66,26 @@ function updateMaxQuestions() {
     
     // Zobrazit tlačítko pro přehled otázek, jakmile je vybrán předmět
     document.getElementById('preview-controls').classList.remove('hidden');
+    
+    // Specifické chování pro Zemědělství (skrytí testu, zvýraznění kartiček)
+    const btnQuiz = document.getElementById('btn-start-quiz');
+    const btnFlash = document.getElementById('btn-start-flashcards');
+    const btnErrors = document.getElementById('practice-errors-btn');
+    const rowTestMode = document.getElementById('row-testmode');
+
+    if (key === 'zemedelstvi') {
+        btnQuiz.classList.add('hidden');
+        btnErrors.classList.add('hidden');
+        btnFlash.classList.remove('hidden');
+        rowTestMode.classList.add('hidden');
+        btnFlash.innerText = "Spustit kartičky";
+        btnFlash.className = "btn"; // Změna na primární styl
+    } else {
+        btnQuiz.classList.remove('hidden');
+        btnErrors.classList.remove('hidden');
+        btnFlash.classList.add('hidden');
+        rowTestMode.classList.remove('hidden');
+    }
 
     const totalAvailable = database[key].questions.length;
     document.getElementById('max-q-label').innerText = totalAvailable;
@@ -614,4 +634,141 @@ function shuffleArray(array) {
         [array[i], array[j]] = [array[j], array[i]];
     }
     return array;
+}
+
+// --- FLASHCARDS LOGIKA ---
+
+function startFlashcards() {
+    const select = document.getElementById('subject-select');
+    const subjectKey = select.value;
+    currentSubjectKey = subjectKey;
+
+    if (!subjectKey) {
+        alert("Prosím, vyber nejdříve předmět!");
+        return;
+    }
+
+    const requestedCount = parseInt(document.getElementById('set-count').value);
+    config.isRandom = document.getElementById('set-random').checked;
+
+    // Hluboká kopie dat
+    let sourceData = JSON.parse(JSON.stringify(database[subjectKey].questions));
+    
+    if (config.isRandom) {
+        shuffleArray(sourceData);
+    }
+
+    const maxQ = sourceData.length;
+    const finalCount = (requestedCount > 0 && requestedCount <= maxQ) ? requestedCount : maxQ;
+    activeQuestions = sourceData.slice(0, finalCount);
+
+    currentIndex = 0;
+
+    document.getElementById('menu-box').classList.add('hidden');
+    document.getElementById('flashcards-interface').classList.remove('hidden');
+    document.getElementById('fc-subject-title').innerText = database[subjectKey].title;
+
+    document.getElementById('fc-navigator').classList.add('hidden');
+    renderFcNavigator();
+    
+    loadFlashcard();
+}
+
+function loadFlashcard() {
+    if (currentIndex >= activeQuestions.length) return;
+
+    const qData = activeQuestions[currentIndex];
+    const card = document.getElementById('flashcard-card');
+    const front = card.querySelector('.flashcard-front');
+    
+    // Reset otočení bez animace (aby neproblikla odpověď nové karty)
+    front.style.transition = 'none';
+    card.classList.remove('flipped');
+    void card.offsetWidth; // Vynutit překreslení
+    front.style.transition = '';
+
+    document.getElementById('fc-current').innerText = currentIndex + 1;
+    document.getElementById('fc-total').innerText = activeQuestions.length;
+
+    // Přední strana
+    document.getElementById('fc-front-text').innerText = qData.question;
+
+    // Zadní strana (správné odpovědi)
+    const correctOptions = qData.correct.map(i => qData.options[i]);
+    let backHtml = correctOptions.length === 1 
+        ? `<div style="font-size: 1.2em; font-weight: bold;">${correctOptions[0]}</div>`
+        : `<ul style="text-align: left; padding-left: 20px;">${correctOptions.map(o => `<li>${o}</li>`).join('')}</ul>`;
+    
+    document.getElementById('fc-back-text').innerHTML = backHtml;
+
+    updateFcNavigator();
+
+    // Aktualizace tlačítka Další na poslední kartě
+    const btnNext = document.getElementById('fc-next-btn');
+    if (currentIndex === activeQuestions.length - 1) {
+        btnNext.innerHTML = "Zamíchat a znovu &#8635;";
+        btnNext.classList.add('btn-warning');
+    } else {
+        btnNext.innerHTML = "Další &#10095;";
+        btnNext.classList.remove('btn-warning');
+    }
+}
+
+function flipCard() {
+    document.getElementById('flashcard-card').classList.toggle('flipped');
+}
+
+function nextFlashcard() {
+    if (currentIndex < activeQuestions.length - 1) {
+        currentIndex++;
+        loadFlashcard();
+    } else {
+        // Jsme na konci -> zamíchat a znovu
+        shuffleArray(activeQuestions);
+        currentIndex = 0;
+        loadFlashcard();
+    }
+}
+
+function prevFlashcard() {
+    if (currentIndex > 0) {
+        currentIndex--;
+        loadFlashcard();
+    }
+}
+
+function quitFlashcards() {
+    document.getElementById('flashcards-interface').classList.add('hidden');
+    document.getElementById('menu-box').classList.remove('hidden');
+}
+
+// --- Navigace pro Flashcards ---
+function renderFcNavigator() {
+    const nav = document.getElementById('fc-navigator');
+    nav.innerHTML = '';
+    activeQuestions.forEach((_, index) => {
+        const bubble = document.createElement('div');
+        bubble.className = 'nav-bubble';
+        bubble.innerText = index + 1;
+        bubble.onclick = () => goToFlashcard(index);
+        nav.appendChild(bubble);
+    });
+}
+
+function toggleFcNavigator() {
+    document.getElementById('fc-navigator').classList.toggle('hidden');
+}
+
+function updateFcNavigator() {
+    const bubbles = document.querySelectorAll('#fc-navigator .nav-bubble');
+    bubbles.forEach((b, i) => {
+        b.className = 'nav-bubble'; // Reset
+        if (i === currentIndex) b.classList.add('active');
+    });
+}
+
+function goToFlashcard(index) {
+    currentIndex = index;
+    document.getElementById('fc-navigator').classList.add('hidden');
+    loadFlashcard();
 }
