@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Univerzální Testovací Nástroj</title>
     <link rel="stylesheet" href="style.css">
-    <script defer src="https://cloud.umami.is/script.js" data-website-id="3d432c86-878c-49e4-ad89-33967368d2c5"></script>
 </head>
 <body>
 
@@ -32,13 +31,14 @@
                     <label for="set-random">Náhodné pořadí otázek:</label>
                     <input type="checkbox" id="set-random" checked>
                 </div>
-                <div class="settings-row">
+                <div class="settings-row" id="row-testmode">
                     <label for="set-testmode" title="Nevidíš správné odpovědi hned, až na konci.">Režim 'Test' (výsledky až na konci):</label>
                     <input type="checkbox" id="set-testmode">
                 </div>
             </div>
 
-            <button class="btn" onclick="startQuiz()">Spustit test</button>
+            <button id="btn-start-quiz" class="btn" onclick="startQuiz()">Spustit test</button>
+            <button id="btn-start-flashcards" class="btn btn-secondary hidden" onclick="startFlashcards()">Spustit jako Flashcards</button>
             <button id="practice-errors-btn" class="btn btn-green-outline" onclick="startQuiz(true)" disabled>Žádné chyby k procvičování</button>
             
             <div id="preview-controls" class="hidden">
@@ -63,6 +63,33 @@
                 <div class="feedback" id="feedback"></div>
                 
                 <button class="btn" id="action-btn" onclick="handleAction()">Potvrdit</button>
+            </div>
+        </div>
+
+        <div id="flashcards-interface" class="hidden">
+            <div class="quiz-header-row">
+                <button class="btn-back" onclick="quitFlashcards()">← Zpět do menu</button>
+                <button id="fc-nav-toggle-btn" class="btn-back" onclick="toggleFcNavigator()">Mapa otázek</button>
+            </div>
+            <h3 id="fc-subject-title">Předmět</h3>
+            <div class="score-board">Karta <span id="fc-current">1</span> z <span id="fc-total">0</span></div>
+            <div id="fc-navigator" class="hidden"></div>
+            
+            <div class="flashcard-container" onclick="flipCard()">
+                <div id="flashcard-card" class="flashcard">
+                    <div class="flashcard-face flashcard-front">
+                        <div id="fc-front-text" style="font-size: 1.1em; font-weight: 500;">Otázka</div>
+                        <div class="fc-hint">(Klikni pro otočení)</div>
+                    </div>
+                    <div class="flashcard-face flashcard-back">
+                        <div id="fc-back-text">Odpověď</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fc-controls">
+                <button id="fc-prev-btn" class="btn" onclick="prevFlashcard()">&#10094; Předchozí</button>
+                <button id="fc-next-btn" class="btn" onclick="nextFlashcard()">Další &#10095;</button>
             </div>
         </div>
 
