@@ -1613,5 +1613,322 @@ const database = {
                 correct: [0]
             }
         ]
+    },
+    "zemedelstvi": {
+        title: "Zemědělství a Geografie",
+        questions: [
+            {
+                id: 1,
+                question: "Jaké faktory ovlivňují vodní erozi na orné půdě a jakým způsobem?",
+                options: [
+                    "Svažitost (sklon) – čím větší, tím větší eroze. Přívalové deště. Zrnitost a absorpční schopnost půdy. Propustnost podloží. Zemědělské postupy (nevhodná orba po spádnici, širokořádkové plodiny jako kukuřice). Lidská činnost (stavba cest)."
+                ],
+                correct: [0]
+            },
+            {
+                id: 2,
+                question: "Definujte zemědělství a vyjmenujte hlavní zemědělské vědy.",
+                options: [
+                    "Vědomé obhospodařování půdy za účelem zajištění potravin a surovin. Hlavní součásti: rostlinná a živočišná výroba. Vědy: Agronomie, zemědělská ekonomika, zootechnika."
+                ],
+                correct: [0]
+            },
+            {
+                id: 3,
+                question: "Faktor šlechtění zemědělských plodin – co je cílem a jaké jsou možnosti?",
+                options: [
+                    "Cílem je zvýšení výnosu, kvality a odolnosti (mráz, sucho, nemoci, škůdci). Možnosti: výběr, křížení, roubování, genetické transformace."
+                ],
+                correct: [0]
+            },
+            {
+                id: 4,
+                question: "Přiřaďte k jednotlivým biomům světové půdní typy.",
+                options: [
+                    "Tajga: podzoly. Listnaté lesy mírného pásu: hnědé lesní půdy. Stepi: černozemě. Sušší stepi: kaštanové půdy. Polopouště: písčité šedé půdy. Savany: červenožluté půdy. Tropické deštné lesy: laterity (červené půdy)."
+                ],
+                correct: [0]
+            },
+            {
+                id: 5,
+                question: "Popište škálu kardinálních bodů dosažitelnosti vody v půdě (xs až xp) a další faktory.",
+                options: [
+                    "xs (hyne suchem) -> -s (poškozena suchem) -> +n (málo vody) -> ++ (optimální) -> +p (nadbytek) -> -p (poškozena nadbytkem) -> xp (hyne mokrem). Další faktory: vývojová fáze, teplota, podzemní voda, hloubka kořenů, srážky, expozice svahu."
+                ],
+                correct: [0]
+            },
+            {
+                id: 6,
+                question: "Chemická hnojiva – rozdělení a nevýhody.",
+                options: [
+                    "Rozdělení: Fosforečná (z fosfátů), draselná, hořečnatá, vápenatá, dusíkatá (ledek, močovina), kombinovaná (NPK). Nevýhody: Toxicita půdy, hromadění těžkých kovů, eutrofizace vod (řasy a sinice vyčerpají kyslík)."
+                ],
+                correct: [0]
+            },
+            {
+                id: 7,
+                question: "Cukrová řepa – klimatické podmínky a využití.",
+                options: [
+                    "Mírný pás (Francie, Rusko, ČR - Polabí). Zpracovává se v cukrovarech (kampaň září-prosinec) na cukr, melasu (líh/krmivo) a řízky. Nať se zapravuje do půdy."
+                ],
+                correct: [0]
+            },
+            {
+                id: 8,
+                question: "Charakterizujte zvířata: Jak, Lama, Sob.",
+                options: [
+                    "Jak: Mohutný tur, dlouhá srst, hory nad 3000 m (Tibet, Nepál). Lama: Andy, mimochodník, vlna a nošení nákladů. Sob: Severské oblasti (Skandinávie, Sibiř), parohy má i samice, v zimě migruje na jih."
+                ],
+                correct: [0]
+            },
+            {
+                id: 9,
+                question: "Typologie světového zemědělství – uveďte příklady.",
+                options: [
+                    "Klimaticky podmíněné, Pedologicky podmíněné, Biomy podmíněné. Samozásobitelské (rotační, nomádské). Tržní (mléčné, obilnářské, rančerské, plantážní)."
+                ],
+                correct: [0]
+            },
+            {
+                id: 10,
+                question: "Popište pícninářskou výrobní oblast ČR.",
+                options: [
+                    "Nad 600 m n. m. (horská území, Šumava, Vysočina, Jeseníky). Teplota 5-6°C, srážky >700 mm. Převažují louky, pastviny, chov skotu a ovcí na maso. Pícniny (jetel, vojtěška)."
+                ],
+                correct: [0]
+            },
+            {
+                id: 11,
+                question: "Druhy pastvin a luk, rozdíl mezi nimi.",
+                options: [
+                    "Pastviny: spásány zvířaty (umělé i přírodní - stepi, savany). Louky: pravidelně sečeny (1-3x ročně), dělí se na vlhké, středně suché a suché."
+                ],
+                correct: [0]
+            },
+            {
+                id: 12,
+                question: "Půdní typy ČR a jejich úrodnost.",
+                options: [
+                    "Černozemě (velmi úrodné), Hnědozemě (úrodné), Ilimerizované (střední), Rendziny (na vápencích), Písčité půdy (zúrodněné), Hnědé lesní/Kambizemě (střední, převažují), Podzoly (málo úrodné), Oglejené/Glejové (nutno odvodnit), Nivní/Lužní (úrodné)."
+                ],
+                correct: [0]
+            },
+            {
+                id: 13,
+                question: "Vliv sněhu a větru na zemědělství.",
+                options: [
+                    "Sníh: Zdroj vody při tání (zavlažování), izolace ozimů proti vymrznutí. Vítr: Opylování, ale i poléhání obilnin a větrná eroze (odnos ornice)."
+                ],
+                correct: [0]
+            },
+            {
+                id: 14,
+                question: "Co je to pluriaktivita zemědělců?",
+                options: [
+                    "Kombinace práce v zemědělství a mimo něj. Např. v zimě práce v lese, řemesla, agroturistika, služby. Dříve tzv. kovozemědělci."
+                ],
+                correct: [0]
+            },
+            {
+                id: 15,
+                question: "Ječmen – přírodní podmínky pěstování a využití.",
+                options: [
+                    "Sušší subtropy (krátká vegetační doba), severské oblasti (Norsko, Kanada), horské oblasti (Tibet), úrodný mírný pás. Využití: potravinářský, sladovnický (pivo), krmný."
+                ],
+                correct: [0]
+            },
+            {
+                id: 16,
+                question: "Sója – zařazení a producenti.",
+                options: [
+                    "Olejnatá luštěnina (zrnina), bohatá na bílkoviny. Producenti: Brazílie, USA, Argentina, Čína, Indie."
+                ],
+                correct: [0]
+            },
+            {
+                id: 17,
+                question: "Velbloudi – druhy a rozšíření.",
+                options: [
+                    "Jednohrbý (dromedár): Sahara, Arábie, Indie (teplo). Dvouhrbý (drabař): Střední Asie, Mongolsko, Čína (chladnější). Nejvíce v Somálsku a Sahelu."
+                ],
+                correct: [0]
+            },
+            {
+                id: 18,
+                question: "Vymezení tajgy pomocí států.",
+                options: [
+                    "Kanada (Yukon, Britská Kolumbie, Ontario, Quebec), Aljaška, Skandinávie, Finsko, Rusko (Sibiř, povodí Obu, Jeniseje, Leny)."
+                ],
+                correct: [0]
+            },
+            {
+                id: 19,
+                question: "Vyjmenujte typy tržního zemědělství.",
+                options: [
+                    "Tržní smíšené, mléčné, obilnářské, rančerské, mediteránní, zahradnické, plantážní."
+                ],
+                correct: [0]
+            },
+            {
+                id: 20,
+                question: "Druhy pozemků v zemědělské (ZK) a venkovské krajině (VK).",
+                options: [
+                    "ZK: zemědělské pozemky, cesty, remízky, vodní plochy. VK: zahrnuje ZK + venkovská sídla, komunikace, menší lesy."
+                ],
+                correct: [0]
+            },
+            {
+                id: 21,
+                question: "Negativa chemických hnojiv a proces eutrofizace.",
+                options: [
+                    "Hromadění těžkých kovů, toxicita. Eutrofizace: Splach hnojiv do vod -> množení řas a sinic -> úbytek kyslíku -> úhyn ryb a zhoršení kvality vody."
+                ],
+                correct: [0]
+            },
+            {
+                id: 22,
+                question: "Důvody zásahů státu a EU do zemědělství.",
+                options: [
+                    "Ochrana trhu (cla/kvóty), snížení intenzity (ekologie), ochrana kulturní krajiny, podpora venkovských komunit a znevýhodněných oblastí (LFA), soběstačnost, hygiena."
+                ],
+                correct: [0]
+            },
+            {
+                id: 23,
+                question: "Rýže – podmínky pěstování a producenti.",
+                options: [
+                    "Vlhké tropy a subtropy, monzunové oblasti, pěstební bazény, teplo. S. hranice 46° s.š. Producenti: Čína, Indie, Indonésie, Brazílie."
+                ],
+                correct: [0]
+            },
+            {
+                id: 24,
+                question: "Skot – význam pro produkci mléka a masa, stavy v ČR.",
+                options: [
+                    "90 % světového mléka, 30 % masa. V ČR stavy klesly (z 3,5 mil. na 1,4 mil.), mléko stabilní (vyšší dojivost). Transhumance = sezónní přesun na pastviny."
+                ],
+                correct: [0]
+            },
+            {
+                id: 25,
+                question: "Bavlník – podmínky a producenti.",
+                options: [
+                    "Střídání vlhka a sucha (při zrání), teplo. Problém: nutnost chemie a závlah (zasolování). Producenti: USA, Čína, Indie, Pákistán, Střední Asie, Brazílie."
+                ],
+                correct: [0]
+            },
+            {
+                id: 26,
+                question: "Co je to akvakultura a kde se nejvíce loví ryby?",
+                options: [
+                    "Akvakultura = farmový chov vodních organismů. Nejvíce ryb v chladných mořích (více kyslíku a planktonu). Statistika FAO dle oblastí oceánů."
+                ],
+                correct: [0]
+            },
+            {
+                id: 27,
+                question: "Samozásobitelské rotační zemědělství.",
+                options: [
+                    "Nízká technika, vypalování lesa, přesun polí po vyčerpání (10-15 let). Amazonie, střední Afrika, JV Asie."
+                ],
+                correct: [0]
+            },
+            {
+                id: 28,
+                question: "Obilnářská výrobní oblast ČR – charakteristika.",
+                options: [
+                    "41 % orné půdy, pahorkatiny (Třebíčsko, Plzeňsko, střední Čechy). Teplota 7-8,5 °C, srážky 550-700 mm. Pěstování: obilí, řepka, kukuřice na zeleno."
+                ],
+                correct: [0]
+            },
+            {
+                id: 29,
+                question: "Trvalé zemědělské kultury v ČR.",
+                options: [
+                    "Louky, pastviny, sady, vinice, chmelnice."
+                ],
+                correct: [0]
+            },
+            {
+                id: 30,
+                question: "Azonální půdní typy a jejich vhodnost pro orbu.",
+                options: [
+                    "Nivní (u řek, úrodné), Lužní (dále od řek, úrodné), Glejové (mokřady, nutno odvodnit), Rendziny (kras, kamenité, méně vhodné), Solončaky (slané, nevhodné)."
+                ],
+                correct: [0]
+            },
+            {
+                id: 31,
+                question: "Pšenice – podmínky, výnosy a exportéři.",
+                options: [
+                    "Černozemě ve stepích, srážky cca 500 mm. Výnosy v EU cca 5 t/ha. Exportéři: USA (tvrdá pšenice), Rusko, Kanada, Francie, Ukrajina."
+                ],
+                correct: [0]
+            },
+            {
+                id: 32,
+                question: "Řepka olejka – nároky a producenti.",
+                options: [
+                    "Mírný pás, pahorkatiny (v ČR hojná). Využití: olej (potraviny, bionafta), medonosná. Producenti: Kanada, Čína, EU (Francie, Německo, Polsko, ČR)."
+                ],
+                correct: [0]
+            },
+            {
+                id: 33,
+                question: "Největší producenti koření a plodin (pepř, vanilka, mák, kmín).",
+                options: [
+                    "Pepř: Indie, Vietnam. Vanilka: Madagaskar, Indonésie. Mák: ČR, Turecko (legální), Zlatý trojúhelník (ilegální). Kmín: ČR, Německo."
+                ],
+                correct: [0]
+            },
+            {
+                id: 34,
+                question: "Buvol vodní – užitky.",
+                options: [
+                    "Tah (rýžoviště), mléko (mozzarella), maso, jízda, kůže, hnůj. Vlhké tropy/subtropy."
+                ],
+                correct: [0]
+            },
+            {
+                id: 35,
+                question: "Rybolov v Atlantiku – hlavní oblasti.",
+                options: [
+                    "SV Atlantik (Island, Norsko), SZ Atlantik (Newfoundland), Východní centrální (z. Afrika). Loví se sledi, tresky, sardinky."
+                ],
+                correct: [0]
+            },
+            {
+                id: 36,
+                question: "Hlavní obilniny v zemědělských výrobních oblastech ČR.",
+                options: [
+                    "Kukuřičná: kukuřice na zrno. Řepařská: pšenice. Obilnářská: pšenice/ječmen. Bramborářská: žito/oves/triticale. Pícninářská/Horská: oves."
+                ],
+                correct: [0]
+            },
+            {
+                id: 37,
+                question: "Vývoj produkce v ČR po roce 1989 (řepka, řepa, prasata, brambory, víno).",
+                options: [
+                    "Řepka: Roste (biopaliva). Řepa: Klesá (zrušení cukrovarů). Prasata: Klesá (levný dovoz). Brambory: Klesá (nižší spotřeba). Víno: Rozloha vinic roste."
+                ],
+                correct: [0]
+            },
+            {
+                id: 38,
+                question: "Faktor pracovní síly v zemědělství.",
+                options: [
+                    "Rozvojové země: 70-80 % lidí v zemědělství. Vyspělé (ČR, USA): 1-3 %. Problém stárnutí farmářů a nezájmu mladých, potřeba vyšší kvalifikace."
+                ],
+                correct: [0]
+            },
+            {
+                id: 39,
+                question: "Agroklimatické charakteristiky (vegetační období a konstanta).",
+                options: [
+                    "Délka vegetačního období: počet dnů s teplotou nad 10°C. Vegetační teplotní konstanta: součet denních teplot od zasetí po dozrání."
+                ],
+                correct: [0]
+            }
+        ]
     }
 };
