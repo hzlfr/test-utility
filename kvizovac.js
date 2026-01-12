@@ -50,6 +50,9 @@ window.onload = function() {
         select.appendChild(option);
     }
 
+    // Reset výběru na výchozí hodnotu (aby nezůstalo viset z minula)
+    select.value = "";
+
     // Aktualizace slideru pro případ, že si prohlížeč pamatuje výběr po refreshi
     updateMaxQuestions();
     checkErrorHistory();
