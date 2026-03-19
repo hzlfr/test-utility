@@ -76,7 +76,7 @@ function updateMaxQuestions() {
     const btnErrors = document.getElementById('practice-errors-btn');
     const rowTestMode = document.getElementById('row-testmode');
 
-    if (key === 'zemedelstvi') {
+    if (key === 'zemedelstvi' || key === 'autoskola_c') {
         btnQuiz.classList.add('hidden');
         btnErrors.classList.add('hidden');
         btnFlash.classList.remove('hidden');
