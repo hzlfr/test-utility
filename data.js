@@ -1,7 +1,7 @@
 // data.js - Zde jsou uloženy všechny otázky
 
 const database = {
-    "pedagogika1": {
+   /* "pedagogika1": {
         title: "Pedagogika I",
         questions: [
             {
@@ -1929,6 +1929,373 @@ const database = {
                 ],
                 correct: [0]
             }
+        ] 
+     }, */
+    "autoskola_c": {
+        title: "Otázky z Ovládání a údržby vozidla - skupina C",
+        questions: [
+            {
+                id: 1,
+                question: "Popište úkony kontroly vozidla před jízdou",
+                options: [
+                    "- kontrola poškození karoserie (ostré hrany, poškozená skla...)\n- kontrola úniku provozních kapalin (benzín, nafta, olej motorový, olej převodový, olej hydraulický, brzdová kapalina, chladící kapalina)\n- kontrola funkčnosti a těsnosti vzduchové soustavy\n- kontrola funkce stěračů, ostřikovačů, klaksonu…\n- kontrola osvětlení - funkčnost jednotlivých druhů vnějšího osvětlení\n- poškození jednotlivých světlometů\n- kontrola pneumatik - zda nejsou opotřebené pod přípustnou mez\n- jejich nahuštění\n- zda nejsou poškozené (zpuchřelé, proražené...)\n- kontrola povinné výbavy vozidla a lékárny\n- kontrola množství motorového oleje (pomocí měrky, olej musí být mezi ryskami)\n- kontrola napnutí klínového řemenu (nesmí být příliš volný - neměl by se promáčknout o více než 1,5cm)\n- kontrola množství chladící kapaliny (dolévat destilovanou vodu nebo nemrznoucí směs)\n- kontrola množství brzdové kapaliny (v případě častého úbytku je nutné provést odbornou kontrolu brzdové soustavy)\n- doplnění kapaliny v ostřikovačích"
+                ],
+                correct: [0]
+            },
+            {
+                id: 2,
+                question: "Popište kontrolu tlaku v pneumatikách a hloubku dezénu",
+                options: [
+                    "- tlak huštění pneumatik stanovuje výrobce vozidla a pneumatiky a je uveden v návodu k obsluze vozidla\n- před měřením tlaku odšroubujeme kryt ventilku\n- na ventilek nasadíme tlakoměr a přitlačíme\n- ručička tlakoměru ukáže hodnotu tlaku v pneumatice\n- podle potřeby upravíme tlak v pneumatice upuštěním nebo dohuštěním\n- hloubku měříme hloubkoměrem, nebo dle měrných bodů na pneumatice"
+                ],
+                correct: [0]
+            },
+            {
+                id: 3,
+                question: "Popište obsah kontroly kol a pneu. a faktory ovlivňující jejich životnost",
+                options: [
+                    "- kontrolujeme nahuštění, hloubku dezénu, poškození pláště (proražení, zpuchřelost …), utažení kola\n- podhuštěná pneu. se opotřebuje na krajích a špatně drží stopu\n- přehuštěná pneu. se opotřebuje uprostřed a odskakuje\n- poškozená pneu. se může během jízdy roztrhnout a způsobit tak dopravní nehodu\n- povolené kolo se může během jízdy zcela uvolnit a může upadnout\n- faktory jsou zejména huštění, způsob jízdy, terén, geometrie nápravy, tlumiče…"
+                ],
+                correct: [0]
+            },
+            {
+                id: 4,
+                question: "Jaké jsou nejčastější příčiny poškození plášťů pneu. a jejich projevy",
+                options: [
+                    "- propíchnutí nebo proražení - pneu. uchází\n- podhuštění - opotřebování na krajích běhounu\n- přehuštění - opotřebování uprostřed běhounu\n- proražení vnitřních vrstev při neopatrném najetí na obrubník - vyboulení pneu."
+                ],
+                correct: [0]
+            },
+            {
+                id: 5,
+                question: "Popište postup při výměně kola",
+                options: [
+                    "- že máme prázdnou pneumatiku poznáme za jízdy podle toho, že vozidlo bude \"táhnout k jedné straně\", při průjezdu zatáčkou bude \"plavat\"..., na stojícím vozidle prázdnou pneumatiku vidíme\n- pokud dojde k defektu pneumatiky během jízdy, je zapotřebí bezpečně zastavit na krajnici (příp. u kraje vozovky)\n- vypneme motor a zajistíme vozidlo proti pohybu (a to i na rovině) zařazením rychlostního stupně, zatažením ruční brzdy, příp. s použitím klínů (cihla, dlažební kostka, kámen, poleno)\n- pokud po zastavení nestojíme na parkovišti nebo odpočívadle zapneme varovná směrová světla a umístíme v předepsané vzdálenosti od vozidla výstražný trojúhelník\n- z vozidla vyndáme zvedák, klíč na kola a rezervní kolo\n- u prázdného kola sejmeme ochranný kryt kola (poklici)\n- povolíme všechny šrouby na kole (dokud vozidlo stojí na zemi)\n- řádně umístíme zvedák a zvedáme dokud se prázdné kolo nezvedne nad vozovku (pokud musíme vozidlo zvedat na nezpevněné komunikaci je vhodné zvedák podložit pevnou podložkou, např. prknem, aby nedošlo k zatlačení zvedáku do země)\n- po zvednutí kola vyšroubujeme všechny šrouby a provedeme výměnu kola\n- kolo zajistíme všemi šrouby a šrouby lehce dotáhneme křížovým způsobem\n- vozidlo spustíme ze zvedáku opět na zem\n- křížovým způsobem dotáhneme pevně všechny šrouby na kole\n- preventivně přeměříme tlak v rezervní pneumatice a případně jej upravíme na předepsaný tlak\n- uklidíme zvedák, prázdné kolo, poklici a nezapomeneme na výstražný trojúhelník\n- po ujetí cca 20 km (na bezpečném místě) opět křížovým způsobem dotáhneme všechny šrouby na kole a nasadíme ochrannou poklici\n- nezapomeneme v co nejkratší době nechat opravit prázdné kolo\n- pokud se ve vozidle používá jako rezerva kolo zvláštní konstrukce nesmíme zapomenout dodržet pokyny výrobce rezervního kola (např. omezená rychlost) a u prvního pneuservisu raději opravíme normální kolo a namontujeme jej zpět na vozidlo\n- !!! na vozidle LIAZ jsou na levé straně vozidla šrouby s LEVÝM ZÁVITEM !!!"
+                ],
+                correct: [0]
+            },
+            {
+                id: 6,
+                question: "Popište kontrolu množství oleje v motoru a způsob jeho doplňování, časové intervaly pro jeho výměnu",
+                options: [
+                    "- provést kontrolu množství oleje (hladina musí být mezi ryskami)\n- pokud je oleje málo dolijeme olej (nalévá se víčkem ventilů)\n- po dolití opět zkontrolujeme popsaným způsobem množství oleje\n- po ujetí stanoveného počtu kilometrů (cca 10.000 – 20.000 km) je nutná výměna olejové náplně a olejového filtru - výměnu provádí autoservis"
+                ],
+                correct: [0]
+            },
+            {
+                id: 7,
+                question: "Popište funkci signalizace správné činnosti dobíjení akumulátoru a mazání motoru řidiči vozidla a signalizaci případných poruch",
+                options: [
+                    "- mazání - červený symbol olejničky - svítí před nastartováním, po naskočení motoru musí zhasnout, pokud se rozsvítí během jízdy, je nutné okamžitě zastavit a hledat závadu (nejčastěji je málo oleje)\n- dobíjení - červený symbol akumulátoru - svítí před nastartováním, po naskočení motoru a zvýšení otáček musí zhasnout, pokud se rozsvítí během jízdy je potřeba zastavit a hledat závadu (volný nebo přetržený klínový řemen, uvolněný kontakt…)"
+                ],
+                correct: [0]
+            },
+            {
+                id: 8,
+                question: "Popište kontrolu a ošetřování kapalinové chladící soustavy vozidla a zajištění regulace provozní teploty motoru",
+                options: [
+                    "- stav teploty chladící kapaliny signalizuje řidiči teploměr na přístrojové desce – optimum je cca 80 – 90 °C (může být doplněn červenou kontrolkou se symbolem teploměru, která se rozsvítí při přehřátí)\n- údržba spočívá v kontrole množství chladící kapaliny, udržování kapaliny v potřebné hustotě proti zamrznutí a kontrole čistoty a prostupnosti chladiče\n- regulaci teploty zajišťuje termostat postupným otevíráním a zavíráním velkého okruhu chlazení (přes chladič)"
+                ],
+                correct: [0]
+            },
+            {
+                id: 9,
+                question: "Popište signalizaci teploty chladící kapaliny řidiči a postup, došlo-li k přehřátí motoru",
+                options: [
+                    "- pokud došlo k přehřátí, v žádném případě neotevíráme víčko chladiče nebo tlakové vyrovnávací nádobky - hrozí opaření kapalinou a párou, která má teplotu větší než 100°C\n\na) nesvítí žádná jiná kontrolka červené barvy\na1) došlo k úniku chladící kapaliny\n- v motoru není dostatek chladící kapaliny - zjistíme pohledem na tlakovou vyrovnávací nádobku, kde má být hladina mezi ryskami\n- počkáme až dojde k úplnému vychladnutí motoru a teprve poté otevíráme tlakovou vyrovnávací nádobku (otevíráme nadvakrát - pootočit a teprve po úniku tlaku otevřít)\n- dolijeme destilovanou vodu do studeného motoru (pokud nalijeme studenou vodu do horkého motoru, dojde k poškození motoru teplotním rázem)\n- zkontrolujeme, zda nedochází k viditelnému úniku chladící kapaliny a pokud ne, pokračujeme v jízdě se zvýšenou opatrností (kontrolujeme teplotu)\n- pokud dochází k viditelnému úniku kapaliny pokusíme se závadu odstranit (utažení spony na hadici...) a pokud se nám nepodaří závadu odstranit, nepokračujeme v jízdě a zavoláme technickou pomoc\n- vozidlo necháme zkontrolovat, příp. opravit\n\na2) nedošlo k úniku chladící kapaliny\n1) - pokud je v motoru dostatek chladící kapaliny, došlo zřejmě k poškození termostatu, nebo vodního čerpadla - tuto závadu na silnici sami neodstraníme (pokud nejste automechanik)\n2) - došlo k přehřátí vlivem jízdy v koloně - vozidlo nemá potřebný nápor vzduchu pro chlazení\n- ručně zapneme ventilátor chladiče (pokud je namontován), příp. ventilátor topení\n- nepokračujeme v jízdě kolonou a čekáme na vychladnutí vozidla\n\nb) svítí kontrolka dobíjení\n- došlo k uvolnění klínového řemene (nebo k jeho přetržení)\n- klínový řemen napneme, nebo nasadíme nový"
+                ],
+                correct: [0]
+            },
+            {
+                id: 10,
+                question: "Popište kontrolu a ošetřování vzduchové chladící soustavy vozidla a zajištění regulace provozní teploty motoru",
+                options: [
+                    "- stav teploty motoru signalizuje řidiči teploměr na přístrojové desce – optimum je cca 80 - 90°C (může být doplněn červenou kontrolkou se symbolem teploměru, která se rozsvítí při přehřátí)\n- údržba spočívá v kontrole čistoty a prostupnosti chladících žeber na hlavách a válcích\n- dále kontrolujeme oplechování sloužící k usměrnění proudu vzduchu a funkčnost ventilátoru"
+                ],
+                correct: [0]
+            },
+            {
+                id: 11,
+                question: "Popište hlavní části palivové soustavy vznětového motoru",
+                options: [
+                    "- nádrž a potrubí\n- podávací čerpadlo s hrubým čističem\n- papírové jemné filtry paliva\n- vstřikovací čerpadlo a vysokotlaké potrubí, vstřikovače a trysky"
+                ],
+                correct: [0]
+            },
+            {
+                id: 12,
+                question: "V čem spočívá údržba a ošetřování palivové soustavy vznětového motoru",
+                options: [
+                    "- kontrola těsnosti\n- pravidelná výměna filtrů v určených intervalech\n- v zimním období můžeme přidávat do nafty aditivum a prostředky proti kondenzaci vody"
+                ],
+                correct: [0]
+            },
+            {
+                id: 13,
+                question: "Popište postup při odvzdušňování palivové soustavy vznětového motoru",
+                options: [
+                    "- postupujeme od nádrže směrem k vysokotlakému potrubí\n- uvolníme odvzdušňovací šroub a ruční pumpičkou napumpujeme naftu až k povolenému šroubu\n- až nafta vytéká, utáhneme šroub a pokračujeme na dalším\n- čerpadlo je odvzdušněné tehdy, až nafta protéká ventilkem do přepadového potrubí"
+                ],
+                correct: [0]
+            },
+            {
+                id: 14,
+                question: "Popište postup při hledání příčiny zavzdušnění palivové soustavy vznětového motoru",
+                options: [
+                    "- v první řadě kontrolujeme dostatek nafty v nádrži\n- kontrola těsnosti spojů a těsnění – přetáhneme všechny spoje\n- kontrola těsnosti potrubí – tlakem vzduchu hledáme možné poškození"
+                ],
+                correct: [0]
+            },
+            {
+                id: 15,
+                question: "Popište funkci regulátoru otáček vstřikovacího čerpadla a funkci omezovače rychlosti",
+                options: [
+                    "- regulátor otáček pracuje na principu odstředivé síly\n- v závislosti na rychlosti otáčení čerpadla reguluje maximální množství dodávané nafty\n- omezovač rychlosti při překročení maximální nastavené hodnoty uzavře přívod paliva"
+                ],
+                correct: [0]
+            },
+            {
+                id: 16,
+                question: "Popište kontrolu a údržbu výfukového systému",
+                options: [
+                    "- kontrola spočívá v kontrole těsnosti a neporušenosti soustavy\n- součástí výfukového systému je i motorová brzda u které kontrolujeme zda zavírá a otevírá potrubí (po nastartování zkusíme vypnout motor touto brzdou a zda se brzda automaticky po uvolnění opět otevře)\n- tlakem výfukových plynů je poháněno zároveň i TURBO"
+                ],
+                correct: [0]
+            },
+            {
+                id: 17,
+                question: "Popište, jakou funkci plní katalyzátor výfukových plynů, jeho umístění na vozidle a jakými způsoby lze ovlivnit jeho životnost",
+                options: [
+                    "- katalyzátor redukuje jedovaté zplodiny vzniklé spalováním paliva\n- je součástí výfukového potrubí\n- vozidla s katalyzátorem jezdí na bezolovnatý benzín\n- životnost lze negativně ovlivnit např. použitím olovnatého benzínu, nebo roztahování vozidla v zimním období"
+                ],
+                correct: [0]
+            },
+            {
+                id: 18,
+                question: "Popište činnost turbodmychadla, funkci chladiče vzduchu (mezichladiče) a způsoby jejich ošetřování",
+                options: [
+                    "- turbodmychadlo je poháněno tlakem výfukových plynů ve výfukovém potrubí\n- zajišťuje při dosažení určitých otáček plnění motoru větším tlakem, ale méně bohatou směsí\n- zvyšuje výkon motoru a zároveň snižuje spotřebu paliva\n- chladič vzduchu ochlazuje vzduch vháněný do válců motoru, protože ochlazeného vzduchu se tam vejde víc, jeho údržba spočívá pouze v kontrole čistoty a propustnosti vzduchu"
+                ],
+                correct: [0]
+            },
+            {
+                id: 19,
+                question: "Popište ošetřování čističe vzduchu (suchý, mokrý) a v čem spočívá údržba plnícího systému",
+                options: [
+                    "- suchý = papírová vložka, kterou je nutno po určitém proběhu kilometrů měnit\n- mokrý = olejová lázeň, kterou je třeba průběžně kontrolovat a doplňovat\n- údržba spočívá v čištění a udržování v bezvadném stavu"
+                ],
+                correct: [0]
+            },
+            {
+                id: 20,
+                question: "Popište, jakou funkci plní u automobilu spojka a jakými způsoby lze ovlivnit její životnost",
+                options: [
+                    "- umožňuje plynulý rozjezd automobilu a krátkodobé přerušení hnací síly od motoru do převodovky = umožňuje řazení převodových stupňů a neutrálu\n- během provozu dochází k opotřebení spojkového obložení a proto je nutné po určitém čase nechat seřídit spojku a promazat spojkové ložisko\n- spojce škodí příliš dlouhé vystavení a dlouhé prokluzování způsobené ponecháním nohy na pedálu spojky (proto je lepší při delším čekání v křižovatce zařadit neutrál)"
+                ],
+                correct: [0]
+            },
+            {
+                id: 21,
+                question: "Popište, jakou funkci plní u vozidla převodovka, rozdělovací převodovka, spojovací hřídel, rozvodovka, diferenciál a kolové redukce, v čem spočívá jejich ošetřování",
+                options: [
+                    "Převodovka\n- umožňuje využívat sílu motoru v jeho optimálních otáčkách řazením rychlostních stupňů\n- je tvořena soustavou hřídelů, ozubených kol a synchronizačních spojek\n- vzhledem k rozdílným rychlostem otáčení hřídelů se těsně před zařazením rychlostního stupně pomocí synchronizačních spojek rychlost hřídelů vyrovná a tím se usnadní řazení\n- v závislosti na postavení ozubených kol na různých hřídelích jede automobil rychle s malou silou nebo pomalu s maximální silou, nebo couvá, nebo stojí s neutrálem\n- při nesprávném řazení rychlostních stupňů může dojít k poškození převodovky\n\nRozdělovací převodovka\n- rozděluje hnací sílu mezi přední a zadní nápravu nebo mezi nápravu a další soustrojí (sklápěčka)\n\nSpojovací hřídel\n- přenáší točivý moment od převodovky do rozvodovky\n\nRozvodovka\n- rozděluje točivý moment na obě kola jedné nápravy\n\nDiferenciál\n- umožňuje rozdílené rychlosti otáčení kol jedné nápravy při průjezdu zatáčkou nebo při průjezdu terénu se zhoršenou adhezí\n- pro lepší prostupnost vozidla terénem lze využít jeho uzávěrku\n\nKolové redukce\n- zajišťují změnu pohonu přímo na pohon přes další převod v kolech\n- tím dochází ke zpomalení, ale zároveň k větší tažné síle vozidla\n- lze jimi upravit i světlou výšku vozidla\n\n- ošetřování uvedených soustav spočívá v kontrole jejich olejových náplní a udržování v čistotě"
+                ],
+                correct: [0]
+            },
+            {
+                id: 22,
+                question: "Popište rozdíl mezi synchronizovanou a nesynchronizovanou převodovkou, způsob jejich ovládání a použití ve vozidlech",
+                options: [
+                    "- synchronizovaná převodovka pomocí synchronizačních kroužků samostatně upravuje rychlost otáčení vzájemných hřídelů a tím umožňuje snadné řazení jednotlivých rychlostních stupňů, je podstatně složitější na výrobu\n- nesynchronizovaná převodovka vyžaduje při řazení vyšších rychlostních stupňů dvakrát sešlápnou spojku pro vyrovnání rychlostí vzájemných hřídelů a při řazení nižšího převodového stupně řadíme s meziplynem\n- řazení nahoru – sešlápnout spojku, vyřadit do neutrálu, pustit spojku, sešlápnout spojku, zařadit vyšší rychlostní stupeň, pustit spojku\n- řazení dolů – sešlápnout spojku, vyřadit do neutrálu, pustit spojku, meziplyn, sešlápnout spojku, zařadit nižší rychlostní stupeň, pustit spojku"
+                ],
+                correct: [0]
+            },
+            {
+                id: 23,
+                question: "Popište význam kombinovaných (půlených) převodovek a jakou funkci plní uzávěrka diferenciálu",
+                options: [
+                    "- půlená převodovka umožňuje přímé rychlostní stupně ještě dále dělit na tzv. půlky, které mají větší sílu a jsou pomalejší\n- jedná se o vlastně zjednodušení převodovky v ovládání, ale i v konstrukci\n- místo např. 10 rychlostních stupňů je jich pouze 5, ale s možností zařadit půlku\n- uzávěrka diferenciálu zablokuje rozdílné rychlosti otáčení kol na jedné nápravě\n- tím dochází sice ke zhoršení jízdních vlastností při jízdě po silnici v zatáčce, ale ke zlepšení trakčních schopností vozidla např. v terénu, nebo na sněhu apod."
+                ],
+                correct: [0]
+            },
+            {
+                id: 24,
+                question: "Popište, jakou funkci plní tlumiče pérování a stabilizátor, projevy jejich nesprávné činnosti na technický stav vozidla a bezpečnost jízdy",
+                options: [
+                    "- slouží k tomu, aby se nerovnosti vozovky nepřenášely přímo na ostatní části vozidla\n- pérování zvyšuje komfort cestování, tlumiče zabraňují rozkmitání per a odskakování kol od vozovky\n- tlumiče pérování časem ztrácejí svou účinnost a proto je nutné nechat tlumiče pravidelně kontrolovat\n- snížená funkce tlumičů ovlivňuje bezpečnost jízdy (zejména vliv na řízení, brždění a životnost pneumatik)"
+                ],
+                correct: [0]
+            },
+            {
+                id: 25,
+                question: "Popište účel posilovače brzd a řízení na vozidle, proč se nesmí za jízdy vypínat motor",
+                options: [
+                    "- posilovač brzd zvětšuje brzdnou sílu vyvolanou tlakem nohy na pedál brzdy, pracuje na podtlaku vzniklým v sacím potrubí, takže když vypneme motor, přestane fungovat\n- posilovač řízení je poháněn od klínového řemene, zvětšuje sílu vyvolanou otáčením volantem a přenáší ji na kola řídící nápravy, usnadňuje řízení"
+                ],
+                correct: [0]
+            },
+            {
+                id: 26,
+                question: "Popište účel ABS a jeho kontrolu",
+                options: [
+                    "- u nových automobilů se stále častěji využívá systém ABS (anti-blok-systém) který zabrání zablokování kol při intenzivním brždění a umožní tak stálou ovladatelnost vozidla\n- kontrolu provádíme pouze pohledem na přístrojovou desku, zda nesvítí výstražná kontrolka s nápisem ABS"
+                ],
+                correct: [0]
+            },
+            {
+                id: 27,
+                question: "Popište účel systému regulace prokluzu kol hnací nápravy ASR a kontrolu jeho správné funkce",
+                options: [
+                    "- systém ASR zabraňuje prokluzu kol hnací nápravy tím, že kontroluje rychlost otáčení kol na nápravách a v případě rozdílných rychlostí omezí výkon motoru a tím dojde k vyrovnání rychlostí a zamezení protáčení kol hnací nápravy\n- kontrolu provádíme pouze pohledem na přístrojovou desku, zda nesvítí výstražná kontrolka s nápisem ASR"
+                ],
+                correct: [0]
+            },
+            {
+                id: 28,
+                question: "Popište funkci provozní, parkovací, pomocné a nouzové brzdy",
+                options: [
+                    "- provozní umožňuje během jízdy zpomalovat a zastavit vozidlo\n- parkovací zajistí vozidlo při parkování a opuštění vozidla\n- pomocná brzda odlehčuje provozní brzdě např. při sjíždění dlouhého kopce\n- nouzová se užívá pouze při krizových situacích, kdy dojde k selhání provozní brzdy"
+                ],
+                correct: [0]
+            },
+            {
+                id: 29,
+                question: "Popište princip pomocné brzdy (motorové, retardéru elektromagnetického a hydrodynamického)",
+                options: [
+                    "- motorová brzda funguje na principu odporu výfukových plynů, kdy při jejím použití dojde k uzavření výfukového potrubí a tím dochází k brždění motorem\n- elektromagnetický retardér pracuje na principu elektromagnetického pole, které svým působením na rotující součást hnací soustavy způsobuje zpomalení otáčení. Může se používat mezi motorem a převodovkou, převodovkou a hnacím hřídelem nebo i u kol\n- hydrodynamický retardér působí na principu odporu oleje v převodovce na turbínu spojenou s hnaným hřídelem"
+                ],
+                correct: [0]
+            },
+            {
+                id: 30,
+                question: "Popište princip činnosti kapalinové a vzduchokapalinové brzdy",
+                options: [
+                    "- v kapalinové brzdě je přenos síly mezi pedálem brzdy a jednotlivými koly zajištěn tlakem kapaliny\n- u vzduchokapalinové brzdy je po sešlápnutí pedálu brzdy vzduchový okruh ovládán kapalinovým"
+                ],
+                correct: [0]
+            },
+            {
+                id: 31,
+                question: "Popište princip činnosti vzduchové brzdy a její hlavní součásti",
+                options: [
+                    "- u vzduchové brzdy je po sešlápnutí pedálu brzdy do okruhu uvolněn pod velkým tlakem vzduch, který v brzdových válcích vytlačí píst a ten pomocí brzdového klíče zajistí přenos síly na brzdové segmenty\n- vzduchový filtr, kompresor, potrubí, odlučovač a odkalovač, regulátor, vzduchové jímky, brzdové válce, brzdiče"
+                ],
+                correct: [0]
+            },
+            {
+                id: 32,
+                question: "Popište postup při ošetřování a údržbě jednotlivých součástí vzduchové brzdy",
+                options: [
+                    "- kontrolujeme těsnost, čistotu filtru, napnutí klínového řemene(pokud je použit k pohonu kompresoru), odkalování jímek pomocí výpustného ventilu, promazávání brzdových klíčů a brzdových válců, kontrola brzdového obložení…"
+                ],
+                correct: [0]
+            },
+            {
+                id: 33,
+                question: "Popište rozdíl mezi kotoučovou a bubnovou brzdou, jejich výhody a nevýhody",
+                options: [
+                    "- u kotoučových brzd se na rotující kotouče brzd přitlačují z obou stran brzdové destičky\n- u bubnových brzd se v rotujícím bubnu rozpínají proti stěnám bubnu brzdové čelisti\n- přední kola automobilu jsou zpravidla kotoučové, mají vyšší účinnost, ale obtížně se řeší parkovací brzda\n- zadní kola jsou většinou bubnové, jsou méně účinné, ale lépe a méně nákladně se řeší parkovací brzda"
+                ],
+                correct: [0]
+            },
+            {
+                id: 34,
+                question: "Vysvětlete pojem geometrie řídící nápravy",
+                options: [
+                    "- vzájemné postavení kol vůči sobě, nápravě a vozovce\n- mluvíme o sbíhavosti, rozbíhavosti, odklonu, záklonu"
+                ],
+                correct: [0]
+            },
+            {
+                id: 35,
+                question: "Popište nejčastější projevy nesprávné geometrie řídící nápravy",
+                options: [
+                    "- nestejnoměrné sjíždění pneumatik\n- nestabilita vozidla při jízdě\n- obtížné vedení vozidla v zatáčce"
+                ],
+                correct: [0]
+            },
+            {
+                id: 36,
+                question: "Popište postup při ošetřování akumulátoru a faktory ovlivňující jeho životnost",
+                options: [
+                    "- základní údržba akumulátoru spočívá v kontrole množství elektrolytu, v upevnění a čistotě kontaktů a kontrole správného nabití\n- jakákoli odchylka od správného stavu ovlivňuje negativním způsobem životnost akumulátoru"
+                ],
+                correct: [0]
+            },
+            {
+                id: 37,
+                question: "Vysvětlete rozdíl mezi paralelním a sériovým zapojením akumulátorů a správný postup při jejich zapojení a odpojení",
+                options: [
+                    "- paralelní = za sebou = propojíme + na + a - na - zůstává stále 12 V\n- sériové = vedle sebe = propojujeme + na - získáme tím 24 V\n- akumulátory zapojujeme do vozidla nejprve kladným pólem a teprve poté kostru\n- odpojíme nejprve kostru a pak +"
+                ],
+                correct: [0]
+            },
+            {
+                id: 38,
+                question: "Popište funkci pojistek v el. soustavě vozidla a jejich umístění",
+                options: [
+                    "- pojistky chrání el. soustavu při zkratu před shořením tak, že dojde k přetavení drátku uvnitř pojistky a tím se přeruší el. obvod\n- ve většině vozidel se nachází pod přístrojovou deskou nebo v prostoru motoru"
+                ],
+                correct: [0]
+            },
+            {
+                id: 39,
+                question: "Popište, jakým způsobem se provádí výměna žárovek vnějšího osvětlení vozidla",
+                options: [
+                    "- odstraníme kryt žárovky\n- sejmeme konektor el. vodičů z kontaktů žárovky\n- uvolníme žárovku v objímce a vyndáme ji ven\n- opačným postupem dáme novou žárovku a zapojíme el. konektor\n- nesmíme sahat na skleněnou baňku žárovky, protože jinak po rozsvícení praskne"
+                ],
+                correct: [0]
+            },
+            {
+                id: 40,
+                question: "Vysvětlete symboly kontrolek a ovladačů na přístrojové desce vozidla",
+                options: [
+                    "- mazání - červená - symbol olejničky - svítí před nastartováním, po naskočení motoru musí zhasnout, pokud se rozsvítí během jízdy, je nutné okamžitě zastavit a hledat závadu(nejčastěji je málo oleje)\n- dobíjení - červená - symbol akumulátoru - svítí před nastartováním, po naskočení motoru a zvýšení otáček musí zhasnout, pokud se rozsvítí během jízdy je potřeba zastavit a hledat závadu(volný nebo přetržený klínový řemen)\n- brzdová kapalina - červená - symbol brzdový buben a vykřičník - pokud se rozsvítí během jízdy, je nutné okamžitě zastavit a hledat závadu(nejčastěji je málo brzdové kapaliny, pokud se závada opakuje okamžitě provést odbornou kontrolu a opravu)\n- přehřátí motoru - červená - symbol teploměru - pokud se rozsvítí během jízdy, je nutné okamžitě zastavit a hledat závadu(nejčastěji je málo vody, nebo volný klínový řemen)\n- parkovací světla - zelená - symbol žárovičky\n- potkávací světla - zelená - symbol světel se skloněnými paprsky\n- dálková světla - modrá - symbol světel s vodorovnými paprsky\n- přední mlhovky - zelená\n- zadní mlhovky - oranžová\n- směrové ukazatele - zelené\n- varovná světla - červená - symbol trojúhelníku\n- vyhřívání zadního skla - oranžová\n- palivoměr – oranžová"
+                ],
+                correct: [0]
+            },
+            {
+                id: 41,
+                question: "Popište postup při připojení tažného lana a tyče",
+                options: [
+                    "- odkryjeme oka pro uchycení lana (pokud jsou zakrytá)\n- lano pomocí háků na obou koncích upevníme do tažných ok\n- umístíme červený praporek\n- tyč používáme obdobně\n- při vlečení na laně musí být funkční řízení i brzdy\n- při vlečení na tyči musí být funkční řízení\n- za snížené viditelnosti musí být funkční i osvětlení\n- vlečné vozidlo musí svítit potkávacími světli\n- vlečené vozidlo musí mít na zadní sajtně umístěn výstražný trojúhelník\n- řidiči jsou povinni se domluvit na způsobu dorozumívání"
+                ],
+                correct: [0]
+            },
+            {
+                id: 42,
+                question: "Popište postup při montáži sněhových řetězů",
+                options: [
+                    "- nájezdové řetězy rozložíme před kola hnací nápravy\n- najedeme vozidlem na řetězy a tyto sepneme\n- řetězy se zámkem pouze nasadíme na kola a po obou stranách sepneme a našponujeme"
+                ],
+                correct: [0]
+            },
+            {
+                id: 43,
+                question: "Popište základní funkce tachografu a v čem spočívá jeho obsluha",
+                options: [
+                    "- ukazuje aktuální rychlost jízdy\n- ukazuje počet kilometrů\n- ukazuje hodiny a dobu jízdy\n- signalizuje chybějící kotouček červenou kontrolkou\n- signalizuje překročení rychlosti 85 km/h\n- zaznamenává rychlost jízdy na kotouček, bezpečnostní přestávky a střídání řidičů"
+                ],
+                correct: [0]
+            },
+            {
+                id: 44,
+                question: "Popište postup při připojování a odpojování přívěsu",
+                options: [
+                    "- vždy najíždíme autem na vlek, nikdy ne obráceně\n- odjistíme tažné zařízení a čep zvedneme do horní polohy\n- najedeme autem na vlek a po doražení oje do spojovacího zařízení dojde automaticky k zapadnutí čepu do oka oje, toto zkontrolujeme\n- zapojíme vzduch (oba okruhy podle barvy)\n- zapojíme elektřinu do zásuvky\n- zapojíme jistící řetěz do háků\n- pokud vlek umožňuje otevření ventilů vzduchu toto překontrolujeme\n- odkontrolujeme činnost brzd a světelných zařízení\n- odbrzdíme, odstraníme klíny\n- odpojování má opačný postup"
+                ],
+                correct: [0]
+            },
+            {
+                id: 45,
+                question: "Vyjmenujte povinné vybavení vozidla",
+                options: [
+                    "- náhradní elektrické pojistky, po jedné od každého druhu\n- náhradní žárovky, po jedné od každého druhu\n- příruční zvedák\n- klíč na matice (šrouby) kol\n- náhradní kolo nebo speciální sadu na opravu pneumatiky\n- přenosný výstražný trojúhelník\n- reflexní vesta\n- autolékarnička"
+                ],
+                correct: [0]
+            }
         ]
     }
 };
+    
+
