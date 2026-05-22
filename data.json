@@ -1,0 +1,2369 @@
+{
+  
+    
+    "psychologie_2_komplet": {
+        "title": "Psychologie II - Kompletní",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Autorem teorie kognitivního vývoje je:",
+                "options": ["Albert Bandura", "Zdeněk Matějček", "Jean Piaget", "John Bowlby"],
+                "correct": [2]
+            },
+            {
+                "id": 2,
+                "question": "Dítě je schopno chápat matematické zákonitosti, jako jsou vztahy mezi sčítáním a odčítáním. Pokud ví, že 3+3=6 dokáže ve své mysli postup sčítání obrátit a dobrat se k tomu, že 6-3=3 Pokud dítě takto zvládá obracet své myšlenkové postupy a jde v nich \"pozpátku\", hovoříme o mechanismu myšlení pojmenovaném:",
+                "options": ["Centrace", "Reverzibilita", "Decentrace", "Ireverzibilita"],
+                "correct": [1]
+            },
+            {
+                "id": 3,
+                "question": "Školní zralost:",
+                "options": ["je důležitá jen první pololetí školní docházky", "je určována výchovnými strategiemi rodiny", "souvisí s dozráváním CNS", "je určená intelektovými schopnostmi dítěte"],
+                "correct": [2]
+            },
+            {
+                "id": 4,
+                "question": "Ve kterém vývojovém období se začíná projevovat konformita s vrstevnickou skupinou?",
+                "options": ["v dospělosti", "v předškolním věku", "v dospívání", "nezáleží na věku"],
+                "correct": [2]
+            },
+            {
+                "id": 5,
+                "question": "Senzitivním obdobím pro rozvoj schopnosti navazovat a opětovat citové vztahy je:",
+                "options": ["rané dětství", "mladší školní věk", "pubescence", "adolescence"],
+                "correct": [3]
+            },
+            {
+                "id": 6,
+                "question": "Mezi dlouhodobé důsledky deprivace dítěte může patřit:",
+                "options": ["zvýšená agrese", "vztahové problémy", "problémy s autoregulací", "všechny možnosti"],
+                "correct": [3]
+            },
+            {
+                "id": 7,
+                "question": "Která věta neplatí?",
+                "options": ["mladší školák se zabývá úvahami o budoucnosti a své pozici ve světě", "adolescent uvazuje o morálních principech", "v období puberty je typická potřeba intenzivních zážitků", "po 14. 15. roce odeznívá emoční labilita"],
+                "correct": [3]
+            },
+            {
+                "id": 8,
+                "question": "Jaký základní psychologický rozpor řeší dítě mladšího školního věku podle teorie E. Eriksona?",
+                "options": ["iniciativa vs. vina", "intimita vs. izolace", "identita vs. zmatení rolí", "snaživost (píle) vs. méněcennost"],
+                "correct": [3]
+            },
+            {
+                "id": 9,
+                "question": "Pro lidský vývoj platí:",
+                "options": ["zanedbatelný vliv primární socializace v rodině na vývoj", "bio-psychologická determinace", "realizace prostřednictvím zážitků a učení se", "sociální determinace v raném věku, biologické vlivy v dospělosti a stáří"],
+                "correct": [2]
+            },
+            {
+                "id": 10,
+                "question": "Schopnost přemýšlet o věcech, pojmech a jejich vlastnostech a zákonitostech bez předchozí získané zkušenosti se v kontextu kognitivního vývoje vede k:",
+                "options": ["logickému myšlení", "abstraktnímu myšlení", "iluzornímu myšlení", "všechny odpovědi"],
+                "correct": [1]
+            },
+            {
+                "id": 11,
+                "question": "Tendenci přizpůsobit své názory a chování dominantním názorům normám skupiny/společnosti označujeme pojmem:",
+                "options": ["sociální facilitace", "skupinová identita", "decentrace", "konformita"],
+                "correct": [3]
+            },
+            {
+                "id": 12,
+                "question": "Mezi tzv. problémové chování typické pro adolescenci nepatří:",
+                "options": ["sebepoškozování", "poruchy příjmu potravy", "rizikové chování na silnici", "psychopatie"],
+                "correct": [3]
+            },
+            {
+                "id": 13,
+                "question": "Vázanost myšlení na fantazii, přisuzování vlastností živým tvorům neživým předmětům, neschopnost odpoutat se od svého úhlu pohledu, jsou charakteristiky typické pro:",
+                "options": ["myšlení kojence", "myšlení dítěte středního školního věku", "myšlení předškolního dítěte", "myšlení zanedbaného dítěte"],
+                "correct": [2]
+            },
+            {
+                "id": 14,
+                "question": "V mladším školním věku neplatí:",
+                "options": ["zvládnutí role spolužáka je projevem sociální úspěšnosti", "děti přebírají názory učitele na své spolužáky", "větší vliv na postoje žáka má vrstevnická skupina než učitel", "děti se učí rozlišovat vhodné a nevhodné chování ve školním prostředí"],
+                "correct": [2]
+            },
+            {
+                "id": 15,
+                "question": "Když se dospívající ve starším školním věku snaží přiblížit vrstevníkům tím, že se podobně obléká nebo poslouchá podobnou hudbu, je potřeba:",
+                "options": ["vysvětlit mu, že je potřeba být jedinečný a nepodléhat tlaku okolí", "respektovat to jako fázi hledání vlastní identity", "hledat pro něj alternativní cesty, které by mu umožnily lépe nalézt vlastní identitu", "zpřísnit rodičovské přístupy, aby dospívající neměl tolik možností k tomuto chování"],
+                "correct": [1]
+            },
+            {
+                "id": 16,
+                "question": "Jaký bude věk dítěte, které chce porozumět tomu, jak svět doopravdy funguje, odděluje fantazii od reality, zajímají ho realistické kresby a zobrazení, snaží se, aby bylo autoritou chváleno a aby se zavděčilo:",
+                "options": ["5 let", "10 let", "14 let", "16 let"],
+                "correct": [1]
+            },
+            {
+                "id": 17,
+                "question": "Které tvrzení o vztazích s vrstevníky neplatí:",
+                "options": ["pomáhají k separaci od rodičů", "jsou činitelem socializace", "mohou být pro dítě sociální oporou", "mají na dítě minimální vliv"],
+                "correct": [3]
+            },
+            {
+                "id": 18,
+                "question": "Pokud člověk argumentuje, že \"dodržovat zákony je nutné, neboť jak by to vypadalo, kdyby si lidé dělali, co chtějí\", jedná se dle Kohlberga o úroveň:",
+                "options": ["prekonvenční", "konvenční", "postkonvenční", "autokonvenční"],
+                "correct": [1]
+            },
+            {
+                "id": 19,
+                "question": "Kolísání emočního prožívání, vztahovanost, zvýšená citlivost vůči reakcím okolí je typické:",
+                "options": ["v období přechodu mezi předškolním vzděláváním a vstupem do školy", "v období dospívání", "v batolecím věku", "v pozdní adolescenci"],
+                "correct": [1]
+            },
+            {
+                "id": 20,
+                "question": "Pro děti staršího školního věku platí:",
+                "options": ["nedovedou myslet abstraktně", "neumí spolupracovat", "ve vývoji identity prochází stádiem skupinové identity", "podle Eriksona řeší krizi intimita vs. izolace"],
+                "correct": [2]
+            },
+            {
+                "id": 21,
+                "question": "Metakognice (vyberte správný výrok):",
+                "options": ["se váže k povědomí o fungování kognice, odhadu vlastních schopností, limitů.", "rozvíjí se a v dospělosti.", "souvisí s nastupem konkrétního myšlení.", "výrazně se rozvíjí již v batolecím věku."],
+                "correct": [0]
+            },
+            {
+                "id": 22,
+                "question": "V mladším školním věku neplatí:",
+                "options": ["zvládnutí role spolužáka je projevem sociální úspěšnosti.", "děti přebírají názory učitele na své spolužáky.", "zásadní vliv na postoje žáka má vrstevnická skupina.", "děti se učí rozlišovat vhodné a nevhodné chování ve školním prostředí."],
+                "correct": [2]
+            },
+            {
+                "id": 23,
+                "question": "Když se dospívající ve starším školním věku snaží přiblížit vrstevníkům tím, že se podobá:",
+                "options": ["vysvětluje mu, že je potřeba být jedinečný a nepodléhat tlaku okolí.", "respektovat to jako fázi hledání vlastní identity.", "hledá pro něj alternativní cesty, které by mu umožnily lépe nalézt vlastní identitu.", "zpřísní rodičovské přístupy, aby dospívající neměl tolik možností k tomuto chování."],
+                "correct": [1]
+            },
+            {
+                "id": 24,
+                "question": "Významnými charakteristikami konkrétního logického myšlení mladších školáků je podle Piageta schopnost:",
+                "options": ["centrace", "decentrace", "konzervace", "reverzibility"],
+                "correct": [3]
+            },
+            {
+                "id": 25,
+                "question": "Co je to konotace?",
+                "options": ["základní význam pojmu", "další významy související s kontextem", "tvoří se jimi novotvary", "je určena intelektovými schopnostmi dítěte."],
+                "correct": [1]
+            },
+            {
+                "id": 26,
+                "question": "Jak se jmenuje psycholog, který je přesvědčen o vrozené biologické podstatě jazyka?",
+                "options": ["Chomsky", "Vygotskij", "Skinner"],
+                "correct": [0]
+            },
+            {
+                "id": 27,
+                "question": "Co je to přesvědčení o vrozené biologické podstatě jazyka?",
+                "options": ["Snaživost x méněcennost", "Důvěra x nedůvěra", "Intimita x izolace"],
+                "correct": [1]
+            },
+            {
+                "id": 28,
+                "question": "Co je to metakognice?",
+                "options": ["Chápání metafor, nadsázky, slovních hříček a analogie.", "Schopnosti a dovednosti jedince uvedomovat si vlastní poznávání a regulovat ho. tedy plánovat, monitorovat a vyhodnocovat postupy, které použil při učení."],
+                "correct": [1]
+            },
+            {
+                "id": 29,
+                "question": "Kdo z českých psychologů se také věnoval raným zkušenostem s chováním matky a vlivu rané psychické deprivace a citového strádání na osobnostní vývoj?",
+                "options": ["Zdeněk Matějček", "Josef Langmajer", "Dana Němcová", "Dana Krejčířová"],
+                "correct": [0]
+            },
+            {
+                "id": 30,
+                "question": "Donald Winnicott publikoval v roce 1953 koncept:",
+                "options": ["Dost dobré matky", "Dost dobrého otce", "Dost dobrých rodičů"],
+                "correct": [0]
+            },
+            {
+                "id": 31,
+                "question": "Americký psycholog Walter Mischel uskutečnil v roce 1970 longitudinální experiment, který byl zaměřen na výzkum mentálního mechanismu síly vůle\". Jak se tento experiment nazývá?",
+                "options": ["Stanford prison experiment", "Stanfordský marshmallow experiment", "Milgramův experiment"],
+                "correct": [1]
+            },
+            {
+                "id": 32,
+                "question": "Kdo je autorem známé teorie psychosociálního celoživotního vývoje osobnosti?",
+                "options": ["Erik Homburger Erikson", "Sigmund Freud", "Carl Gustav Jung", "Milton Hyland Erickson"],
+                "correct": [0]
+            },
+            {
+                "id": 33,
+                "question": "Teorii kognitivního vývoje, která je nazývána též genetická epistemologie, vytvořil:",
+                "options": ["Jean Piaget"],
+                "correct": [0]
+            },
+            {
+                "id": 34,
+                "question": "Během předoperační fáze jsou děti velmi:",
+                "options": ["Nezávislé", "Hlasité", "Egocentrické", "Zaměřené na sebe"],
+                "correct": [2]
+            },
+            {
+                "id": 35,
+                "question": "Matka Janičky má dvě sušenky, obě stejně velké. Jednu rozlomí na čtyři kousky. Janička chce tu, kde je víc a vybere si tu rozlomenou na čtyři části, přestože množství je u obou sušenek stejné. Janička tím ilustruje Piagetův koncept:",
+                "options": ["Akomodace", "Egocentrismus", "Falešného přesvědčení", "Konzervace"],
+                "correct": [3]
+            },
+            {
+                "id": 36,
+                "question": "Etapa vývoje dle Piageta, kdy si je kojenec vědom pouze toho, co je před ním (od narození do dvou let věku), se nazývá:",
+                "options": ["Formální operace", "Předoperační stadium", "Senzomotorické období", "Stádium konkrétních operací"],
+                "correct": [2]
+            },
+            {
+                "id": 37,
+                "question": "Piagetovo čtvrté stádium kognitivního vývoje (11/12 - 15/20 let). Člověk dokáže myslet logicky, hypoteticky a abstraktně se nazývá:",
+                "options": ["Stádium prekonvenční morálky", "Stádium postkonvenční morálky", "Stádium konvenční morálky", "Stádium formálních operací"],
+                "correct": [3]
+            },
+            {
+                "id": 38,
+                "question": "Ve kterém z následujících období se děti naučí koncept konzervace?",
+                "options": ["Předoperační (cca 2-7/8 let)", "Konkrétní operace (7/8-11/12 let)", "Senzomotorické (do cca 2 let)", "Formální operace (11/12-15/20 let)"],
+                "correct": [1]
+            },
+            {
+                "id": 39,
+                "question": "Hra, kdy si před kojencem zakryjeme oči a ptáme se, kde je (peek-a-boo), funguje na děti v jaké fázi?",
+                "options": ["Senzomotorické", "Předoperační", "Konkrétní operace", "Formální operace"],
+                "correct": [0]
+            },
+            {
+                "id": 40,
+                "question": "Schopnost používat deduktivní logiku, abstraktní myšlení a systematicky řešit problémy se vynořuje během:",
+                "options": ["Fáze konkrétních operací", "Senzomotorické fáze", "Fáze formálních operací", "Předoperační fáze"],
+                "correct": [2]
+            },
+            {
+                "id": 41,
+                "question": "Matyáš věří, že nebe je modré, protože ho někdo touto barvou namaloval. To je příklad..",
+                "options": ["Artificialistického pohledu na svět", "Animismu", "Egocentrismu", "Konzervace"],
+                "correct": [0]
+            },
+            {
+                "id": 42,
+                "question": "Čtyřletá Betuška chybně věří tomu, že její matka by také ráda dostala panenku pod stromeček. To nejlépe ilustruje Piagetův koncept:",
+                "options": ["Akomodace", "Attachmentu", "Objektivní stálosti", "Egocentrismu"],
+                "correct": [3]
+            },
+            {
+                "id": 43,
+                "question": "Kognitivní schopnost rozpoznat, že množství tekutiny zůstává stejné, když dvě stejné a stejně naplněné sklenice stojí vedle sebe a jedna z nich je přelita do vyšší sklenice, se nazývá:",
+                "options": ["Reverzibilita", "Decentralizace", "Konzervace", "Stálost objektu"],
+                "correct": [2]
+            },
+            {
+                "id": 44,
+                "question": "Neschopnost malých dětí vidět svět pohledem někoho jiného se nazývá:",
+                "options": ["Decentrace", "Reverzibilita", "Konzervace", "Egocentrismus"],
+                "correct": [3]
+            },
+            {
+                "id": 45,
+                "question": "Podle Piageta lidé ve fázi formálních operací začínají:",
+                "options": ["Uvažovat abstraktně", "Lépe na sociálních normách", "Rozlišovat mezi dobrým a špatným chováním", "Uvažovat o pozitivních a negativních následcích svého chování"],
+                "correct": [0]
+            },
+            {
+                "id": 46,
+                "question": "Podle Piageta začínají děti chápat, že objem látky zůstává neměnný navzdory tvaru, ve kterém se nachází (např. voda a různé sklenice), ve fázi:",
+                "options": ["Senzomotorické", "Předoperační", "Konkrétních operací", "Formálních operací"],
+                "correct": [2]
+            },
+            {
+                "id": 47,
+                "question": "Kojenec, který dosáhl objektivní stability...",
+                "options": ["Je připoután k určitému objektu jako je například dečka, plyšák apod.", "Vidí všechny věci jako stejné", "Ví, že věc jako je chrastítko, existuje, i když ho zrovna nevidí", "Pláče, když je mu daná věc odebrána"],
+                "correct": [2]
+            },
+            {
+                "id": 48,
+                "question": "Janička poznává svět primárně pomocí uchopování a žužlání jednoduše dostupných věcí, Janička je zjevně dle Piageta ve fázi:",
+                "options": ["senzomotorické"],
+                "correct": [0]
+            },
+            {
+                "id": 49,
+                "question": "Psychosociálnímu vývoji člověka se věnoval",
+                "options": ["Erik Erikson"],
+                "correct": [0]
+            },
+            {
+                "id": 50,
+                "question": "V rámci vývojového výzkumu: budu sledovat jeden jediný případ, studovat jej do hloubky a snažit se postihnout souvislosti, pochopit příčiny a následky, půjde o :",
+                "options": ["Kazuistický výzkum"],
+                "correct": [0]
+            },
+            {
+                "id": 51,
+                "question": "Uvažování které nezohledňuje kauzalitu př.: Budu zlobit, přijde čert. Najdu čtyřlístek, budu mít štěstí odpovídá myšlení:",
+                "options": ["Magickému myšlení"],
+                "correct": [0]
+            },
+            {
+                "id": 52,
+                "question": "V jakém věku začne dítě rozumět symbolům a využívat je v komunikaci ?",
+                "options": ["Kolem 2 let"],
+                "correct": [0]
+            },
+            {
+                "id": 53,
+                "question": "Pro děti staršího školního věku neplatí...",
+                "options": ["Podle Eriksona řeší krizi intimita a izolace"],
+                "correct": [0]
+            },
+            {
+                "id": 54,
+                "question": "Dítě které se snaží dodržet etická pravidla, aby se vyhnulo nesouhlasu ostatních, se nachází podle Kohlberga ve stádiu ...",
+                "options": ["Konvenční morálky"],
+                "correct": [0]
+            },
+            {
+                "id": 55,
+                "question": "W. Mitchell uskutečnil roku 1970 longitudinální experiment, který byl zaměřen na výzkum mentálního mechanismu „síly vůle\". Jak se experiment nazývá ?",
+                "options": ["Stanfordský marshmallow experiment"],
+                "correct": [0]
+            },
+            {
+                "id": 56,
+                "question": "Abstraktní myšlení se u člověka objevuje",
+                "options": ["Na 2. stupni ZŠ"],
+                "correct": [0]
+            },
+            {
+                "id": 57,
+                "question": "Co bylo výsledkem pokusů Mary Ainsworthové ?",
+                "options": ["Rozdělila děti do skupin podle jejich citové vazby k matce"],
+                "correct": [0]
+            },
+            {
+                "id": 58,
+                "question": "Mezi významné charakteristiky konkrétního logického myšlení mladších školáků podle Piageta nepatří schopnost...",
+                "options": ["Centrace"],
+                "correct": [0]
+            },
+            {
+                "id": 59,
+                "question": "Pro vztahy s vrstevníky neplatí.",
+                "options": ["S věkem se jejich počet zvyšuje a intenzita klesá"],
+                "correct": [0]
+            },
+            {
+                "id": 60,
+                "question": "Emoční deprivace je pojem, který znamená",
+                "options": ["Nedostatečné uspokojení základních psychických potřeb po dlouhou dobu"],
+                "correct": [0]
+            },
+            {
+                "id": 61,
+                "question": "Pro lidský vývoj neplatí....",
+                "options": ["Sociální determinace v raném věku, biologické vlivy v dospělosti a stáří"],
+                "correct": [0]
+            },
+            {
+                "id": 62,
+                "question": "V mladším školním věku neplatí",
+                "options": ["Na dobrý výkon dítěte má vliv zejména ocenění spolužáky"],
+                "correct": [0]
+            },
+            {
+                "id": 63,
+                "question": "Teorie mysli",
+                "options": ["Je fenomén související s porozuměním myšlení jiných lidí"],
+                "correct": [0]
+            },
+            {
+                "id": 64,
+                "question": "Úvaha: Myslím si že Jan si myslí, že já si myslím o Lídě, že je nafoukaná... dovede provést dítě",
+                "options": ["Staršího školního věku"],
+                "correct": [0]
+            },
+            {
+                "id": 65,
+                "question": "Decentrace je",
+                "options": ["Schopnost pochopení podstaty nezávislé na jednotlivých aspektech reality"],
+                "correct": [0]
+            },
+            {
+                "id": 66,
+                "question": "Stádia kognitivního vývoje podle Piageta následují v tomto pořadí....",
+                "options": ["Senzomotorické, předoperační, konkrétní operace, formální operace"],
+                "correct": [0]
+            },
+            {
+                "id": 67,
+                "question": "Mladý člověk, který odsouvá záležitosti zatížené zodpovědností za vlastní život, užívá svobodu, hledá své místo, experimentuje se vztahy je z pohledu společnosti v období...",
+                "options": ["Psychosociálního moratoria"],
+                "correct": [0]
+            },
+            {
+                "id": 68,
+                "question": "Přechodné stádium skupinové identity...",
+                "options": ["Je jedním z procesů ve vývoji identity v adolescenci"],
+                "correct": [0]
+            },
+            {
+                "id": 69,
+                "question": "Pro starší dospělost není charakteristickým znakem....",
+                "options": ["Krize intimita vs. Izolace"],
+                "correct": [0]
+            },
+            {
+                "id": 70,
+                "question": "Logické uvažování dítě začíná ovládat...",
+                "options": ["Na 1. stupni ZŠ"],
+                "correct": [0]
+            },
+            {
+                "id": 71,
+                "question": "Metakognice je",
+                "options": ["Schopnost přemýšlet o vlastním myšlení"],
+                "correct": [0]
+            },
+            {
+                "id": 72,
+                "question": "Rozvod rodičů se může odrazit...",
+                "options": ["V různé míře přísnosti rodičů, V syndromu zavrženého rodiče, V idealizaci nepřítomného rodiče (ve všech předešlých možnostech)"],
+                "correct": [0]
+            },
+            {
+                "id": 73,
+                "question": "Věk hledání identity, věk nestability, věk orientace na vlastní osobu, věk pocitů na půli cesty, věk možností. Tyto rysy označují období mezi 18-25 lety označil J.J.Arnett novým pojmem",
+                "options": ["Vynořující se dospělost"],
+                "correct": [0]
+            },
+            {
+                "id": 74,
+                "question": "Morální vývoj jedince",
+                "options": ["Úzce souvisí s jeho kognitivním vývojem"],
+                "correct": [0]
+            },
+            {
+                "id": 75,
+                "question": "Pro adolescenci neplatí",
+                "options": ["Pragmatická orientace na pravidla a realitu"],
+                "correct": [0]
+            },
+            {
+                "id": 76,
+                "question": "Pro děti mladšího školního věku platí...",
+                "options": ["Potřebují jednoznačná pravidla, rozvíjí se sociální dovednost"],
+                "correct": [0]
+            },
+            {
+                "id": 77,
+                "question": "Morální hodnoty a principy jsou jedinečné a autonomní, nezávislé na autoritě – to je typické přesvědčení jedince, který se podle Kohlberga nachází ve vývoj. Stádiu ....",
+                "options": ["Postkonvenční morálky"],
+                "correct": [0]
+            },
+            {
+                "id": 78,
+                "question": "W. Mitchell uskutečnil roku 1970 marshmallow experiment, který byl zaměřen na výzkum mentálního mechanismu „síly vůle\". Výsledky ukazují, že",
+                "options": ["Schopnost odložit uspokojení v předškolním věku souvisí s vůlí a vytrvalostí ve školním věku"],
+                "correct": [0]
+            },
+            {
+                "id": 79,
+                "question": "Citlivé a podporující interakce v raném věku spoluvytvářejí základ pro...",
+                "options": ["Emoční a sociální kompetence školáka"],
+                "correct": [0]
+            },
+            {
+                "id": 80,
+                "question": "Pro vztahy s vrstevníky neplatí",
+                "options": ["S věkem se jejich počet zvyšuje a intenzita klesá"],
+                "correct": [0]
+            },
+            {
+                "id": 81,
+                "question": "Psychická deprivace je pojem, který znamená",
+                "options": ["Nedostatečné uspokojení základních psychických potřeb po dlouhou dobu"],
+                "correct": [0]
+            },
+            {
+                "id": 82,
+                "question": "Pro lidský vývoj platí",
+                "options": ["Realizace prostřednictvím zrání a učení se"],
+                "correct": [0]
+            },
+            {
+                "id": 83,
+                "question": "Stádia kognitivního vývoje podle Piageta následují v tomto pořadí",
+                "options": ["Senzomotorická, Předoperační, Konkrétní, Formální"],
+                "correct": [0]
+            },
+            {
+                "id": 84,
+                "question": "Mladý člověk, který odsouvá záležitosti, zodpovědnosti, užívá svobodu, hledá své místo, experimentuje se vztahy... je z pohledu společnosti v období....",
+                "options": ["Psychosociální moratoria"],
+                "correct": [0]
+            },
+            {
+                "id": 85,
+                "question": "Přechodné stádium skupinové identity",
+                "options": ["Je jedním z procesů ve vývoji identity v adolescenci"],
+                "correct": [0]
+            },
+            {
+                "id": 86,
+                "question": "Adolescenti (2 správné odpovědi)...",
+                "options": ["Potřebují respektující přístup ze strany učitelů, V kritických situací stále využívají sociální opory rodičů"],
+                "correct": [0]
+            },
+            {
+                "id": 87,
+                "question": "Kdo je autorem psychosociálního vývoje osobnosti",
+                "options": ["Erik Erikson"],
+                "correct": [0]
+            },
+            {
+                "id": 88,
+                "question": "V teorii Eriksona si žáci druhého stupně budují zejména",
+                "options": ["Identitu (ve vztahu k sobě samému)"],
+                "correct": [0]
+            },
+            {
+                "id": 89,
+                "question": "Schopnost přemýšlet o věcech, pojmech a jejich vlastnostech a zákonitostech bez předchozí žité zkušenosti se váže",
+                "options": ["K abstraktnímu myšlení"],
+                "correct": [0]
+            },
+            {
+                "id": 90,
+                "question": "Potřeba negovat očekávání autorit a zkoušet prostupnost hranic a pravidel se váže k",
+                "options": ["Batolecímu věku + puberta a adolescence"],
+                "correct": [0]
+            },
+            {
+                "id": 91,
+                "question": "Pojem konformita můžeme vymezit jako",
+                "options": ["Změna chování nebo názoru, která vzniká jako výsledek skutečného nebo domnělého tlaku jiného jedince, skupiny nebo společnosti"],
+                "correct": [0]
+            },
+            {
+                "id": 92,
+                "question": "Autorem teorie attachmentu je",
+                "options": ["Bowlby"],
+                "correct": [0]
+            },
+            {
+                "id": 93,
+                "question": "Schopnost přemýšlet o věcech, pojmech a jejich vlastnostech a zákonitostech než předchozí žité zkušenosti se v kontextu vývoje váže k",
+                "options": ["Abstraktnímu myšlení"],
+                "correct": [0]
+            },
+            {
+                "id": 94,
+                "question": "Egocentrismus v poznávání dítěte předškolního věku znamená",
+                "options": ["Neschopnost vnímat situaci z pozice jiného"],
+                "correct": [0]
+            },
+            {
+                "id": 95,
+                "question": "Pokud dítě nekriticky přijímá názory a soudy autority, Ize u něj usuzovat",
+                "options": ["Úroveň konvenční morálky"],
+                "correct": [0]
+            },
+            {
+                "id": 96,
+                "question": "Jaký základní psychologický rozpor řeší dítě mladšího školního věku podle Eriksona",
+                "options": ["Snaživost (píle) vs. Méněcennost"],
+                "correct": [0]
+            },
+            {
+                "id": 97,
+                "question": "Citové a podporující interakce v raném věku spoluvytvářejí základ pro ...",
+                "options": ["Emoční a sociální kompetence školáka"],
+                "correct": [0]
+            },
+            {
+                "id": 98,
+                "question": "Mezi významné charakteristiky konkrétního logického myšlení mladších školáků podle Piageta patří schopnost....",
+                "options": ["Reverzibility"],
+                "correct": [0]
+            },
+            {
+                "id": 99,
+                "question": "Která věta platí",
+                "options": ["V dospívání vždy dochází k výrazným konfliktům s rodiči"],
+                "correct": [0]
+            },
+            {
+                "id": 100,
+                "question": "Decentrace...",
+                "options": ["Schopnost pochopení podstaty nezávisle na jednotlivých aspektech reality"],
+                "correct": [0]
+            },
+            {
+                "id": 101,
+                "question": "Mladý člověk, který odsouvá záležitosti, zodpovědnost, užívá svobodu, hledá své místo, experimentu se vztahy, je v období",
+                "options": ["Psychosociálního moratoria"],
+                "correct": [0]
+            },
+            {
+                "id": 102,
+                "question": "Přechodné stádium skupinové identity.",
+                "options": ["Je jedním z procesů ve vývoji identity v adolescenci"],
+                "correct": [0]
+            },
+            {
+                "id": 103,
+                "question": "Pro mladší dospělost je charakteristickým znakem",
+                "options": ["Krize intimita vs. Izolace"],
+                "correct": [0]
+            },
+            {
+                "id": 104,
+                "question": "Mezi psychické potřeby podle Zdeňka Matějčka nepatří",
+                "options": ["Potřeba stálosti a stereotypnosti prostředí"],
+                "correct": [0]
+            },
+            {
+                "id": 105,
+                "question": "Pro pravidla, která odrážejí pravidelně se vyskytující formy chování a určují žádoucí chování členů skupiny je používán pojem...",
+                "options": ["Skupinové normy"],
+                "correct": [0]
+            },
+            {
+                "id": 106,
+                "question": "Snížení motivace při společné činnosti s jedním výsledkem ve skupině se nazývá...",
+                "options": ["Sociální zahálení"],
+                "correct": [0]
+            },
+            {
+                "id": 107,
+                "question": "Důležitost pevné vazby mezi dítětem a primárním opatrovníkem pro zdravý psychický vývoj je zdůrazněna v teorii:",
+                "options": ["Eriksona", "Piageta", "Attachmentu (citová vazba)", "Vygotského"],
+                "correct": [2]
+            },
+            {
+                "id": 108,
+                "question": "Rozvoj kognitivních schopností a 4 stádií myšlení u dětí je hlavním zaměřením teorie:",
+                "options": ["Eriksonovy teorie psychosociálního vývoje", "Piagetovy teorie kognitivního vývoje", "Vygotského teorie zóny nejbližšího vývoje", "Teorie morálního vývoje Kohlberga"],
+                "correct": [1]
+            },
+            {
+                "id": 109,
+                "question": "Vrozená schopnost osvojit si jazyk, což je zakotveno v genetické výbavě, je základní myšlenkou teorie:",
+                "options": ["Vygotského teorie", "Teorie univerzální gramatiky", "Teorie sociálního učení", "Teorie kognitivního vývoje"],
+                "correct": [1]
+            },
+            {
+                "id": 110,
+                "question": "Rozvoj sociálních dovedností a normy interakcí s ostatními dětmi je procesem známým jako:",
+                "options": ["Teorie morálního vývoje", "Rané sociální učení", "Teorie psychosociálního vývoje", "Kognitivní učení"],
+                "correct": [1]
+            },
+            {
+                "id": 111,
+                "question": "Věk hledání identity, věk nestability, věk orientace na vlastní osobu, věk pocitů na půli cesty, věk možností. Tyto rysy označují období mezi 18-25 lety označil J.J. Arnett novým pojmem:",
+                "options": ["Adolescence", "Mladá dospělost", "Vynořující se dospělost", "Střední dospělost"],
+                "correct": [2]
+            },
+            {
+                "id": 112,
+                "question": "Logické uvažování dítě začíná ovládat:",
+                "options": ["Ve školce", "Na 1. stupni ZŠ", "Na 2. stupni ZŠ", "V dospívání"],
+                "correct": [1]
+            },
+            {
+                "id": 113,
+                "question": "Pro starší dospělost není charakteristickým znakem:",
+                "options": ["Krize generativity vs. stagnace", "Péče o další generace", "Krize intimity vs. izolace", "Reflexe na vlastní život a přijetí jeho konce"],
+                "correct": [2]
+            },
+            {
+                "id": 114,
+                "question": "Rozvod rodičů se může odrazit:",
+                "options": ["V různé míře přísnosti rodičů", "V syndromu zavrženého rodiče", "V idealizaci nepřítomného rodiče", "Ve všech předešlých možnostech"],
+                "correct": [3]
+            },
+            {
+                "id": 115,
+                "question": "Morální hodnoty a principy jsou jedinečné a autonomní, nezávislé na autoritě - to je typické přesvědčení jedince, který se podle Kohlberga nachází ve vývoj. stádiu:",
+                "options": ["Prekonvenční morálky", "Konvenční morálky", "Postkonvenční morálky", "Univerzální etiky"],
+                "correct": [2]
+            },
+            {
+                "id": 116,
+                "question": "Pro děti mladšího školního věku platí:",
+                "options": ["Potřebují jednoznačná pravidla, rozvíjí se sociální dovednosti", "Mají rozvinuté abstraktní myšlení", "Věnují se především introspekci", "Jsou schopny formálního logického myšlení"],
+                "correct": [0]
+            },
+            {
+                "id": 117,
+                "question": "Přechodné stádium skupinové identity je jedním z procesů ve vývoji:",
+                "options": ["Raného dětství", "Starší dospělosti", "Adolescence", "Střední dospělosti"],
+                "correct": [2]
+            },
+            {
+                "id": 118,
+                "question": "Psychický vývoj jedince je ovlivněn:",
+                "options": ["Pouze genetickými faktory", "Pouze prostředím", "Genetickými faktory i prostředím", "Ani genetickými faktory, ani prostředím"],
+                "correct": [2]
+            },
+            {
+                "id": 119,
+                "question": "Schopnost přemýšlet o vlastním myšlení se nazývá:",
+                "options": ["Abstraktní myšlení", "Logické uvažování", "Metakognice", "Intuitivní myšlení"],
+                "correct": [2]
+            },
+            {
+                "id": 120,
+                "question": "Piagetovo stádium, kdy dítě začíná používat symboly, jako jsou slova a obrazy, se nazývá:",
+                "options": ["Senzomotorické stádium", "Předoperační stádium", "Konkrétně operační stádium", "Formálně operační stádium"],
+                "correct": [1]
+            },
+            {
+                "id": 121,
+                "question": "Rozvoj autonomie a sebevědomí u dětí v raném dětství je součástí:",
+                "options": ["Důvěra vs. nedůvěra", "Autonomie vs. stud", "Iniciativa vs. vina", "Snaživost vs. méněcennost"],
+                "correct": [1]
+            },
+            {
+                "id": 122,
+                "question": "Fyziologické procesy, jako je růst mozku a hormonální změny, ovlivňují psychický vývoj prostřednictvím:",
+                "options": ["Učení", "Zrání", "Sociálního prostředí", "Kognitivního vývoje"],
+                "correct": [1]
+            },
+            {
+                "id": 123,
+                "question": "Děti, které jsou schopny odložit okamžitou gratifikaci a počkat na druhý marshmallow, podle Stanfordského marshmallow experimentu, mají tendenci:",
+                "options": ["Mít lepší úspěch ve škole a práci", "Mít nižší sebevědomí", "Být více impulzivní", "Mít méně přátel"],
+                "correct": [0]
+            },
+            {
+                "id": 124,
+                "question": "Pochopení, že množství zůstává stejné, i když se vzhled mění, je koncept známý jako:",
+                "options": ["Centrace", "Decentrace", "Konzervace", "Metakognice"],
+                "correct": [2]
+            },
+            {
+                "id": 125,
+                "question": "Vědecký přístup, který zkoumá rozdíl mezi tím, co dítě dokáže samo a co s pomocí zkušenějších jedinců, je známý jako:",
+                "options": ["Piagetova teorie", "Vygotského zóny nejbližšího vývoje", "Eriksonova teorie", "Teorie morálního vývoje"],
+                "correct": [1]
+            },
+            {
+                "id": 126,
+                "question": "Psychická (emoční) deprivace může vést k:",
+                "options": ["Zlepšení kognitivních schopností", "Negativním důsledkům nedostatečného uspokojení psychických potřeb", "Zvýšené fyzické aktivitě", "Zvýšení sebevědomí"],
+                "correct": [1]
+            },
+            {
+                "id": 127,
+                "question": "Proces, kdy děti získávají nové znalosti a dovednosti prostřednictvím zkušeností, se nazývá:",
+                "options": ["Zrání", "Učení", "Genetická determinace", "Sociální učení"],
+                "correct": [1]
+            },
+            {
+                "id": 128,
+                "question": "Eriksonova fáze, ve které jedinec reflektuje na svůj život a přijímá jeho konec, se nazývá:",
+                "options": ["Integrita vs. zoufalství", "Generativita vs. stagnace", "Identita vs. zmatení rolí", "Intimita vs. izolace"],
+                "correct": [0]
+            },
+            {
+                "id": 129,
+                "question": "Fáze vývoje, kdy jsou jedinci zvláště citliví k určitým druhům zážitků či vlivů, se nazývá:",
+                "options": ["Zóna nejbližšího vývoje", "Kritické období", "Sociální učení", "Kognitivní vývoj"],
+                "correct": [1]
+            },
+            {
+                "id": 130,
+                "question": "Který výchovný styl je charakterizován přísnými pravidly a malou podporou?",
+                "options": ["Autoritativní výchova", "Permissivní výchova", "Autoritářská výchova", "Laissez-faire výchova"],
+                "correct": [2]
+            },
+            {
+                "id": 131,
+                "question": "Animismus v dětském myšlení znamená:",
+                "options": ["Věření, že neživé objekty mají vlastní život nebo vědomí", "Schopnost provádět mentální operace", "Rozvoj logického myšlení", "Pochopení konzervace"],
+                "correct": [0]
+            }
+        ]
+    },
+    "psychologie_test_obecna": {
+        "title": "Test Psychologie (Obecná a osobnost- nejspíš patří do 7PS2)",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Obranné mechanismy fungují na rovině:",
+                "options": [
+                    "vědomé",
+                    "předvědomé",
+                    "nevědomé"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 2,
+                "question": "Osobnost charakterizována jako lakomá, tvrdohlavá, pořádkumilovná, úzkostlivě pečlivá je dle psychoanalýzy osobnost:",
+                "options": [
+                    "orální",
+                    "anální",
+                    "psychopatická"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 3,
+                "question": "Dle H. A. Murryho jsou motivační témata v životním příběhu daná:",
+                "options": [
+                    "opakovaným setkáváním potřeby jedince a tlaku prostředí",
+                    "opakovaným podmiňováním ve vztahu ke stimulům prostředí",
+                    "uspokojováním nevědomých potřeb z dětství"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 4,
+                "question": "Vývoj normální osobnosti dle E. H. Eriksona se děje:",
+                "options": [
+                    "rozřešením psychosociální krize daného období",
+                    "rozřešením psychosexuální krize daného období",
+                    "rozřešením sociokulturní krize daného období"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 5,
+                "question": "Přístup poukazující na to, že lidé používají tzv. personální konstrukty, aby dali své zkušenosti smysl, je spojen s:",
+                "options": [
+                    "G. KELLYM",
+                    "C.G. JUNGEM",
+                    "V.E.FRANKLEM"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 6,
+                "question": "Kterou dimenzi nalezneme v modelu Big Five podle McCrae a Costy:",
+                "options": [
+                    "závislost na poli",
+                    "svědomitost",
+                    "cílesměrnost"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 7,
+                "question": "Bandura ve svém experimentu o vzniku agresivním chování ukázal na proces:",
+                "options": [
+                    "projektivní identifikace",
+                    "sociální nápodoby",
+                    "retraumatizace"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 8,
+                "question": "Energie nazývaná v psychoanalýze libido vyvěrá z:",
+                "options": [
+                    "osobnostních rysů",
+                    "kognitivní schémat",
+                    "instinktů"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 9,
+                "question": "Pan Václav prosazuje petici proti knihkupectví s „lechtivými“ knihami pro dospělé, ačkoli potajmu je fascinován pornografií. Jaký obranný mechanismus je ve hře?",
+                "options": [
+                    "reaktivní formace",
+                    "projekce",
+                    "racionalizace"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 10,
+                "question": "Pojem bazální úzkost vnesla do psychologie:",
+                "options": [
+                    "Karen Horneyová",
+                    "Erich Fromm",
+                    "C.G. Jung"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 11,
+                "question": "Osobnost se dle humanistické psychologie optimálně rozvíjí ve vztahu, pro který je nezbytná:",
+                "options": [
+                    "akceptace a empatie",
+                    "autonomie a nezdolnost",
+                    "aspirace a motivace"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 12,
+                "question": "Pro sblížení lidí je dle Kellyho nejdůležitější:",
+                "options": [
+                    "podobnost jejich pachových preferencí",
+                    "podobnost jejich konstruktů",
+                    "podobnost jejich chování"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 13,
+                "question": "Funkce propria v osobnosti dle Allporta spočívá v:",
+                "options": [
+                    "integraci různých aspektů osobnosti",
+                    "udržování funkcí superega",
+                    "udržování základní důvěry ve svět"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 14,
+                "question": "Mezi dimenze činného JÁ podle Blassiho nepatří:",
+                "options": [
+                    "odlišitelnost od ostatních",
+                    "jednota s obrazem JÁ",
+                    "materiální JÁ"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 15,
+                "question": "Noogenní neuróza se vyznačuje:",
+                "options": [
+                    "deficitem v prožívání smyslu života",
+                    "nedostatečným prožitkem seberealizace",
+                    "prožitkem izolace a odcizení v sociálních vztazích"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 16,
+                "question": "Protipřenos je:",
+                "options": [
+                    "klientovo nevědomé zakušení terapeuta jako primárního objektu ze svého raného dětství",
+                    "přenášení některých nevědomých pocitů terapeuta na klienta",
+                    "interpretace přenosu terapeutem"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 17,
+                "question": "V přístupech de Charmse, Deciho, Ryana je společné (byť s jinou terminologií zdůrazňování role:)",
+                "options": [
+                    "sebeřízení",
+                    "sebevědomí",
+                    "sebepozorování"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 18,
+                "question": "Hlavní triádů motivů jak je v příbězích hledal Murray (a po něm následovníci) lze formulovat:",
+                "options": [
+                    "výkon, kontrola, bezpečí",
+                    "výkon, moc, afiliace",
+                    "poznání, afiliace, sebepřesah"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 19,
+                "question": "Jaká část nepatří do myšlenkových operací?",
+                "options": [
+                    "efekt podmiňování",
+                    "herustika založená na dostupných informací",
+                    "srovnání, komparace",
+                    "algoritmy"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 20,
+                "question": "Kdo byl autorem teorie prototypů?",
+                "options": [
+                    "BINNET",
+                    "FREUD",
+                    "ROSCHOVÁ"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 21,
+                "question": "Co patří k pojmu PRIMING?",
+                "options": [
+                    "nevědomé afektivní preference",
+                    "zapomínání",
+                    "primární citová deprivace",
+                    "schopnost vhledu do situace"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 22,
+                "question": "Instrumentální podmiňování je:",
+                "options": [
+                    "učení pokusem a omylem",
+                    "učení se nazpaměť",
+                    "operace s pojmy",
+                    "vše uvedené"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 23,
+                "question": "Kdo byl představitel gestaltismu?",
+                "options": [
+                    "E. KOHLER",
+                    "E.L.Thorndike",
+                    "D.Hume",
+                    "I.P. Pavlov"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 24,
+                "question": "Účinky drog jsou:",
+                "options": [
+                    "jen stimulující",
+                    "jen mění vnímání",
+                    "jenom tlumí stav",
+                    "stimulují, tlumí a uvolňují vnitřní napětí"
+                ],
+                "correct": [3]
+            },
+            {
+                "id": 25,
+                "question": "Které z uvedených potřeb jsou primární v Maslowově hierarchii?",
+                "options": [
+                    "potřeba spánku",
+                    "potřeby náležení",
+                    "potřeby fyziologické",
+                    "potřeba bezpečí"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 26,
+                "question": "Co je vnější zdroj motivu?",
+                "options": [
+                    "uvolnění",
+                    "incentiva",
+                    "pohnutka",
+                    "strach"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 27,
+                "question": "Doplňte vhodný pojem: vyhovující: nevyhovující; vjem:",
+                "options": [
+                    "myšlenka",
+                    "emoce",
+                    "lež",
+                    "iluze"
+                ],
+                "correct": [3]
+            },
+            {
+                "id": 28,
+                "question": "Mezi gestaltické zákony nepatří?",
+                "options": [
+                    "blízkost",
+                    "podobnost",
+                    "primány",
+                    "kontrast"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 29,
+                "question": "Poznatky o vzniku kognitivních map přenesl?",
+                "options": [
+                    "Tolman v experimentu s krysami",
+                    "Kohler v experimentu se šimpanzi",
+                    "Skiner v experimentu s holuby",
+                    "Pavlov v experimentu se psy"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 30,
+                "question": "Co patří do struktury osobnosti podle S. Freuda?",
+                "options": [
+                    "jen nevědomé pudy",
+                    "id, ego, superego",
+                    "konvergence",
+                    "sublimace"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 31,
+                "question": "Co se podílí na induktivním usuzování?",
+                "options": [
+                    "heuristika",
+                    "efekt kognitivního rámce",
+                    "generalizace a abstrakce",
+                    "vše uvedené"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 32,
+                "question": "Do pojetí inteligence nepatří?",
+                "options": [
+                    "sebekontrola emocí",
+                    "porozumění emocím",
+                    "racionalizování emocí",
+                    "vědomé vnímání emocí"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 33,
+                "question": "Co nepatří k vlastnostem pozornosti?",
+                "options": [
+                    "introspekce",
+                    "diskriminace",
+                    "koncentrace",
+                    "vigilita"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 34,
+                "question": "Co nepatří k tvarovým zákonům vnímání?",
+                "options": [
+                    "princip figury a pozadí",
+                    "princip blízkosti",
+                    "princip homeostatické rovnováhy",
+                    "princip společné osudu"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 35,
+                "question": "Pokud šestileté dítě dosahuje mentálního věku 9 let, jeho IQ je?",
+                "options": [
+                    "75",
+                    "125",
+                    "100",
+                    "150"
+                ],
+                "correct": [3]
+            },
+            {
+                "id": 36,
+                "question": "Paní Nováková často říká svým dětem, že je důležité si zapnout v autě pásy, ale sama to dělá jen zřídka. Její děti se pravděpodobně naučí?",
+                "options": [
+                    "říkat jiným, že je důležité si je zapnout, ale samy je budou používat zřídka",
+                    "zapomínat si pásy a říkat jiným, že je důležité si je zapínat",
+                    "ani je nebudou zapínat, ani o tom nebudou mluvit s jiným",
+                    "používat pásy, ale nebudou o tom říkat jiným"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 37,
+                "question": "Mezi následky frustrace nepatří?",
+                "options": [
+                    "zanechání činnosti",
+                    "agrese",
+                    "naučená bezmoc",
+                    "sugesce"
+                ],
+                "correct": [3]
+            },
+            {
+                "id": 38,
+                "question": "Skiner a další behavioristé tvrdí, že vývoj řeči je výsledkem?",
+                "options": [
+                    "asociací",
+                    "napodobování",
+                    "všeho uvedeného",
+                    "posilování, zpevnění"
+                ],
+                "correct": [3]
+            },
+            {
+                "id": 39,
+                "question": "Morfémy jsou základními jednotkami",
+                "options": [
+                    "syntaxe",
+                    "gramatiky",
+                    "významu slova",
+                    "rozsahu a kvality slovní zásoby"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 40,
+                "question": "Emoce jsou:",
+                "options": [
+                    "fyziologické reakce",
+                    "behaviorální projevy",
+                    "uvědomované prožitky",
+                    "vše uvedené"
+                ],
+                "correct": [3]
+            },
+            {
+                "id": 41,
+                "question": "Trpí-li dítě nedostatkem pohybu při vyučování, hovoříme o:",
+                "options": [
+                    "frustraci",
+                    "deprivace",
+                    "stresu",
+                    "copingu"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 42,
+                "question": "Obranné mechanismy jsou strategie",
+                "options": [
+                    "obrany proti agresivním jedincům",
+                    "zvládání úzkosti",
+                    "předcházení neúspěchu ve škole",
+                    "zahrnující lhaní a výmluvy"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 43,
+                "question": "Projevy autismu jsou velmi podobné projevům:",
+                "options": [
+                    "mentální retardace",
+                    "schizofrenie",
+                    "neurózy",
+                    "hysterie"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 44,
+                "question": "Demence postihuje",
+                "options": [
+                    "novorozence",
+                    "děti do dvou let věku",
+                    "jedince po druhém roce věku",
+                    "jedince po 60. roce věku"
+                ],
+                "correct": [3]
+            },
+            {
+                "id": 45,
+                "question": "Sebepoškozování se často objevuje:",
+                "options": [
+                    "u dětí v předškolním",
+                    "v pubertě jako snaha získání kontaktu se svým tělem",
+                    "u dětí v mladším školním věku",
+                    "u mentálně retardovaných jedinců"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 46,
+                "question": "Obsese jsou:",
+                "options": [
+                    "vtíravé myšlenky",
+                    "stereotypní pohyby",
+                    "obranné mechanismy",
+                    "rituály"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 47,
+                "question": "Citová deprivace v dětství:",
+                "options": [
+                    "velmi riziková z hlediska školní úspěšnosti dítěte",
+                    "vysoce riziková z hlediska navazování sociálních vztahů",
+                    "vysoce riziková vzhledem ke vzniku závislostí",
+                    "vysoce riziková z hlediska výskytu somatických onemocnění"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 48,
+                "question": "Syndrom vyhoření se týká:",
+                "options": [
+                    "emocí",
+                    "vědomostí",
+                    "dovedností",
+                    "návyků"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 49,
+                "question": "Frustrace je situace, které odpovídá:",
+                "options": [
+                    "nemožnost dosažení úspěchu",
+                    "zneužívání návykových látek",
+                    "ztráta blízkého člověka",
+                    "panický strach"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 50,
+                "question": "Mezi témata psychopatologie nepatří:",
+                "options": [
+                    "závislost na mobilním telefonu",
+                    "problematika chronicky nemocných",
+                    "bulimie",
+                    "kauzální atribuce"
+                ],
+                "correct": [3]
+            }
+        ]
+    },
+    "pedagogika_2": {
+        "title": "asi Pedagogika 2",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Pedagogicko-psychologické poradny:",
+                "options": [
+                    "zajišťují a poskytují ústavní výchovu",
+                    "poskytují služby pedagogicko-psychologického a speciálně pedagogického poradenství a pedagogicko-psychologickou pomoc při výchově a vzdělávání žáků",
+                    "zajišťují pouze odklady školní docházky",
+                    "poskytují poradenské služby žákům se zdravotním postižením a žákům se zdravotním znevýhodněním integrovaným ve školách a školských zařízeních"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 2,
+                "question": "Terciární prevence:",
+                "options": [
+                    "se snaží preventivně působit především na děti v základních školách",
+                    "se snaží zabránit opakování negativního chování, například trestných činů, onemocnění, drogové závislosti apod.",
+                    "se snaží zabránit rasově motivovaným činům ovlivňováním legislativy",
+                    "je jiný název pro indikovanou primární prevenci"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 3,
+                "question": "Substituční léčba je:",
+                "options": [
+                    "Způsob léčby, kdy je užívání původní drogy nahrazeno lékařsky předepsaným užíváním látky s podobnými účinky a vlastnostmi",
+                    "Náhlé a úplné vysazení návykové látky bez lékařské podpory",
+                    "Terapie zaměřená výhradně na psychologické příčiny závislosti",
+                    "Léčba pomocí placeba k oklamání organismu závislého"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 4,
+                "question": "O definici kterého jevu se jedná? „jeden nebo více žáků úmyslně, většinou opakovaně týrá a zraňuje spolužáka či spolužáky a používá k tomu novou informační a komunikační technologii – zejména internet a mobil“",
+                "options": [
+                    "Stalking",
+                    "Mobbing",
+                    "Kyberšikana (cyberbullying)",
+                    "Grooming"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 5,
+                "question": "OSPOD je zkratkou pro:",
+                "options": [
+                    "Oddělení právní ochrany na Ministerstvu školství",
+                    "Odbor sociálně právní ochrany důchodců",
+                    "Orgán sociálně-právní ochrany dětí",
+                    "Orgán specifické podpory ohrožených dělníků"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 6,
+                "question": "Minimální preventivní program:",
+                "options": [
+                    "Zachycuje dlouhodobé cíle školských zařízení v primární prevenci",
+                    "Zaměřuje se výhradně na nápravu již vzniklých patologických jevů",
+                    "Definuje přesné tresty pro žáky porušující školní řád",
+                    "Je povinný dokument pouze pro speciální školy a diagnostické ústavy"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 7,
+                "question": "Šikana je především:",
+                "options": [
+                    "Promyšlená agrese s převahou jednoho nad druhým",
+                    "Jednorázový konflikt mezi dvěma rovnocennými žáky",
+                    "Neúmyslné ublížení při sportovní nebo herní aktivitě",
+                    "Otevřená hádka s učitelem nebo autoritou"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 8,
+                "question": "Pojem integrace znamená:",
+                "options": [
+                    "splynutí",
+                    "vyčleňování",
+                    "začleňování",
+                    "kastování"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 9,
+                "question": "Sekundární prevence označuje:",
+                "options": [
+                    "výchovu k celkovému zdravému životnímu stylu u běžné populace",
+                    "léčbu a resocializaci jedinců s těžkou formou závislosti",
+                    "předcházení vzniku, rozvoji a přetrvávání rizikových jevů u osob, které již mají zkušenost s rizikovým chováním",
+                    "přesunutí problémových žáků do specializovaných zařízení"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 10,
+                "question": "Ústavní výchova je:",
+                "options": [
+                    "Dobrovolná služba poskytovaná na žádost samotného dítěte",
+                    "Nařizována soudem v občansko-právním řízení, může začít narozením a končí dovršením 18 let",
+                    "Ukládána výhradně za spáchání závažného trestného činu mladistvým",
+                    "Alternativní způsob vzdělávání pro žáky s mimořádným nadáním"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 11,
+                "question": "Kodependence vyjadřuje, že sebehodnocení člověka:",
+                "options": [
+                    "Je měřeno tím, jak jedinec vnímá, že jej vnímají ostatní",
+                    "Je měřeno tím, jak se jedinec vnímá, pouze vlastním posouzením",
+                    "Je měřeno tím, že jednání jedince je v rozporu s přáním druhých",
+                    "Není nijak závislé na druhých"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 12,
+                "question": "Mezi školská poradenská zařízení patří:",
+                "options": [
+                    "Dětský diagnostický ústav",
+                    "Dětský domov se školou",
+                    "Speciálně pedagogická centra",
+                    "Středisko výchovné péče"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 13,
+                "question": "Rizikové chování je:",
+                "options": [
+                    "Chování, v jehož důsledku dochází k prokazatelnému risku jedince nebo celé společnosti",
+                    "Chování, které vede k prokazatelnému prospěchu celé společnosti",
+                    "Chování, v jehož důsledku dochází k prokazatelnému nárůstu zdravotních, sociálních, výchovných a dalších rizik pro jedince nebo společnost",
+                    "Soubor pravidel zdvořilého chování ve společnosti"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 14,
+                "question": "Doporučení ke vzdělávání žáka se speciálními vzdělávacími potřebami je:",
+                "options": [
+                    "Dokument na úrovni doporučení, škole se doporučuje se jimi řídit",
+                    "Dokument doporučující rodičům vhodné výchovně-vzdělávací postupy",
+                    "Dokument závazný, škola podle něj upravuje vzdělávání žáka se speciálními vzdělávacími potřebami",
+                    "Dokument, který vytváří škola spolu s rodiči k podpoře žáka"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 15,
+                "question": "Bystander effect vychází z toho, že:",
+                "options": [
+                    "Je o efekt, který se vztahuje k závislým osobám",
+                    "Pomoc lidí je nepřímo úměrná počtu okolo stojících osob",
+                    "Pomoc druhých nezávisí na počtu lidí",
+                    "Pomoc lidí je přímo úměrná počtu okolo stojících osob"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 16,
+                "question": "Členem školního poradenského pracoviště zpravidla není:",
+                "options": [
+                    "Metodik prevence",
+                    "Výchovný poradce",
+                    "Školní psycholog",
+                    "Koordinátor inkluze"
+                ],
+                "correct": [3]
+            },
+            {
+                "id": 17,
+                "question": "Harm reduction označuje:",
+                "options": [
+                    "Přístupy snižování hmotnosti lékařsky šetrným způsobem, bez drastických diet",
+                    "Přístupy vedoucí ke snižování dávek alkoholu u osob závislých",
+                    "Přístupy vedoucí ke snižování či minimalizaci poškození drogami u osob, které drogy užívají a nejsou motivovány k tomu, aby užívání zanechaly",
+                    "Přístupy zvyšování odolnosti jedince při setkání s drogovou scénou"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 18,
+                "question": "Silná touha, puzení k požití látky, která se mimo jiné projevuje aktivací určitých mozkových částí, zvýšením tepu, zvýšením pocení apod. se nazývá:",
+                "options": [
+                    "Brawling",
+                    "Craving",
+                    "Stalking",
+                    "Hysterie"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 19,
+                "question": "DDM je zkratka pro:",
+                "options": [
+                    "Domov dětí a mládeže",
+                    "Dětský domov mládeže",
+                    "Dům dětí a mládeže",
+                    "Dětský dům mládeže"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 20,
+                "question": "Střediska výchovné péče (SVP) jsou:",
+                "options": [
+                    "Ústavy pro jedince s uloženou ochrannou výchovou",
+                    "Bývalé výchovné ústavy pro děti",
+                    "Zařízení zajišťující preventivně-výchovnou péči pro děti s rizikem vzniku a vývoje rizikového chování",
+                    "Zařízení věnující se využití volného času dětí"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 21,
+                "question": "Autistickou triádou je:",
+                "options": [
+                    "Sociální interakce a sociální chování; způsob komunikace; představivost, zájmy, hra",
+                    "Sociální interakce a sociální chování; způsob komunikace; specifické zájmy",
+                    "Sociální chování, neschopnost zvládat školu, specifické zájmy",
+                    "Neschopnost chápat abstrakci, specifické zájmy, narušený způsob her"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 22,
+                "question": "Zkratka KBT označuje:",
+                "options": [
+                    "Konstruktivně-behaviorální terapii",
+                    "Komunitně-behaviorální terapii",
+                    "Kognitivně-behaviorální terapii",
+                    "Krátkou-behaviorální terapii"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 23,
+                "question": "Primární prevencí se rozumí:",
+                "options": [
+                    "Výchova ke zdravému životnímu stylu a k rozvoji pozitivního sociálního chování, psychosociálních dovedností a zvládání zátěžových situací",
+                    "Výchova ke zdravému životnímu stylu a k rozvoji funkčních strategií protidrogové léčby",
+                    "Výchova ke zdravému životnímu stylu se zaměřením na podporu osob s alkoholovou intolerancí",
+                    "Programy ve školách, které jsou zaměřené na rizikové jevy ve vyloučených lokalitách"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 24,
+                "question": "Neurózy jsou:",
+                "options": [
+                    "Poruchy autistického spektra",
+                    "Vážná duševní onemocnění",
+                    "Pouze sociální fobie",
+                    "Funkční poruchy, tzn. nejsou spojeny s tělesným nálezem"
+                ],
+                "correct": [3]
+            },
+            {
+                "id": 25,
+                "question": "Školní klub je určen pro:",
+                "options": [
+                    "Žáky na 1. stupni",
+                    "Vysokoškolské studenty",
+                    "Studenty středních škol",
+                    "Žáky na 2. stupni"
+                ],
+                "correct": [3]
+            },
+            {
+                "id": 26,
+                "question": "Jaké jsou fáze skupinové dynamiky?",
+                "options": [
+                    "Forming, storming, norming a performing",
+                    "Formerning, norming, storming, trouming",
+                    "Brainstorming, performing, troublemin a prokrastinering",
+                    "Thinking, cooking, performing a eating"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 27,
+                "question": "Co se myslí proaktivní agresí?",
+                "options": [
+                    "Charakteristické impulzivní útoky, často provázané hněvivým afektem",
+                    "Negativní chování osvojené na základě sociálně kognitivního učení",
+                    "Negativní chování vyvolané konflikty ve škole",
+                    "Tzv. prosociální agrese, sloužící k podpoře druhých"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 28,
+                "question": "Jaké dvě základní role musí být zastoupeny ve školním poradenském pracovišti (ŠPP)?",
+                "options": [
+                    "Výchovný poradce, metodik prevence",
+                    "Výchovný poradce, školní psycholog",
+                    "Metodik prevence, školní psycholog",
+                    "Ředitel, výchovný poradce"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 29,
+                "question": "Stádium prvotní koheze je charakterizováno:",
+                "options": [
+                    "Vznikem „veřejného mínění“ třídy",
+                    "Převzetím názorů učitelů",
+                    "Vytvářením hierarchie dle veřejného mínění jako důsledek pro jedince",
+                    "Semknutím dětí na prvním stupni ZŠ"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 30,
+                "question": "Žáci se speciálními vzdělávacími potřebami jsou:",
+                "options": [
+                    "Žáci se zdravotním postižením, se zdravotním znevýhodněním a se sociálním znevýhodněním",
+                    "Žáci nadaní a žáci se sociálním znevýhodněním",
+                    "Žáci nadaní, žáci se zdravotním postižením, se zdravotním znevýhodněním a se sociálním znevýhodněním"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 31,
+                "question": "Vývojová dysfázie:",
+                "options": [
+                    "Se projevuje jako obranná reakce vytěsněním toho, co by mohlo vážně narušit integritu osobnosti",
+                    "Je předstupněm ADHD, kdy ještě není možné ADHD diagnostikovat",
+                    "Se projevuje závažným opožděním a specifickým narušením rozvoje řečových funkcí"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 32,
+                "question": "Nízkofunkční autismus se projevuje:",
+                "options": [
+                    "Schopností přizpůsobit se okolí. Jedinci zvládají školní docházku spolu s asistentem pedagoga bez problémů",
+                    "Malou schopností navazovat sociální vztahy. Jedinci se věnují stereotypním činnostem. Časté je sebezraňování a agrese",
+                    "Sníženou schopností navazovat sociální kontakt. Chybí spontaneita, mluví částečně funkčně"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 33,
+                "question": "Praktická nevidomost je v souvislosti se závažností zrakového postižení charakterizována:",
+                "options": [
+                    "Omezením zrakových funkcí na úroveň 15–5% běžné kapacity. Postižení jsou schopni běžné orientace v prostředí",
+                    "Chyběním tvarového vidění, ale může být zachována schopnost rozlišovat světlo a tmu",
+                    "Zbytky zraku v rozsahu méně než 4% běžné kapacity. Jedinec vnímá jen zdroje světla a obrysy"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 34,
+                "question": "DMO je:",
+                "options": [
+                    "Demence mozkových oblastí charakterizovaná transformací psychických potíží do tělesných",
+                    "Progresivní delirium spojené s alkoholovými závislostmi",
+                    "Neprogresivní postižení motorického vývoje vzniklé na podkladě poškození nebo dysfunkce mozku v rané fázi"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 35,
+                "question": "Serialita značí:",
+                "options": [
+                    "Dovednost spojování a kombinování obsahů z jedné smyslové oblasti s obsahy jiné smyslové oblasti",
+                    "Schopnost pro slyšené informace, specifický druh krátkodobé paměti",
+                    "Schopnost stanovit přesně kroky, jak vykonávat určitou činnost. Projevuje se dovedností řadit úkony v adekvátním pořadí za sebou"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 36,
+                "question": "Čím je charakterizována druhá fáze reakce rodiny na sdělení diagnózy o dítěti:",
+                "options": [
+                    "Popřením skutečnosti (hledání zázračného řešení, omylu odborníků), hledání viníka",
+                    "Rodiče prožívají pocity viny, které se vztahují k dítěti, a pocity hanby, které se vztahují k reakcím lidí",
+                    "Rodiče akceptují skutečnost, že je jejich dítě postižené, a přijímají je takové jaké je"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 37,
+                "question": "Převodní sluchové vady charakterizujeme:",
+                "options": [
+                    "Jako poruchy v mechanické části sluchové dráhy. Dochází k zeslabení sluchového vjemu",
+                    "Jako postižení citlivých buněk v Cortiho orgánu vnitřního ucha",
+                    "Jako následek postižení CNS, projevující se obtížemi v poznávání zvuků"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 38,
+                "question": "Pojem symptom označuje:",
+                "options": [
+                    "Obraz onemocnění, poruchy",
+                    "Diagnózu onemocnění, poruchy",
+                    "Příznak onemocnění, poruchy",
+                    "Charakteristické seskupení typických příznaků"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 39,
+                "question": "Frustrace je stav, který vzniká:",
+                "options": [
+                    "Nedojde-li k uspokojení potřeby",
+                    "U osob, které nejsou dostatečně vzdělané",
+                    "U osob, které jsou plně saturovány",
+                    "Při neuspokojení požadavků, které člověk má"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 40,
+                "question": "Skryté záškoláctví popisuje situaci:",
+                "options": [
+                    "Kdy se žák ve škole neukazuje, ale rodiče myslí, že do školy chodí",
+                    "Kdy se žák skrývá před učiteli a spolužáky (např. kvůli šikaně)",
+                    "Kdy dochází ke klamání rodičů (děti si stěžují na bolest, ale nic jim není)",
+                    "Kdy rodiče ví o tom, že žák nechodí do školy (často jej omlouvají)"
+                ],
+                "correct": [3]
+            },
+            {
+                "id": 41,
+                "question": "Školní poradenské pracoviště na základní škole je podle zákona povinně personálně obsazeno:",
+                "options": [
+                    "Výchovným poradcem, školním speciálním pedagogem a metodikem prevence",
+                    "Výchovným poradcem a metodikem prevence",
+                    "Výchovným poradcem, školním psychologem, školním speciálním pedagogem a metodikem prevence"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 42,
+                "question": "Nadaný žák:",
+                "options": [
+                    "Nepotřebuje žádné speciální pomůcky",
+                    "Může mít doporučené speciální pomůcky",
+                    "Musí mít doporučené speciální učebnice"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 43,
+                "question": "Žák s intelektovými schopnostmi odpovídajícími IQ 81:",
+                "options": [
+                    "Je žák s podprůměrným intelektem (hraniční pásmo)",
+                    "Je žák s lehkým mentálním postižením",
+                    "Má IQ v pásmu průměru a nepotřebuje ve škole podporu"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 44,
+                "question": "Akcelerace vzdělávacího procesu znamená:",
+                "options": [
+                    "Rychlejší průchod školní docházkou (např. přeskočení ročníku)",
+                    "Automatické přiřazení asistenta pedagoga",
+                    "Vynechání maturity nebo přijímacích zkoušek"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 45,
+                "question": "Mapování jazykových schopností dítěte cíleně využíváme u:",
+                "options": [
+                    "Dětí s poruchami řeči",
+                    "Bilingvních dětí",
+                    "Dětí předškolního věku",
+                    "Všech výše uvedených"
+                ],
+                "correct": [3]
+            }
+        ]
+    },
+    "specialni_pedagogika": {
+        "title": "Speciální pedagogika",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Inkluzivní vzdělávání znamená:",
+                "options": [
+                    "Že integrujeme více dětí se speciálními potřebami do škol hlavního vzdělávacího proudu",
+                    "Že nárok na integraci mají i žáci se závažným vzdělávacím typem postižení",
+                    "Že neposuzujeme speciální vzdělávací potřeby podle přítomnosti postižení"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 2,
+                "question": "Diferencovat či individualizovat mohu výuce dětí se speciálními potřebami:",
+                "options": [
+                    "Vzdělávací obsah",
+                    "Vzdělávací metody",
+                    "Hodnotící metody",
+                    "Všechny uvedené možnosti"
+                ],
+                "correct": [3]
+            },
+            {
+                "id": 3,
+                "question": "Typ a stupeň podpůrného opatření stanovuje:",
+                "options": [
+                    "Třídní učitel",
+                    "Poradenská zařízení",
+                    "Výchovný poradce"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 4,
+                "question": "Plán pedagogické podpory:",
+                "options": [
+                    "Může napsat pouze třídní učitel na daného žáka",
+                    "Může navrhnout kterýkoliv učitel, který s žákem pracuje",
+                    "Musí navrhnout výchovný poradce"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 5,
+                "question": "Asistent pedagoga:",
+                "options": [
+                    "Na druhém stupni ZŠ již nemá příliš využití",
+                    "Je zodpovědný za komunikaci s rodiči žáka se speciální vzdělávací potřebou",
+                    "Vykonává také nepřímou pedagogickou činnost"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 6,
+                "question": "S žáky se zbytky zraku a žáky slabozrakými pracujeme:",
+                "options": [
+                    "Odlišnými postupy",
+                    "Shodnými postupy",
+                    "Shodnými postupy, protože se jedná o 2 označení pro shodnou vadu"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 7,
+                "question": "Žák s překotným tempem řeči (breptavost):",
+                "options": [
+                    "Může ovládat své potíže vůlí, je vhodné jej vést ke snížení tempa řeči",
+                    "Nemůže ovládat své potíže vůlí, není tedy vhodné jej dále zatěžovat ještě důrazem na tempo řeči",
+                    "Nemůže ovládat své potíže vůlí, protože má často snížený intelekt"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 8,
+                "question": "Sluchová vada převodního charakteru znamená postižení:",
+                "options": [
+                    "Středního ucha",
+                    "Zvukovodu",
+                    "Sluchového nervu"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 9,
+                "question": "Školní poradenské pracoviště na základní škole je podle zákona povinně personálně obsazeno:",
+                "options": [
+                    "Výchovným poradcem, školním speciálním pedagogem a metodikem prevence",
+                    "Výchovným poradce a metodikem prevence",
+                    "Výchovným poradcem, školním psychologem, školním speciálním pedagogem a metodikem prevence"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 10,
+                "question": "Nadaný žák:",
+                "options": [
+                    "Nepotřebuje speciální pomůcky",
+                    "Může mít doporučené speciální pomůcky",
+                    "Musí mít doporučené speciální učebnice"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 11,
+                "question": "Mezi příznaky zrakových obtíží řadíme:",
+                "options": [
+                    "Šilhání",
+                    "Naklánění hlavy při čtení",
+                    "Neobratnost",
+                    "Všechny uvedené možnosti"
+                ],
+                "correct": [3]
+            },
+            {
+                "id": 12,
+                "question": "Žák s intelektovými schopnostmi odpovídajícími IQ 81:",
+                "options": [
+                    "Je žák s podprůměrným intelektem (hraniční pásmo)",
+                    "Je žák s lehkým mentálním postižením",
+                    "Má IQ v pásmu průměru a nepotřebuje školní podporu"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 13,
+                "question": "Akcelerace vzdělávacího procesu znamená:",
+                "options": [
+                    "Rychlejší průchod školní docházkou",
+                    "Přeskočení ročníku",
+                    "Vynechání maturity nebo přijímacích zkoušek"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 14,
+                "question": "Mapování jazykových schopností dítěte cíleně využíváme u:",
+                "options": [
+                    "Dětí se specifickými poruchami řeči a jazykového vývoje",
+                    "Bilingvních dětí",
+                    "Dětí s poruchami autistického spektra"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 15,
+                "question": "Zkratka SVP znamená:",
+                "options": [
+                    "Středisko výchovné péče",
+                    "Speciální vzdělávací potřeby",
+                    "Záleží na kontextu, může znamenat obojí"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 16,
+                "question": "Autistickou triádou je:",
+                "options": [
+                    "Sociální interakce a sociální chování, způsob komunikace, specifické zájmy",
+                    "Sociální chování, neschopnost zvládat školu, specifické zájmy",
+                    "Sociální interakce a sociální chování, způsob komunikace, představivost a hra",
+                    "Neschopnost chápat abstrakci, specifické zájmy, narušený způsob her"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 17,
+                "question": "Zkratka KBT označuje:",
+                "options": [
+                    "Konstruktivně-behaviorální terapii",
+                    "Komunitně-behaviorální terapii",
+                    "Kognitivně-behaviorální terapii",
+                    "Krátkou-behaviorální terapii"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 18,
+                "question": "Bystander effect vychází z přesvědčení, že:",
+                "options": [
+                    "Pomoc lidem je nepřímo úměrná počtu stojících osob",
+                    "Pomoc lidem přímo úměrná počtu okolo stojících osob",
+                    "Na počtu lidí nezávisí",
+                    "Jde o efekt nevztahující se k lidem"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 19,
+                "question": "Primární prevencí se rozumí:",
+                "options": [
+                    "Výchova ke zdravému životnímu stylu a k rozvoji pozitivního sociálního chování, psychosociálních dovedností a zvládnutí zátěžových situací",
+                    "Výchova ke zdravému životnímu stylu a k rozvoji funkčních strategií protidrogové léčby",
+                    "Výchova ke zdravému životnímu stylu a k rozvoji pozitivního sociálního chování se zaměřením na závislé osoby",
+                    "Programy ve školách, které jsou zaměřené na rizikové jevy ve vyloučených lokalitách"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 20,
+                "question": "Neurózy jsou:",
+                "options": [
+                    "Poruchy autistického spektra",
+                    "Vážná duševní onemocnění",
+                    "Pouze sociální fobie",
+                    "Funkční poruchy, tzn. nejsou spojené s nálezem"
+                ],
+                "correct": [3]
+            },
+            {
+                "id": 21,
+                "question": "Školní klub je určen pro:",
+                "options": [
+                    "Žáky 1. st. ZŠ",
+                    "Vysokoškolské studenty",
+                    "Studenty středních škol",
+                    "Žáky 2. st. ZŠ"
+                ],
+                "correct": [3]
+            },
+            {
+                "id": 22,
+                "question": "Jaké jsou fáze skupinové dynamiky:",
+                "options": [
+                    "Forming, storming, norming a performing",
+                    "Formening, norming, storming a trouming",
+                    "Brainstorming, performing, troubleming a prokrastoning",
+                    "Thinking, cooking, performing a eating"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 23,
+                "question": "Proaktivní agresí se myslí:",
+                "options": [
+                    "Charakteristické impulsivní útoky, často provázané hněvivým afektem",
+                    "Negativní chování osvojené na základě sociálně kognitivního učení",
+                    "Negativní chování vyvolané konflikty ve škole",
+                    "Tzv. prosociální agrese, sloužící k podpoře druhých"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 24,
+                "question": "Jaké 2 základní role musí být zastoupeny v ŠPP?",
+                "options": [
+                    "Výchovný poradce, metodik prevence",
+                    "Výchovný poradce, školní psycholog",
+                    "Metodik prevence, školní psycholog",
+                    "Ředitel, výchovný poradce"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 25,
+                "question": "Stádium prvotní koheze je charakterizováno:",
+                "options": [
+                    "Vznikem „veřejného mínění“ třídy",
+                    "Převzetím názorů učitele",
+                    "Vytvářením hierarchie dle „veřejného mínění“ dětí, jako důsledek jedince v kontextu třídy",
+                    "Semknutím dětí na prvním stupni ZŠ"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 26,
+                "question": "Kodependence vyjadřuje, že sebehodnocení člověka:",
+                "options": [
+                    "Je měřeno tím, jak jedinec vnímá, že jej vnímají ostatní",
+                    "Je měřeno tím, jak se jedinec vnímá, pouze vlastním posouzením",
+                    "Je měřeno tím, že jednání jedince je v rozporu s přáním druhých",
+                    "Není nijak závislé na druhých"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 27,
+                "question": "Mezi školská poradenská zařízení patří:",
+                "options": [
+                    "Dětský diagnostický ústav",
+                    "Dětský domov se školou",
+                    "Speciální pedagogické centrum",
+                    "Středisko výchovné péče"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 28,
+                "question": "Rizikové chování je:",
+                "options": [
+                    "Chování, v jehož důsledku dochází k prokazatelnému risku jedince nebo celé společnosti",
+                    "Chování, které vede k prokazatelnému prospěchu celé společnosti",
+                    "Chování, v jehož důsledku dochází k prokazatelnému nárůstu zdravotních, sociálních, výchovných a dalších rizik pro jedince nebo společnost",
+                    "Soubor pravidel zdvořilého chování ve společnosti"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 29,
+                "question": "Doporučení ke vzdělávání žáka se speciálními vzdělávacími potřebami je:",
+                "options": [
+                    "Dokument na úrovni doporučení, škole se doporučuje se jím řídit",
+                    "Dokument doporučující rodičům vhodné výchovně-vzdělávací postupy",
+                    "Dokument závazný, škola podle něj upravuje vzdělávání žáka se specifickými vzdělávacími potřebami",
+                    "Dokument, který vytváří škola spolu s rodiči k podpoře žáka"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 30,
+                "question": "Členem školního poradenského pracoviště zpravidla není:",
+                "options": [
+                    "Metodik prevence",
+                    "Výchovný poradce",
+                    "Ředitel školy",
+                    "Koordinátor inkluze"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 31,
+                "question": "Harm reduction označuje:",
+                "options": [
+                    "Přístupy snižování hmotnosti lékařsky šetrným způsobem, bez drastických diet",
+                    "Přístupy vedoucí ke snižování dávek alkoholu u osob závislých",
+                    "Přístupy vedoucí ke snižování či minimalizaci poškození drogami u osob, kteří drogy užívají a nejsou motivováni k tomu, aby užívání zanechali",
+                    "Přístupy zvyšování odolnosti jedince při setkání s drogovou scénou"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 32,
+                "question": "Silná touha, puzení k požití látky, která se mimo jiné projevuje aktivací určitých mozkových částí, zvýšením tepu, zvýšením pocení aj. se nazývá:",
+                "options": [
+                    "Brawling",
+                    "Craving",
+                    "Stalking",
+                    "Hysterie"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 33,
+                "question": "DDM je zkratka pro:",
+                "options": [
+                    "Domov dětí a mládeže",
+                    "Dětský domov mládeže",
+                    "Dům dětí a mládeže",
+                    "Dětský dům mládeže"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 34,
+                "question": "Střediska výchovné péče:",
+                "options": [
+                    "Jsou ústavy pro jedince s uloženou ochrannou výchovou",
+                    "Jsou bývalé výchovné ústavy pro děti",
+                    "Jsou zařízení zajišťující preventivně-výchovnou péči pro děti s rizikem vzniku a vývoje poruch chování",
+                    "Jsou zařízení věnující se využití volného času dětí"
+                ],
+                "correct": [2]
+            },
+            {
+                "id": 35,
+                "question": "Vrozené zrakové postižení dopadá na komunikaci:",
+                "options": [
+                    "nejvíce v pragmatické a sémantické rovině",
+                    "nejvíce v syntaktické rovině",
+                    "nemá vliv na verbální komunikaci"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 36,
+                "question": "Kvantitativní narušení sluchu na úrovni lehké nedoslýchavosti znamená:",
+                "options": [
+                    "ztrátu v pásmu 10-25 dB",
+                    "ztrátu v pásmu 26-40 dB",
+                    "ztrátu v pásmu 41-55 dB"
+                ],
+                "correct": [1]
+            },
+            {
+                "id": 37,
+                "question": "Žák, jehož mateřským jazykem je jazyk znakový:",
+                "options": [
+                    "může být integrován do běžného vzdělávacího proudu",
+                    "musí navštěvovat speciální školu",
+                    "nemůže studovat na běžné střední škole"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 38,
+                "question": "Souběh více dílčích deficitů, které zhoršují celkový intelektovaný výkon žáka, nazýváme:",
+                "options": [
+                    "oslabení kognitivního výkonu",
+                    "mentální retardace",
+                    "kognitivní disonance"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 39,
+                "question": "Soubor konceptuálních, sociálních a praktických dovedností naučených v průběhu života, které realizují lidé v jejich každodenních životech, nazýváme:",
+                "options": [
+                    "adaptivní chování",
+                    "emoční inteligence",
+                    "kognitivní chování"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 40,
+                "question": "Pomalý rozvoj řeči, malá slovní zásoba a problémy v obsahu sdělení, jsou charakteristické pro komunikační výkon:",
+                "options": [
+                    "lidí s postižením intelektu",
+                    "lidí s poruchou autistického spektra",
+                    "lidí se sluchovým postižením"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 41,
+                "question": "Vertikalizační stojan je:",
+                "options": [
+                    "pomůcka pro polohování žáka s tělesným postižením",
+                    "rehabilitační nástroj pro nevidomé",
+                    "edukační pomůcka pro děti s ADHD"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 42,
+                "question": "Medikace, která s sebou nese unavitelnost a ospalost je indikována k léčbě:",
+                "options": [
+                    "hyperaktivity",
+                    "hypoaktivity",
+                    "poruch spánku u dětí"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 43,
+                "question": "Většina moderních modelů nadání a mimořádného školního výkonu akceptuje také složku:",
+                "options": [
+                    "kontextu",
+                    "dědičnosti",
+                    "fyzické zdatnosti"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 44,
+                "question": "Dvě charakteristiky kognitivního výkonu mimořádně nadaných žáků jsou:",
+                "options": [
+                    "rychlost zpracování informací a vysoká úroveň abstraktního myšlení",
+                    "výborná mechanická paměť a zájem o jediné téma",
+                    "přesné plnění úkolů bez otázek a vysoká konformita"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 45,
+                "question": "Dvojí výjimečnost konstatujeme u dětí:",
+                "options": [
+                    "nadaných s další speciální vzdělávací potřebou",
+                    "vynikajících ve sportu a umění současně",
+                    "pocházejících z bilingvních rodin"
+                ],
+                "correct": [0]
+            },
+            {
+                "id": 46,
+                "question": "Míra poskytnuté podpory ve vzdělávacím procesu:",
+                "options": [
+                    "musí vycházet ze stanovené potřeby podpory",
+                    "je pro všechny integrované žáky stejná",
+                    "závisí pouze na finančních možnostech školy"
+                ],
+                "correct": [0]
+            },
+            {
+        "id": 47,
+        "question": "Pojem socializace označuje:",
+        "options": [
+            "záměrný cílevědomý proces vzdělávání",
+            "soubor norem, hodnot, postojů a vzorců chování",
+            "celoživotní proces utváření a vývoje člověka ve společenskou bytost",
+            "získávání znalostí a dovedností"
+        ],
+        "correct": [2]
+    },
+    {
+        "id": 48,
+        "question": "Marginální skupiny jsou:",
+        "options": [
+            "skupiny kriminálního charakteru, které musí společnost postihovat",
+            "většinová populace - majorita ve společnosti",
+            "tzv. elitní skupiny, které tvoří ekonomickou stabilitu společnosti",
+            "menšinové skupiny, které se z nejrůznějších důvodů dostávají na okraj společnosti"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": 49,
+        "question": "Mezi lehké drogy patří:",
+        "options": [
+            "nikotin, kofein, marihuana",
+            "nikotin, kofein, alkohol",
+            "nikotin, kofein, extáze",
+            "nikotin, kofein, heroin"
+        ],
+        "correct": [0]
+    },
+    {
+        "id": 50,
+        "question": "Žák zastávající ve třídě pozici \"beta\" bývá spolužáky vnímán jako:",
+        "options": [
+            "chytrý",
+            "šprt",
+            "outsider",
+            "šedá eminence"
+        ],
+        "correct": [3]
+    },
+    {
+        "id": 51,
+        "question": "Školská poradenská zařízení:",
+        "options": [
+            "Poskytují poradenské služby dětem, žákům, studentům, jejich zákonným zástupcům, školám a školským zařízením. Jsou jimi pedagogicko-psychologické poradny a speciálně pedagogická centra.",
+            "Poskytují poradenské služby dětem, žákům, studentům, jejich zákonným zástupcům, školám a školským zařízením. Jsou jimi pedagogicko-psychologické poradny, speciálně pedagogická centra a střediska výchovné péče.",
+            "Poskytují poradenské služby dětem, žákům, studentům, jejich zákonným zástupcům, školám a školským zařízením. Jsou jimi pedagogicko-psychologické poradny, speciálně pedagogická centra, diagnostické ústavy a střediska výchovné péče."
+        ],
+        "correct": [0]
+    },
+    {
+        "id": 52,
+        "question": "Když mluvíme o autistické triádě:",
+        "options": [
+            "Jedná se o 3 deficitní oblasti vývoje. Jde o kvalitu sociálního kontaktu, o kvalitu komunikace a zájmů, aktivit a hry.",
+            "Jedná se o 3 deficitní oblasti vývoje, které zahrnují nepřizpůsobení vrstevníkům, trvalou absenci očního kontaktu.",
+            "Jedná se o 3 deficitní oblasti vývoje. Oblasti jsou variabilní podle míry autismu a diagnózy."
+        ],
+        "correct": [0]
+    }
+        ]
+    }    
+}
