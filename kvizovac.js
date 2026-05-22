@@ -226,11 +226,13 @@ function loadQuestion() {
     feedback.className = 'feedback'; 
 
     const btn = document.getElementById('action-btn');
+    const inputType = qData.correct.length > 1 ? 'checkbox' : 'radio';
     
     if (config.isTestMode) {
         // TEST MÓD
         btn.innerText = (currentIndex === activeQuestions.length - 1) ? "Dokončit test" : "Další otázka";
         btn.onclick = handleTestModeNext; 
+        btn.style.display = 'block';
     } else {
         // PROCVIČOVÁNÍ
         if (userResponses[currentIndex]) {
@@ -252,17 +254,17 @@ function loadQuestion() {
 
             btn.innerText = (currentIndex === activeQuestions.length - 1) ? "Zobrazit výsledky" : "Další otázka";
             btn.onclick = function() { currentIndex++; (currentIndex < activeQuestions.length) ? loadQuestion() : showResults(); };
+            btn.style.display = 'block';
         } else {
             btn.innerText = "Zkontrolovat";
             btn.onclick = handlePracticeCheck; 
+            btn.style.display = (inputType === 'radio') ? 'none' : 'block';
         }
-        btn.style.display = 'block';
     }
 
     // Aktualizace navigace (zvýraznění aktivní bublinky)
     updateNavigator();
 
-    const inputType = qData.correct.length > 1 ? 'checkbox' : 'radio';
     
     qData.options.forEach((opt, index) => {
         const li = document.createElement('li');
@@ -298,6 +300,11 @@ function loadQuestion() {
                 } else {
                     input.checked = !input.checked;
                 }
+            }
+            
+            // AUTOMATICKÉ VYHODNOCENÍ PRO PROCVIČOVÁNÍ (POUZE U JEDNÉ ODPOVĚDI)
+            if (!config.isTestMode && inputType === 'radio' && !userResponses[currentIndex]) {
+                setTimeout(() => handlePracticeCheck(), 10);
             }
         };
 
@@ -387,6 +394,7 @@ function handlePracticeCheck() {
     
     feedback.style.display = 'block';
 
+    btn.style.display = 'block'; // Znovu zobrazíme tlačítko (pokud bylo skryté) pro posun dál
     btn.innerText = (currentIndex === activeQuestions.length - 1) ? "Zobrazit výsledky" : "Další otázka";
     btn.onclick = function() {
         currentIndex++;
