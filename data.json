@@ -2,7 +2,7 @@
   
     
     "psychologie_2_komplet": {
-        "title": "Psychologie II",
+        "title": "Psychologie II - Kompletní",
         "questions": [
             {
                 "id": 1,
@@ -290,354 +290,708 @@
                 "id": 48,
                 "question": "Janička poznává svět primárně pomocí uchopování a žužlání jednoduše dostupných věcí, Janička je zjevně dle Piageta ve fázi:",
                 "options": ["senzomotorické"],
+                "options": [
+                    "senzomotorické",
+                    "předoperační",
+                    "konkrétních operací",
+                    "formálních operací"
+                ],
                 "correct": [0]
             },
             {
                 "id": 49,
                 "question": "Psychosociálnímu vývoji člověka se věnoval",
                 "options": ["Erik Erikson"],
+                "options": [
+                    "Erik Erikson",
+                    "Jean Piaget",
+                    "Sigmund Freud",
+                    "John Bowlby"
+                ],
                 "correct": [0]
             },
             {
                 "id": 50,
                 "question": "V rámci vývojového výzkumu: budu sledovat jeden jediný případ, studovat jej do hloubky a snažit se postihnout souvislosti, pochopit příčiny a následky, půjde o :",
                 "options": ["Kazuistický výzkum"],
+                "options": [
+                    "Kazuistický výzkum",
+                    "Korelační výzkum",
+                    "Experimentální výzkum",
+                    "Longitudinální výzkum"
+                ],
                 "correct": [0]
             },
             {
                 "id": 51,
                 "question": "Uvažování které nezohledňuje kauzalitu př.: Budu zlobit, přijde čert. Najdu čtyřlístek, budu mít štěstí odpovídá myšlení:",
                 "options": ["Magickému myšlení"],
+                "options": [
+                    "Magickému myšlení",
+                    "Abstraktnímu myšlení",
+                    "Logickému myšlení",
+                    "Deduktivnímu myšlení"
+                ],
                 "correct": [0]
             },
             {
                 "id": 52,
                 "question": "V jakém věku začne dítě rozumět symbolům a využívat je v komunikaci ?",
                 "options": ["Kolem 2 let"],
+                "options": [
+                    "Kolem 2 let",
+                    "Kolem 6 měsíců",
+                    "Kolem 4 let",
+                    "Kolem 6 let"
+                ],
                 "correct": [0]
             },
             {
                 "id": 53,
                 "question": "Pro děti staršího školního věku neplatí...",
                 "options": ["Podle Eriksona řeší krizi intimita a izolace"],
+                "options": [
+                    "Podle Eriksona řeší krizi intimita a izolace",
+                    "Ve vývoji identity prochází stádiem skupinové identity",
+                    "Rozvíjí se u nich abstraktní myšlení",
+                    "Zvyšuje se vliv vrstevnické skupiny"
+                ],
                 "correct": [0]
             },
             {
                 "id": 54,
                 "question": "Dítě které se snaží dodržet etická pravidla, aby se vyhnulo nesouhlasu ostatních, se nachází podle Kohlberga ve stádiu ...",
                 "options": ["Konvenční morálky"],
+                "options": [
+                    "Konvenční morálky",
+                    "Prekonvenční morálky",
+                    "Postkonvenční morálky",
+                    "Autonomní morálky"
+                ],
                 "correct": [0]
             },
             {
                 "id": 55,
                 "question": "W. Mitchell uskutečnil roku 1970 longitudinální experiment, který byl zaměřen na výzkum mentálního mechanismu „síly vůle\". Jak se experiment nazývá ?",
                 "options": ["Stanfordský marshmallow experiment"],
+                "options": [
+                    "Stanfordský marshmallow experiment",
+                    "Milgramův experiment",
+                    "Stanfordský vězeňský experiment",
+                    "Aschův experiment"
+                ],
                 "correct": [0]
             },
             {
                 "id": 56,
                 "question": "Abstraktní myšlení se u člověka objevuje",
                 "options": ["Na 2. stupni ZŠ"],
+                "options": [
+                    "Na 2. stupni ZŠ",
+                    "V předškolním věku",
+                    "Na 1. stupni ZŠ",
+                    "Až v dospělosti"
+                ],
                 "correct": [0]
             },
             {
                 "id": 57,
                 "question": "Co bylo výsledkem pokusů Mary Ainsworthové ?",
                 "options": ["Rozdělila děti do skupin podle jejich citové vazby k matce"],
+                "options": [
+                    "Rozdělila děti do skupin podle jejich citové vazby k matce",
+                    "Popsala stádia kognitivního vývoje",
+                    "Vytvořila teorii psychosociálních krizí",
+                    "Dokázala vrozenost jazykových struktur"
+                ],
                 "correct": [0]
             },
             {
                 "id": 58,
                 "question": "Mezi významné charakteristiky konkrétního logického myšlení mladších školáků podle Piageta nepatří schopnost...",
                 "options": ["Centrace"],
+                "options": [
+                    "Centrace",
+                    "Decentrace",
+                    "Konzervace",
+                    "Reverzibility"
+                ],
                 "correct": [0]
             },
             {
                 "id": 59,
                 "question": "Pro vztahy s vrstevníky neplatí.",
                 "options": ["S věkem se jejich počet zvyšuje a intenzita klesá"],
+                "options": [
+                    "S věkem se jejich počet zvyšuje a intenzita klesá",
+                    "Pomáhají k separaci od rodičů",
+                    "Jsou činitelem socializace",
+                    "Mohou být pro dítě sociální oporou"
+                ],
                 "correct": [0]
             },
             {
                 "id": 60,
                 "question": "Emoční deprivace je pojem, který znamená",
                 "options": ["Nedostatečné uspokojení základních psychických potřeb po dlouhou dobu"],
+                "options": [
+                    "Nedostatečné uspokojení základních psychických potřeb po dlouhou dobu",
+                    "Krátkodobý pocit smutku nebo úzkosti",
+                    "Neschopnost prožívat jakékoliv emoce",
+                    "Zvýšenou potřebu pozornosti od okolí"
+                ],
                 "correct": [0]
             },
             {
                 "id": 61,
                 "question": "Pro lidský vývoj neplatí....",
                 "options": ["Sociální determinace v raném věku, biologické vlivy v dospělosti a stáří"],
+                "options": [
+                    "Sociální determinace v raném věku, biologické vlivy v dospělosti a stáří",
+                    "Bio-psychologická determinace",
+                    "Realizace prostřednictvím zážitků a učení se",
+                    "Vzájemné působení dědičnosti a prostředí"
+                ],
                 "correct": [0]
             },
             {
                 "id": 62,
                 "question": "V mladším školním věku neplatí",
                 "options": ["Na dobrý výkon dítěte má vliv zejména ocenění spolužáky"],
+                "options": [
+                    "Na dobrý výkon dítěte má vliv zejména ocenění spolužáky",
+                    "Zvládnutí role spolužáka je projevem sociální úspěšnosti",
+                    "Děti přebírají názory učitele na své spolužáky",
+                    "Děti se učí rozlišovat vhodné a nevhodné chování ve školním prostředí"
+                ],
                 "correct": [0]
             },
             {
                 "id": 63,
                 "question": "Teorie mysli",
                 "options": ["Je fenomén související s porozuměním myšlení jiných lidí"],
+                "options": [
+                    "Je fenomén související s porozuměním myšlení jiných lidí",
+                    "Popisuje anatomickou stavbu mozku",
+                    "Zabývá se výhradně rozvojem abstraktního myšlení",
+                    "Vysvětluje vznik paměťových stop"
+                ],
                 "correct": [0]
             },
             {
                 "id": 64,
                 "question": "Úvaha: Myslím si že Jan si myslí, že já si myslím o Lídě, že je nafoukaná... dovede provést dítě",
                 "options": ["Staršího školního věku"],
+                "options": [
+                    "Staršího školního věku",
+                    "Předškolního věku",
+                    "Mladšího školního věku",
+                    "Batolecího věku"
+                ],
                 "correct": [0]
             },
             {
                 "id": 65,
                 "question": "Decentrace je",
                 "options": ["Schopnost pochopení podstaty nezávislé na jednotlivých aspektech reality"],
+                "options": [
+                    "Schopnost pochopení podstaty nezávislé na jednotlivých aspektech reality",
+                    "Neschopnost vnímat situaci z pozice jiného",
+                    "Zaměření pouze na jeden výrazný znak situace",
+                    "Schopnost vrátit myšlenkový postup do výchozího bodu"
+                ],
                 "correct": [0]
             },
             {
                 "id": 66,
                 "question": "Stádia kognitivního vývoje podle Piageta následují v tomto pořadí....",
                 "options": ["Senzomotorické, předoperační, konkrétní operace, formální operace"],
+                "options": [
+                    "Senzomotorické, předoperační, konkrétní operace, formální operace",
+                    "Předoperační, senzomotorické, formální operace, konkrétní operace",
+                    "Senzomotorické, konkrétní operace, předoperační, formální operace",
+                    "Senzomotorické, formální operace, předoperační, konkrétní operace"
+                ],
                 "correct": [0]
             },
             {
                 "id": 67,
                 "question": "Mladý člověk, který odsouvá záležitosti zatížené zodpovědností za vlastní život, užívá svobodu, hledá své místo, experimentuje se vztahy je z pohledu společnosti v období...",
                 "options": ["Psychosociálního moratoria"],
+                "options": [
+                    "Psychosociálního moratoria",
+                    "Generativity vs. stagnace",
+                    "Konvenční morálky",
+                    "Autonomie vs. stud"
+                ],
                 "correct": [0]
             },
             {
                 "id": 68,
                 "question": "Přechodné stádium skupinové identity...",
                 "options": ["Je jedním z procesů ve vývoji identity v adolescenci"],
+                "options": [
+                    "Je jedním z procesů ve vývoji identity v adolescenci",
+                    "Je typické pro předškolní děti při hře",
+                    "Je konečným stádiem vývoje osobnosti v dospělosti",
+                    "Nastává až v období střední dospělosti"
+                ],
                 "correct": [0]
             },
             {
                 "id": 69,
                 "question": "Pro starší dospělost není charakteristickým znakem....",
                 "options": ["Krize intimita vs. Izolace"],
+                "options": [
+                    "Krize intimita vs. Izolace",
+                    "Reflexe na vlastní život",
+                    "Přijetí konce života",
+                    "Integrita vs. zoufalství"
+                ],
                 "correct": [0]
             },
             {
                 "id": 70,
                 "question": "Logické uvažování dítě začíná ovládat...",
                 "options": ["Na 1. stupni ZŠ"],
+                "options": [
+                    "Na 1. stupni ZŠ",
+                    "V mateřské škole",
+                    "Až na 2. stupni ZŠ",
+                    "Kolem 2 let věku"
+                ],
                 "correct": [0]
             },
             {
                 "id": 71,
                 "question": "Metakognice je",
                 "options": ["Schopnost přemýšlet o vlastním myšlení"],
+                "options": [
+                    "Schopnost přemýšlet o vlastním myšlení",
+                    "Schopnost rychlého zapamatování faktů",
+                    "Neschopnost udržet pozornost na jeden úkol",
+                    "Proces učení pokusem a omylem"
+                ],
                 "correct": [0]
             },
             {
                 "id": 72,
                 "question": "Rozvod rodičů se může odrazit...",
                 "options": ["V různé míře přísnosti rodičů, V syndromu zavrženého rodiče, V idealizaci nepřítomného rodiče (ve všech předešlých možnostech)"],
+                "options": [
+                    "V různé míře přísnosti rodičů, V syndromu zavrženého rodiče, V idealizaci nepřítomného rodiče (ve všech předešlých možnostech)",
+                    "Pouze ve zhoršení školního prospěchu",
+                    "Pouze ve fyzických symptomech dítěte",
+                    "Nijak se na dítěti neprojevuje, pokud je proveden dohodou"
+                ],
                 "correct": [0]
             },
             {
                 "id": 73,
                 "question": "Věk hledání identity, věk nestability, věk orientace na vlastní osobu, věk pocitů na půli cesty, věk možností. Tyto rysy označují období mezi 18-25 lety označil J.J.Arnett novým pojmem",
                 "options": ["Vynořující se dospělost"],
+                "options": [
+                    "Vynořující se dospělost",
+                    "Pozdní adolescence",
+                    "Raná zralost",
+                    "Psychosociální moratorium"
+                ],
                 "correct": [0]
             },
             {
                 "id": 74,
                 "question": "Morální vývoj jedince",
                 "options": ["Úzce souvisí s jeho kognitivním vývojem"],
+                "options": [
+                    "Úzce souvisí s jeho kognitivním vývojem",
+                    "Je zcela nezávislý na kognitivním vývoji",
+                    "Závisí pouze na genetických předpokladech",
+                    "Je ukončen již v předškolním věku"
+                ],
                 "correct": [0]
             },
             {
                 "id": 75,
                 "question": "Pro adolescenci neplatí",
                 "options": ["Pragmatická orientace na pravidla a realitu"],
+                "options": [
+                    "Pragmatická orientace na pravidla a realitu",
+                    "Kolísání emočního prožívání",
+                    "Hledání vlastní identity",
+                    "Zvýšená citlivost vůči reakcím okolí"
+                ],
                 "correct": [0]
             },
             {
                 "id": 76,
                 "question": "Pro děti mladšího školního věku platí...",
                 "options": ["Potřebují jednoznačná pravidla, rozvíjí se sociální dovednost"],
+                "options": [
+                    "Potřebují jednoznačná pravidla, rozvíjí se sociální dovednost",
+                    "Jsou schopny plně abstraktního a formálního myšlení",
+                    "Procházejí obdobím hledání identity",
+                    "Jsou silně egocentrické a nejsou schopny decentrace"
+                ],
                 "correct": [0]
             },
             {
                 "id": 77,
                 "question": "Morální hodnoty a principy jsou jedinečné a autonomní, nezávislé na autoritě – to je typické přesvědčení jedince, který se podle Kohlberga nachází ve vývoj. Stádiu ....",
                 "options": ["Postkonvenční morálky"],
+                "options": [
+                    "Postkonvenční morálky",
+                    "Prekonvenční morálky",
+                    "Konvenční morálky",
+                    "Univerzální morálky"
+                ],
                 "correct": [0]
             },
             {
                 "id": 78,
                 "question": "W. Mitchell uskutečnil roku 1970 marshmallow experiment, který byl zaměřen na výzkum mentálního mechanismu „síly vůle\". Výsledky ukazují, že",
                 "options": ["Schopnost odložit uspokojení v předškolním věku souvisí s vůlí a vytrvalostí ve školním věku"],
+                "options": [
+                    "Schopnost odložit uspokojení v předškolním věku souvisí s vůlí a vytrvalostí ve školním věku",
+                    "Děti neumí odložit uspokojení před 10 rokem věku",
+                    "Síla vůle je zcela nezávislá na věku a nedá se předvídat",
+                    "Děti, které snědly bonbon hned, měly lepší studijní výsledky"
+                ],
                 "correct": [0]
             },
             {
                 "id": 79,
                 "question": "Citlivé a podporující interakce v raném věku spoluvytvářejí základ pro...",
                 "options": ["Emoční a sociální kompetence školáka"],
+                "options": [
+                    "Emoční a sociální kompetence školáka",
+                    "Rozvoj hrubé motoriky",
+                    "Genetické předpoklady jedince",
+                    "Fyzický růst dítěte"
+                ],
                 "correct": [0]
             },
             {
                 "id": 80,
                 "question": "Pro vztahy s vrstevníky neplatí",
                 "options": ["S věkem se jejich počet zvyšuje a intenzita klesá"],
+                "options": [
+                    "S věkem se jejich počet zvyšuje a intenzita klesá",
+                    "Jsou důležitým faktorem socializace",
+                    "Poskytují sociální oporu",
+                    "Pomáhají při odpoutávání se od rodiny"
+                ],
                 "correct": [0]
             },
             {
                 "id": 81,
                 "question": "Psychická deprivace je pojem, který znamená",
                 "options": ["Nedostatečné uspokojení základních psychických potřeb po dlouhou dobu"],
+                "options": [
+                    "Nedostatečné uspokojení základních psychických potřeb po dlouhou dobu",
+                    "Trauma způsobené jednorázovým silným zážitkem",
+                    "Stav po požití psychoaktivních látek",
+                    "Vrozenou poruchu emočního prožívání"
+                ],
                 "correct": [0]
             },
             {
                 "id": 82,
                 "question": "Pro lidský vývoj platí",
                 "options": ["Realizace prostřednictvím zrání a učení se"],
+                "options": [
+                    "Realizace prostřednictvím zrání a učení se",
+                    "Je ovlivněn pouze geneticky",
+                    "Nezávisí na sociálním prostředí",
+                    "Probíhá vždy u všech jedinců naprosto stejně a stejným tempem"
+                ],
                 "correct": [0]
             },
             {
                 "id": 83,
                 "question": "Stádia kognitivního vývoje podle Piageta následují v tomto pořadí",
                 "options": ["Senzomotorická, Předoperační, Konkrétní, Formální"],
+                "options": [
+                    "Senzomotorická, Předoperační, Konkrétní, Formální",
+                    "Předoperační, Senzomotorická, Formální, Konkrétní",
+                    "Senzomotorická, Konkrétní, Předoperační, Formální",
+                    "Formální, Konkrétní, Předoperační, Senzomotorická"
+                ],
                 "correct": [0]
             },
             {
                 "id": 84,
                 "question": "Mladý člověk, který odsouvá záležitosti, zodpovědnosti, užívá svobodu, hledá své místo, experimentuje se vztahy... je z pohledu společnosti v období....",
                 "options": ["Psychosociální moratoria"],
+                "options": [
+                    "Psychosociální moratoria",
+                    "Intimity vs. izolace",
+                    "Iniciativy vs. viny",
+                    "Generativity vs. stagnace"
+                ],
                 "correct": [0]
             },
             {
                 "id": 85,
                 "question": "Přechodné stádium skupinové identity",
                 "options": ["Je jedním z procesů ve vývoji identity v adolescenci"],
+                "options": [
+                    "Je jedním z procesů ve vývoji identity v adolescenci",
+                    "Projevuje se především u předškolních dětí",
+                    "Znamená úplnou ztrátu vlastní individuality",
+                    "Je typické pro pozdní dospělost"
+                ],
                 "correct": [0]
             },
             {
                 "id": 86,
                 "question": "Adolescenti (2 správné odpovědi)...",
                 "options": ["Potřebují respektující přístup ze strany učitelů, V kritických situací stále využívají sociální opory rodičů"],
+                "options": [
+                    "Potřebují respektující přístup ze strany učitelů, V kritických situací stále využívají sociální opory rodičů",
+                    "Jsou plně nezávislí a nepotřebují podporu rodičů",
+                    "Orientují se výhradně na autoritu učitele a ignorují vrstevníky",
+                    "Zcela odmítají jakoukoliv pomoc v kritických situacích"
+                ],
                 "correct": [0]
             },
             {
                 "id": 87,
                 "question": "Kdo je autorem psychosociálního vývoje osobnosti",
                 "options": ["Erik Erikson"],
+                "options": [
+                    "Erik Erikson",
+                    "Jean Piaget",
+                    "Sigmund Freud",
+                    "Carl Rogers"
+                ],
                 "correct": [0]
             },
             {
                 "id": 88,
                 "question": "V teorii Eriksona si žáci druhého stupně budují zejména",
                 "options": ["Identitu (ve vztahu k sobě samému)"],
+                "options": [
+                    "Identitu (ve vztahu k sobě samému)",
+                    "Základní důvěru k okolí",
+                    "Snaživost a píli",
+                    "Pocit autonomie"
+                ],
                 "correct": [0]
             },
             {
                 "id": 89,
                 "question": "Schopnost přemýšlet o věcech, pojmech a jejich vlastnostech a zákonitostech bez předchozí žité zkušenosti se váže",
                 "options": ["K abstraktnímu myšlení"],
+                "options": [
+                    "K abstraktnímu myšlení",
+                    "Ke konkrétnímu myšlení",
+                    "K magickému myšlení",
+                    "K intuitivnímu myšlení"
+                ],
                 "correct": [0]
             },
             {
                 "id": 90,
                 "question": "Potřeba negovat očekávání autorit a zkoušet prostupnost hranic a pravidel se váže k",
                 "options": ["Batolecímu věku + puberta a adolescence"],
+                "options": [
+                    "Batolecímu věku + puberta a adolescence",
+                    "Mladšímu školnímu věku",
+                    "Předškolnímu věku a mladší dospělosti",
+                    "Pouze k období puberty"
+                ],
                 "correct": [0]
             },
             {
                 "id": 91,
                 "question": "Pojem konformita můžeme vymezit jako",
                 "options": ["Změna chování nebo názoru, která vzniká jako výsledek skutečného nebo domnělého tlaku jiného jedince, skupiny nebo společnosti"],
+                "options": [
+                    "Změna chování nebo názoru, která vzniká jako výsledek skutečného nebo domnělého tlaku jiného jedince, skupiny nebo společnosti",
+                    "Schopnost jedince vzdorovat tlaku skupiny",
+                    "Postoj, při kterém jedinec zcela ignoruje existenci pravidel",
+                    "Vrozená vlastnost projevující se nezávislostí na okolí"
+                ],
                 "correct": [0]
             },
             {
                 "id": 92,
                 "question": "Autorem teorie attachmentu je",
                 "options": ["Bowlby"],
+                "options": [
+                    "Bowlby",
+                    "Piaget",
+                    "Erikson",
+                    "Vygotskij"
+                ],
                 "correct": [0]
             },
             {
                 "id": 93,
                 "question": "Schopnost přemýšlet o věcech, pojmech a jejich vlastnostech a zákonitostech než předchozí žité zkušenosti se v kontextu vývoje váže k",
                 "options": ["Abstraktnímu myšlení"],
+                "options": [
+                    "Abstraktnímu myšlení",
+                    "Magickému myšlení",
+                    "Předoperačnímu myšlení",
+                    "Senzomotorickému myšlení"
+                ],
                 "correct": [0]
             },
             {
                 "id": 94,
                 "question": "Egocentrismus v poznávání dítěte předškolního věku znamená",
                 "options": ["Neschopnost vnímat situaci z pozice jiného"],
+                "options": [
+                    "Neschopnost vnímat situaci z pozice jiného",
+                    "Úmyslné sobecké chování s cílem ublížit druhým",
+                    "Neschopnost rozeznat živé a neživé předměty",
+                    "Potřeba být neustále středem pozornosti dospělých"
+                ],
                 "correct": [0]
             },
             {
                 "id": 95,
                 "question": "Pokud dítě nekriticky přijímá názory a soudy autority, Ize u něj usuzovat",
                 "options": ["Úroveň konvenční morálky"],
+                "options": [
+                    "Úroveň konvenční morálky",
+                    "Úroveň postkonvenční morálky",
+                    "Úroveň prekonvenční morálky",
+                    "Úroveň autonomní morálky"
+                ],
                 "correct": [0]
             },
             {
                 "id": 96,
                 "question": "Jaký základní psychologický rozpor řeší dítě mladšího školního věku podle Eriksona",
                 "options": ["Snaživost (píle) vs. Méněcennost"],
+                "options": [
+                    "Snaživost (píle) vs. Méněcennost",
+                    "Iniciativa vs. Vina",
+                    "Důvěra vs. Nedůvěra",
+                    "Identita vs. Zmatení rolí"
+                ],
                 "correct": [0]
             },
             {
                 "id": 97,
                 "question": "Citové a podporující interakce v raném věku spoluvytvářejí základ pro ...",
                 "options": ["Emoční a sociální kompetence školáka"],
+                "options": [
+                    "Emoční a sociální kompetence školáka",
+                    "Biologické zrání mozku",
+                    "Změnu temperamentových rysů",
+                    "Osvojení si gramatiky cizího jazyka"
+                ],
                 "correct": [0]
             },
             {
                 "id": 98,
                 "question": "Mezi významné charakteristiky konkrétního logického myšlení mladších školáků podle Piageta patří schopnost....",
                 "options": ["Reverzibility"],
+                "options": [
+                    "Reverzibility",
+                    "Abstraktního uvažování",
+                    "Magického myšlení",
+                    "Ireverzibility"
+                ],
                 "correct": [0]
             },
             {
                 "id": 99,
                 "question": "Která věta platí",
                 "options": ["V dospívání vždy dochází k výrazným konfliktům s rodiči"],
+                "options": [
+                    "V dospívání vždy dochází k výrazným konfliktům s rodiči",
+                    "V dospívání se vztahy s vrstevníky stávají méně důležitými než vztahy s rodiči",
+                    "Období dospívání je charakteristické emoční stabilitou",
+                    "V dospívání již neprobíhá vývoj rozumových schopností"
+                ],
                 "correct": [0]
             },
             {
                 "id": 100,
                 "question": "Decentrace...",
                 "options": ["Schopnost pochopení podstaty nezávisle na jednotlivých aspektech reality"],
+                "options": [
+                    "Schopnost pochopení podstaty nezávisle na jednotlivých aspektech reality",
+                    "Neschopnost přistoupit na jiný úhel pohledu",
+                    "Tendence soustředit se jen na jeden výrazný znak objektu",
+                    "Způsob chápání světa výhradně z vlastní perspektivy"
+                ],
                 "correct": [0]
             },
             {
                 "id": 101,
                 "question": "Mladý člověk, který odsouvá záležitosti, zodpovědnost, užívá svobodu, hledá své místo, experimentu se vztahy, je v období",
                 "options": ["Psychosociálního moratoria"],
+                "options": [
+                    "Psychosociálního moratoria",
+                    "Generativity",
+                    "Integrity",
+                    "Konvenční morálky"
+                ],
                 "correct": [0]
             },
             {
                 "id": 102,
                 "question": "Přechodné stádium skupinové identity.",
                 "options": ["Je jedním z procesů ve vývoji identity v adolescenci"],
+                "options": [
+                    "Je jedním z procesů ve vývoji identity v adolescenci",
+                    "Je typické pro předškolní věk",
+                    "Vyskytuje se pouze u dětí s poruchou chování",
+                    "Nastává v období pozdní dospělosti"
+                ],
                 "correct": [0]
             },
             {
                 "id": 103,
                 "question": "Pro mladší dospělost je charakteristickým znakem",
                 "options": ["Krize intimita vs. Izolace"],
+                "options": [
+                    "Krize intimita vs. Izolace",
+                    "Krize generativita vs. stagnace",
+                    "Krize identita vs. zmatení rolí",
+                    "Krize integrita vs. zoufalství"
+                ],
                 "correct": [0]
             },
             {
                 "id": 104,
                 "question": "Mezi psychické potřeby podle Zdeňka Matějčka nepatří",
                 "options": ["Potřeba stálosti a stereotypnosti prostředí"],
+                "options": [
+                    "Potřeba stálosti a stereotypnosti prostředí",
+                    "Potřeba stimulace",
+                    "Potřeba smysluplného světa",
+                    "Potřeba životní perspektivy"
+                ],
                 "correct": [0]
             },
             {
                 "id": 105,
                 "question": "Pro pravidla, která odrážejí pravidelně se vyskytující formy chování a určují žádoucí chování členů skupiny je používán pojem...",
                 "options": ["Skupinové normy"],
+                "options": [
+                    "Skupinové normy",
+                    "Sociální role",
+                    "Sociální facilitace",
+                    "Konformita"
+                ],
                 "correct": [0]
             },
             {
                 "id": 106,
                 "question": "Snížení motivace při společné činnosti s jedním výsledkem ve skupině se nazývá...",
                 "options": ["Sociální zahálení"],
+                "options": [
+                    "Sociální zahálení",
+                    "Sociální facilitace",
+                    "Skupinová polarizace",
+                    "Bystander effect"
+                ],
                 "correct": [0]
             },
             {
@@ -1329,7 +1683,7 @@
         ]
     },
     "pedagogika_2": {
-        "title": "asi Pedagogika 2/ některé otázky se kryjí se speciální",
+        "title": "asi Pedagogika 2",
         "questions": [
             {
                 "id": 1,
