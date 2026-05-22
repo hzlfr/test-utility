@@ -2,7 +2,7 @@
   
     
     "psychologie_2_komplet": {
-        "title": "Psychologie II - Kompletní",
+        "title": "Psychologie II",
         "questions": [
             {
                 "id": 1,
@@ -169,8 +169,13 @@
             {
                 "id": 28,
                 "question": "Co je to metakognice?",
-                "options": ["Chápání metafor, nadsázky, slovních hříček a analogie.", "Schopnosti a dovednosti jedince uvedomovat si vlastní poznávání a regulovat ho. tedy plánovat, monitorovat a vyhodnocovat postupy, které použil při učení."],
-                "correct": [1]
+                "options": [
+                    "Schopnosti a dovednosti jedince uvedomovat si vlastní poznávání a regulovat ho. tedy plánovat, monitorovat a vyhodnocovat postupy, které použil při učení.",
+                    "Chápání metafor, nadsázky, slovních hříček a analogie.",
+                    "Proces učení se novým motorickým dovednostem prostřednictvím podmiňování.",
+                    "Pojem označující neschopnost vybavit si vzpomínky z raného dětství."
+                ],
+                "correct": [0]
             },
             {
                 "id": 29,
@@ -199,7 +204,12 @@
             {
                 "id": 33,
                 "question": "Teorii kognitivního vývoje, která je nazývána též genetická epistemologie, vytvořil:",
-                "options": ["Jean Piaget"],
+                "options": [
+                    "Jean Piaget",
+                    "Lev Vygotskij",
+                    "Erik Erikson",
+                    "Sigmund Freud"
+                ],
                 "correct": [0]
             },
             {
