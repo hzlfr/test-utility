@@ -36,26 +36,34 @@ window.onload = function() {
         document.body.classList.add('dark-mode');
     }
 
-    if (typeof database === 'undefined') {
-        alert("Chyba: Soubor data.js nebyl nalezen! Ujisti se, že je ve stejné složce.");
-        return;
-    }
-    
-    // Naplnění selectu
-    const select = document.getElementById('subject-select');
-    for (const key in database) {
-        const option = document.createElement('option');
-        option.value = key;
-        option.text = database[key].title;
-        select.appendChild(option);
-    }
+    // Asynchronně načteme data z externího JSON souboru
+    fetch('data.json')
+        .then(response => {
+            if (!response.ok) {
+                throw new Error(`HTTP chyba! Status: ${response.status}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            window.database = data; // Uložíme data do globální proměnné, aby k nim měly přístup ostatní funkce
 
-    // Reset výběru na výchozí hodnotu (aby nezůstalo viset z minula)
-    select.value = "";
+            // Naplnění selectu
+            const select = document.getElementById('subject-select');
+            for (const key in window.database) {
+                const option = document.createElement('option');
+                option.value = key;
+                option.text = window.database[key].title;
+                select.appendChild(option);
+            }
 
-    // Aktualizace slideru pro případ, že si prohlížeč pamatuje výběr po refreshi
-    updateMaxQuestions();
-    checkErrorHistory();
+            select.value = ""; // Reset výběru na výchozí hodnotu
+            updateMaxQuestions();
+            checkErrorHistory();
+        })
+        .catch(error => {
+            console.error("Chyba při načítání data.json:", error);
+            alert("Chyba: Soubor 'data.json' se nepodařilo načíst! Ujistěte se, že je ve stejné složce jako HTML soubor.");
+        });
 };
 
 function updateMaxQuestions() {
