@@ -2130,7 +2130,7 @@
                     "Jedná se o 3 deficitní oblasti vývoje. Oblasti jsou variabilní podle míry autismu a diagnózy."
                 ],
                 "correct": [0]
-            }   
+            }
         ]
     },
     "auticka": {
@@ -4116,8 +4116,8 @@
                 ],
                 "correct": [1]
             },
-	{
-                "id": 1,
+            {
+                "id": 199,
                 "question": "Více opotřebovanou vnitřní hranu pneumatik obou kol na přední nápravě způsobuje:",
                 "options": [
                     "vadné tlumiče",
@@ -4127,7 +4127,7 @@
                 "correct": [2]
             },
             {
-                "id": 2,
+                "id": 200,
                 "question": "Kdy se měří tlak v pneumatikách?",
                 "options": [
                     "před jízdou",
@@ -4137,7 +4137,7 @@
                 "correct": [0]
             },
             {
-                "id": 3,
+                "id": 201,
                 "question": "Zamaštěné brzdové obložení:",
                 "options": [
                     "odmastíme a zdrsníme hrubým smirkovým papírem",
@@ -4147,7 +4147,7 @@
                 "correct": [1]
             },
             {
-                "id": 4,
+                "id": 202,
                 "question": "Síla nutná pro stlačení dvojčinného teleskopického tlumiče klasického provedení je:",
                 "options": [
                     "větší než síla pro roztažení",
@@ -4157,7 +4157,7 @@
                 "correct": [2]
             },
             {
-                "id": 5,
+                "id": 203,
                 "question": "Jaký parametr se u vozidla zhoršuje s klesající účinností tlumičů?",
                 "options": [
                     "životnost brzdového obložení",
@@ -4167,17 +4167,17 @@
                 "correct": [0]
             },
             {
-                "id": 6,
+                "id": 204,
                 "question": "V hliníkovém bloku poškozený závit opravíme tak, že:",
                 "options": [
                     "do závitu šroubu natočíme pramének konopí s fermeží",
                     "závitovou díru vylijeme epoxidovou pryskyřicí a po vytvrzení vyřízneme závit nový",
                     "použijeme závitových vložek"
                 ],
-                "correct": [0]
+                "correct": [2]
             },
             {
-                "id": 7,
+                "id": 205,
                 "question": "Mezi neodpérovanou hmotu automobilu patří:",
                 "options": [
                     "motor a převodovka",
@@ -4187,7 +4187,7 @@
                 "correct": [2]
             },
             {
-                "id": 8,
+                "id": 206,
                 "question": "Ke změně odklonu kol při propérování nedochází u nápravy:",
                 "options": [
                     "lichoběžníkové",
@@ -4197,7 +4197,7 @@
                 "correct": [1]
             },
             {
-                "id": 9,
+                "id": 207,
                 "question": "Výhody kluzných ložisek oproti valivým jsou:",
                 "options": [
                     "jednoduchost, nižší cena, nižší třecí ztráty",
@@ -4207,17 +4207,7 @@
                 "correct": [0]
             },
             {
-                "id": 10,
-                "question": "Co z následujících možností může zhoršit výsledky bezdemontážního testu tlumičů?",
-                "options": [
-                    "přidřené čepy řízení",
-                    "přehuštěné pneumatiky",
-                    "chybně seřízená sbíhavost kol"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 11,
+                "id": 208,
                 "question": "Před vyvažováním kol musíme mimo jiné:",
                 "options": [
                     "pneumatiku nahustit na tlak předepsaný výrobcem pneumatik a odstranit stará závaží",
@@ -4227,47 +4217,37 @@
                 "correct": [0]
             },
             {
-                "id": 12,
+                "id": 209,
                 "question": "Nejobjektivnější zkouška tlumiče pérování se provádí:",
                 "options": [
                     "bezdemontážní rezonanční metodou",
                     "bezdemontážní rázovou metodou",
                     "odzkoušením demontovaného tlumiče na speciálním zařízení"
                 ],
-                "correct": [0]
+                "correct": [2]
             },
             {
-                "id": 13,
-                "question": "Pro snímání otáček kol u ABS se používají:",
-                "options": [
-                    "piezoelektrický snímač",
-                    "optoelektrický snímač",
-                    "indukční snímač"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 14,
+                "id": 210,
                 "question": "Kde v automobilu se využívají lepená bezpečnostní skla?",
                 "options": [
                     "na bočních oknech",
                     "na vnitřních zpětných zrcátkách",
                     "na čelních oknech automobilu"
                 ],
-                "correct": [0]
+                "correct": [2]
             },
             {
-                "id": 15,
+                "id": 211,
                 "question": "Samonosná karoserie má:",
                 "options": [
                     "nemá rám",
                     "plošinový rám",
                     "žebřinový rám"
                 ],
-                "correct": [2]
+                "correct": [0]
             },
             {
-                "id": 16,
+                "id": 212,
                 "question": "Správný sled operací při seřizování geometrie přední nápravy je následující:",
                 "options": [
                     "sbíhavost kol, odklon kola, záklon a příklon rejdové osy, kontrola diferenčního úhlu",
@@ -4277,57 +4257,27 @@
                 "correct": [1]
             },
             {
-                "id": 17,
+                "id": 213,
                 "question": "Hydraulický posilovač řízení pracuje na principu:",
                 "options": [
                     "tlak kapaliny vyvozený čerpadlem snižuje ovládací sílu na volant",
                     "tlak kapaliny vyvozený čerpadlem zajišťuje přímo řízení",
                     "tlak kapaliny vyvozený čerpadlem zvětšuje ovládací sílu na volant"
                 ],
-                "correct": [2]
-            },
-            {
-                "id": 18,
-                "question": "Účelem zpomalovací (odlehčovací) brzdy je:",
-                "options": [
-                    "zabránit samovolnému rozjezdu vozidla při stání na svahu",
-                    "snížit rychlost vozidla až do zastavení",
-                    "pouze snížit rychlost vozidla bez použití provozních brzd"
-                ],
                 "correct": [0]
             },
             {
-                "id": 19,
-                "question": "Příhradový rám se používá:",
-                "options": [
-                    "u nákladního automobilu",
-                    "u lesního traktoru",
-                    "u autobusu"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 20,
-                "question": "U brzdové kapaliny je nejdůležitější vlastností:",
-                "options": [
-                    "viskozita",
-                    "bod varu",
-                    "hustota"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 21,
+                "id": 214,
                 "question": "K zachycení obousměrných axiálních sil lze použít tato ložiska:",
                 "options": [
                     "kuželíkové nebo dvouřadé kuličkové s kosoúhlým stykem ve dvojici",
                     "kuličkové nebo válečkové nebo soudečkové",
                     "kuličkové nebo jehlové"
                 ],
-                "correct": [2]
+                "correct": [0]
             },
             {
-                "id": 22,
+                "id": 215,
                 "question": "Při skládání listového pera se k promazání jednotlivých listů používá:",
                 "options": [
                     "mazací tuk s grafitem",
@@ -4337,37 +4287,27 @@
                 "correct": [0]
             },
             {
-                "id": 23,
+                "id": 216,
                 "question": "Pro ruční řezání závitu M10 x 1 (jemný závit) obsahuje příslušná sada:",
                 "options": [
                     "dva závitníky",
                     "čtyři závitníky",
                     "tři závitníky"
                 ],
-                "correct": [2]
+                "correct": [0]
             },
             {
-                "id": 24,
-                "question": "Vibrace vozidla při určité rychlosti jsou projevem:",
-                "options": [
-                    "nevyvážených kol",
-                    "volného kulového čepu spojovací tyče",
-                    "neúčinných tlumičů výfuku"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 25,
+                "id": 217,
                 "question": "Zkorodovaný pístek třmenu kotoučové brzdy:",
                 "options": [
                     "vyměníme za nový",
                     "opravíme jemným přebroušením",
                     "opravíme nanesením slabé vrstvy tvrdochromu"
                 ],
-                "correct": [1]
+                "correct": [0]
             },
             {
-                "id": 26,
+                "id": 218,
                 "question": "Po výměně spojkové sady na vozidle je nutné:",
                 "options": [
                     "podržet spojku v záběru delší dobu pro zahřátí a vypálení nečistot",
@@ -4377,17 +4317,17 @@
                 "correct": [2]
             },
             {
-                "id": 27,
+                "id": 219,
                 "question": "Otáčky vrtačky volíme:",
                 "options": [
                     "podle hloubky vrtané díry",
                     "podle délky vrtáku",
                     "podle průměru vrtáku a druhu vrtaného materiálu"
                 ],
-                "correct": [0]
+                "correct": [2]
             },
             {
-                "id": 28,
+                "id": 220,
                 "question": "Pneumatika s označením RADIAL STEEL je:",
                 "options": [
                     "radiální pneumatika s ocelovou kostrou proti průrazu",
@@ -4397,7 +4337,7 @@
                 "correct": [0]
             },
             {
-                "id": 29,
+                "id": 221,
                 "question": "Pro sekání uhlíkové oceli ostříme úhel břitu sekáče na:",
                 "options": [
                     "60°",
@@ -4407,7 +4347,7 @@
                 "correct": [0]
             },
             {
-                "id": 30,
+                "id": 222,
                 "question": "Stlačený dusík má u dvouplášťových (dvoutrubkových) plynokapalinových tlumičů za úkol:",
                 "options": [
                     "zamezit zpěnění tlumičového oleje",
@@ -4417,7 +4357,7 @@
                 "correct": [0]
             },
             {
-                "id": 31,
+                "id": 223,
                 "question": "Homokinetický kloub:",
                 "options": [
                     "používá pro přenos točivého momentu kameny umístěné na čepu",
@@ -4427,17 +4367,17 @@
                 "correct": [1]
             },
             {
-                "id": 32,
+                "id": 224,
                 "question": "Při jízdě do stoupání se zvyšují otáčky motoru a rychlost vozidla se nemění. To může signalizovat:",
                 "options": [
                     "spojkové obložení je nadměrně opotřebené",
                     "vadnou komunikaci mezi snímačem otáček motoru a řídicí jednotkou",
                     "poruchu nápravového diferenciálu"
                 ],
-                "correct": [2]
+                "correct": [0]
             },
             {
-                "id": 33,
+                "id": 225,
                 "question": "Oproti křížovému kloubu má pružný kloub s předpětím tyto výhody:",
                 "options": [
                     "tlumí vibrace",
@@ -4447,17 +4387,7 @@
                 "correct": [0]
             },
             {
-                "id": 34,
-                "question": "Odstředivé spojky se používají hlavně:",
-                "options": [
-                    "u pozemních pracovních strojů ve spojení s variátory",
-                    "u městských autobusů ve spojení s automatickou převodovkou",
-                    "u lehkých motocyklů a mopedů"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 35,
+                "id": 226,
                 "question": "Kontrola správné činnosti mechanické uzávěrky diferenciálu se provádí:",
                 "options": [
                     "kontrolou otáčení kol při zvednuté nápravě",
@@ -4467,97 +4397,77 @@
                 "correct": [0]
             },
             {
-                "id": 36,
+                "id": 227,
                 "question": "Základní součásti jednoduchého planetového převodu jsou:",
                 "options": [
                     "talířové kolo, pastorek, planetová kola, satelity",
                     "planetová kola, satelity, čepy satelitů",
                     "centrální kolo, korunové kolo, satelity, unášeč satelitů"
                 ],
-                "correct": [1]
+                "correct": [2]
             },
             {
-                "id": 37,
+                "id": 228,
                 "question": "Vícekotoučové třecí spojky se používají:",
                 "options": [
                     "pro přenášení takových točivých momentů, kdy by průměr jednokotoučové spojky byl příliš velký",
                     "při požadavku velmi měkkého záběru",
                     "pro přenos malých točivých momentů při vysokých otáčkách"
                 ],
-                "correct": [2]
+                "correct": [0]
             },
             {
-                "id": 38,
+                "id": 229,
                 "question": "Zvýšenou hlučnost rozvodovky způsobuje zpravidla:",
                 "options": [
                     "druh ozubení stálého převodu",
                     "nesprávně nastavený záběr stálého převodu",
                     "nedodržení lhůty pro výměnu oleje"
                 ],
-                "correct": [2]
+                "correct": [1]
             },
             {
-                "id": 39,
+                "id": 230,
                 "question": "Ovládání třecích kotoučových spojek těžkých nákladních automobilů bývá:",
                 "options": [
                     "vzduchokapalinové",
                     "mechanické",
                     "hydraulické"
                 ],
-                "correct": [1]
+                "correct": [0]
             },
             {
-                "id": 40,
+                "id": 231,
                 "question": "Haldex spojka se používá:",
                 "options": [
                     "pro rozdělení točivého momentu na levé a pravé kolo zadní nápravy",
                     "pro samočinně připojitelný pohon zadní nápravy",
                     "pro trvalý pohon všech kol"
                 ],
-                "correct": [2]
+                "correct": [1]
             },
             {
-                "id": 41,
-                "question": "Dvouhmotový setrvačník:",
-                "options": [
-                    "se používá pouze u dvoulamelových spojek",
-                    "umožňuje řídicí jednotce v režimu Kick-Down hmotnost rotujících částí",
-                    "tlumí torzní kmity způsobené motorem"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 42,
-                "question": "Účelem rozvodovky je:",
-                "options": [
-                    "snižovat otáčky, zvyšovat točivý moment a rozdělovat ho na kola",
-                    "zvyšovat otáčky, zvyšovat točivý moment a rozdělovat ho na kola",
-                    "snižovat otáčky, snižovat točivý moment a rozdělovat ho na kola"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 43,
+                "id": 232,
                 "question": "z nabídky vyberte možnou příčinu prokluzu spojky:",
                 "options": [
                     "obložení lamely spojky je opotřebované",
                     "vypínací ložisko je opotřebované",
                     "zavzdušněné potrubí pro ovládání spojky"
                 ],
-                "correct": [2]
+                "correct": [0]
             },
             {
-                "id": 44,
+                "id": 233,
                 "question": "Při montáži převodovky původní těsnící kroužky (gufera):",
                 "options": [
                     "neměníme, ale zkrátíme jejich pružinky",
                     "vyměníme, pokud jsou viditelně poškozena",
                     "vyměníme vždy za nová"
                 ],
-                "correct": [1]
+                "correct": [2]
             },
             {
-                "id": 45,
+                "id": 234,
                 "question": "Při vlečení vozidla s nepojízdným motorem se v tříhřídelové převodovce:",
                 "options": [
                     "otáčí hnaný a předlohový hřídel se všemi koly kromě mezikola zpátečky",
@@ -4567,17 +4477,17 @@
                 "correct": [0]
             },
             {
-                "id": 46,
+                "id": 235,
                 "question": "Princip tribotechnické diagnostiky spočívá v:",
                 "options": [
                     "ve využívání stetoskopu při lokalizaci zdrojů hluku v převodovce",
                     "v rozboru odebraných vzorků oleje",
                     "ve využívání endoskopu při nahlížení do nitra převodovky"
                 ],
-                "correct": [0]
+                "correct": [1]
             },
             {
-                "id": 47,
+                "id": 236,
                 "question": "U samočinné převodovky typu CVT se přenos točivého momentu uskutečňuje prostřednictvím:",
                 "options": [
                     "ozubených kol se šikmým ozubením",
@@ -4587,1977 +4497,27 @@
                 "correct": [1]
             },
             {
-                "id": 48,
-                "question": "Kolem vloženým mezi kola hnací a hnané:",
-                "options": [
-                    "zamezí se přenosu kroutícího momentu z kola hnacího na hnané",
-                    "změníme smysl otáčení hnaného kola",
-                    "nic se nezmění"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 49,
+                "id": 237,
                 "question": "Překrytí ventilů (střih) nastává tehdy, když:",
                 "options": [
                     "ve válci končí expanze a začíná výfuk",
                     "ve válci končí výfuk a začíná sání",
                     "ve válci začíná expanze a končí komprese"
                 ],
-                "correct": [0]
+                "correct": [1]
             },
             {
-                "id": 50,
+                "id": 238,
                 "question": "Turboefektem rozumíme:",
                 "options": [
                     "hvízdavým zvukem poté co dosáhne turbodmychadlo určitých otáček",
                     "okamžitým nárůstem výkonu při akceleraci",
                     "zpoždění nárůstu výkonu motoru při akceleraci"
                 ],
-                "correct": [0]
-            },
-            {
-                "id": 51,
-                "question": "Motorový olej označený SAE 15 W - 40 je určen pro provoz:",
-                "options": [
-                    "pouze v letním období",
-                    "pouze v zimním období",
-                    "celoroční"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 52,
-                "question": "Sací potrubí, které má namontovány vířivé klapky, zlepšuje plnění válců. Při jakém zatížení motoru a otáčkách se klapky otevírají?",
-                "options": [
-                    "vysoké zatížení motoru, vysoké otáčky",
-                    "nízké zatížení motoru, volnoběžné otáčky",
-                    "vysoké zatížení motoru, volnoběžné otáčky"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 53,
-                "question": "Velká axiální vůle pístních kroužků se projeví:",
-                "options": [
-                    "zvýšenou spotřebou oleje",
-                    "detonačním spalováním",
-                    "zvýšením kompresních tlaků"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 54,
-                "question": "Sací potrubí má namontovány vířivé klapky, které zlepšují tvorbu směsi ve spalovacím prostoru. Jaké vlastnosti má takto upravený motor?",
-                "options": [
-                    "zvýšený odvod tepla, vyšší odolnost vůči opotřebení",
-                    "nižší spotřeba paliva a nižší obsah škodlivin ve výfukových plynech",
-                    "nižší spotřeba paliva, nižší výkon motoru"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 55,
-                "question": "Kontrola těsnosti zabroušených ventilů se provádí:",
-                "options": [
-                    "nakřídováním těsnicí plochy ventilu a jeho protočením v sedle",
-                    "pomocí ultrafialové lampy",
-                    "po smontování hlavy zalitím ventilů technickým benzinem"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 56,
-                "question": "Mazání motoru směsí paliva a oleje se uplatňuje:",
-                "options": [
-                    "u čtyřdobých pomaloběžných stacionárních motorů",
-                    "u dvoudobých motorů",
-                    "u čtyřdobých motorů terénních vozidel"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 57,
-                "question": "Mokrá vložka se používá:",
-                "options": [
-                    "u motorů chlazených náporem vzduchu",
-                    "u motorů chlazených nuceným oběhem vzduchu",
-                    "u kapalinou chlazených motorů"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 58,
-                "question": "Konstrukcí obtokového olejového systému:",
-                "options": [
-                    "protéká veškerý olej dopravovaný do mazacích míst čističem oleje",
-                    "protéká jen část oleje dopravovaného do mazacích míst čističem oleje",
-                    "protéká veškerý olej pouze mezi sacím košem a olejovým čerpadlem"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 59,
-                "question": "Celý čtyřdobý pracovní cyklus proběhne u rotačního pístového motoru (Wankel):",
-                "options": [
-                    "za jednu polovinu otáčky hřídele",
-                    "za dvě otáčky rotačního pístu",
-                    "za jednu otáčku rotačního pístu"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 60,
-                "question": "Při provádění tlakové zkoušky spalovacího prostoru se místo netěsnosti zjišťuje:",
-                "options": [
-                    "mýdlovou vodou",
-                    "pomocí sondy infraanalyzátoru",
-                    "poslechem"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 61,
-                "question": "U motorů se třemi ventily na válec jsou:",
-                "options": [
-                    "dva ventily sací a jeden výfukový",
-                    "jeden ventil sací, jeden výfukový a jeden odlehčovací",
-                    "dva ventily výfukové a jeden sací"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 62,
-                "question": "Při měření kompresních tlaků se klikovou hřídelí motoru otáčí:",
-                "options": [
-                    "tak dlouho, dokud stoupá tlak v měřicím tlakoměru",
-                    "asi 5 sekund",
-                    "asi 1 sekundu"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 63,
-                "question": "Ovalita čepu klikové hřídele se odstraní:",
-                "options": [
-                    "soustružením",
-                    "broušením",
-                    "nelze odstranit"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 64,
-                "question": "Pořadí zapalování řadového čtyřválce může být:",
-                "options": [
-                    "1 2 3 4 nebo 1 4 3 2",
-                    "1 4 2 3 nebo 1 3 2 4",
-                    "1 3 4 2 nebo 1 2 4 3"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 65,
-                "question": "Vačková hřídel ventilového rozvodu čtyřdobého motoru má oproti klikové hřídeli:",
-                "options": [
-                    "dvojnásobné otáčky",
-                    "stejné otáčky",
-                    "poloviční otáčky"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 66,
-                "question": "Při dotahování upevňovacích šroubů hlavy motoru postupujeme:",
-                "options": [
-                    "podle schématu výrobce motoru",
-                    "vždy ze středu křížem k okraji",
-                    "vždy ze středu spirálovitě k okraji"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 67,
-                "question": "Tzv. malý chladící okruh (studený motor) tvoří:",
-                "options": [
-                    "čerpadlo, blok motoru, hlava motoru, komora termostatu, topení",
-                    "čerpadlo, blok motoru, hlava motoru, komora termostatu, chladič",
-                    "čerpadlo, blok motoru, hlava motoru, komora termostatu, expanzní nádoba"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 68,
-                "question": "Máme-li na jednom pístu tři pístní kroužky, pak stírací kroužek zamontujeme:",
-                "options": [
-                    "do třetí drážky ode dna pístu",
-                    "do prostřední drážky",
-                    "do první drážky u dna pístu"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 69,
-                "question": "Tlakové mazání se suchou skříní se uplatní převážně:",
-                "options": [
-                    "u přeplňovaných motorů",
-                    "u dvoudobých zážehových motorů",
-                    "u terénních vozidel"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 70,
-                "question": "Na jeden válec přísluší pět ventilů, vyberte správný údaj konstrukčního provedení:",
-                "options": [
-                    "čtyři sací a jeden výfukový ventil",
-                    "dva sací a tři výfukové ventily",
-                    "tři sací a dva výfukové ventily"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 71,
-                "question": "Píst čerpadla v jednotce čerpadlo - tryska:",
-                "options": [
-                    "je ovládán vačkovým hřídelem přes vahadlo",
-                    "je řízen elektromagnetickým ventilem",
-                    "je ovládán přímo čerpadlovou vačkou"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 72,
-                "question": "Vstřikovací ventil u elektronických vícebodových systémů:",
-                "options": [
-                    "se otevírá při tlaku 3,5 baru",
-                    "se otevírá impulsem z řídící jednotky",
-                    "se otevírá při tlaku 1 bar"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 73,
-                "question": "Měření emisí zážehových motorů se provádí:",
-                "options": [
-                    "pouze při volnoběžných otáčkách",
-                    "při volnoběžných a zvýšených otáčkách",
-                    "pouze při zvýšených otáčkách"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 74,
-                "question": "V případě elektrického odpojování jednotlivých airbagů či jejich řídicí jednotky je třeba:",
-                "options": [
-                    "po vypnutí zapalování a odpojení vozidlového akumulátoru vyčkat (cca minutu) na vybití systému",
-                    "vypnout zapalování a odpojit vozidlový akumulátor",
-                    "vypnout zapalování jako u všech ostatních elektrických systémů"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 75,
-                "question": "Nejstarší generace parkovacích asistentů s čidly jen vzadu se aktivovala obvykle:",
-                "options": [
-                    "zařazením zpátečky nebo samostatným spínačem",
-                    "samostatným spínačem",
-                    "zařazením jakékoli rychlosti na manuální či automatické převodovce"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 76,
-                "question": "Kouřivost vznětových motorů se měří:",
-                "options": [
-                    "spektrometrem",
-                    "opacimetrem",
-                    "infraanalyzátorem"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 77,
-                "question": "Elektromagnetický vstřikovací ventil zážehového motoru je otevírán:",
-                "options": [
-                    "tlakem",
-                    "mechanicky",
-                    "elektrickým impulzem"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 78,
-                "question": "V okruhu klimatizace je chladicí prostředek ve stavu:",
-                "options": [
-                    "pouze plynném",
-                    "pouze kapalném",
-                    "plynném i kapalném"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 79,
-                "question": "U systému vstřikování vznětových motorů Common Rail se trysky vstřikovačů otevírají:",
-                "options": [
-                    "když tlak paliva nadzvedne trysku vstřikovače",
-                    "když je uvolněn průtok paliva aktivovaným magnetickým ventilem",
-                    "když tlak paliva dosáhne hodnoty 1000 bar"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 80,
-                "question": "Systémy Common Rail umožňují aplikovat i tzv. „dovstřik“, který:",
-                "options": [
-                    "je nutný pro regeneraci filtru DPF (filtr pevných částic)",
-                    "umožňuje podstatně zvýšit výkon motoru",
-                    "zajištuje zvýšenou akceleraci vozidla"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 81,
-                "question": "Dopravní elektrické čerpadlo v palivové nádrži nemůže palivo v nádrži zapálit, protože:",
-                "options": [
-                    "je kompletně zalito palivem bez přístupu vzduchu a kyslíku",
-                    "je použit bezuhlíkový komutátorový motor",
-                    "je absolutně těsné"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 82,
-                "question": "Účelem zpětného vedení výfukových plynů (EGR) je:",
-                "options": [
-                    "zvýšení teploty ve spalovacím prostoru",
-                    "snížení oxidů dusíku ( NOx )",
-                    "snížení spotřeby paliva"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 83,
-                "question": "U přímého vstřikování v režimu vrstvené směsi dochází ke zvýšené tvorbě těchto složek emisí:",
-                "options": [
-                    "oxid uhličitý CO2",
-                    "oxidy dusíku NOx",
-                    "oxid uhelnatý CO"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 84,
-                "question": "Označení MPI u vstřikování benzínu znamená:",
-                "options": [
-                    "mechanické postupné vstřikování benzínu",
-                    "vícebodové vstřikování benzínu",
-                    "jednobodové postupné vstřikování benzínu"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 85,
-                "question": "Vymontované jednotky airbagů se musí skladovat výstupní plochou airbagů směrem:",
-                "options": [
-                    "na bok",
-                    "nahoru",
-                    "dolů"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 86,
-                "question": "Naměřené navýšené množství HC ve výfukových plynech signalizuje poruchu:",
-                "options": [
-                    "snímače polohy škrticí klapky",
-                    "zapalování",
-                    "lambda sondy"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 87,
-                "question": "Tvorba CO2 spalovacími motory je velmi významné téma. Tvorbu tohoto plynu motorem můžeme omezit, snížit, pomocí:",
-                "options": [
-                    "lambda regulace a třícestných katalyzátorů",
-                    "snížením spotřeby paliva motoru",
-                    "lambda regulace, třícestných a zásobníkových katalyzátorů"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 88,
-                "question": "Pro katalyzátor je nebezpečný zejména:",
-                "options": [
-                    "zvýšený obsah uhlovodíků ve výfukových plynech",
-                    "zvýšený obsah oxidů dusíku ve výfukových plynech",
-                    "zvýšený obsah oxidu uhelnatého ve výfukových plynech"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 89,
-                "question": "Čidla parkovacích asistentů pracují obvykle na principu:",
-                "options": [
-                    "ultrazvukovém",
-                    "infrazvukovém",
-                    "infračerveném"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 90,
-                "question": "Tři složky výfukových plynů benzínových motorů, které měříme, jsou:",
-                "options": [
-                    "NOx, CO, CH4",
-                    "NOx, H2O, CH4",
-                    "NOx, O2, CO"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 91,
-                "question": "Kouřivost vznětových motorů se měří:",
-                "options": [
-                    "při volnoběžných otáčkách motoru",
-                    "metodou volné akcelerace do maximálních otáček",
-                    "při zvýšených otáčkách motoru (2500 až 2800 ot./min)"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 92,
-                "question": "Regulátor tlaku paliva v rozváděcí liště:",
-                "options": [
-                    "udržuje konstantní systémový tlak",
-                    "udržuje stálý rozdíl tlaku paliva a v sacím potrubí",
-                    "mění tlak v závislosti na otáčkách motoru"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 93,
-                "question": "Mezi prvky pasivní bezpečnosti patří:",
-                "options": [
-                    "účinný brzdový systém",
-                    "zadržovací systémy",
-                    "aerodynamická stabilita"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 94,
-                "question": "U přímého vstřikování jsou vstřikovací tlaky:",
-                "options": [
-                    "mírně nižší než u systémů MPI (nepřímé vstřikování)",
-                    "srovnatelné se systémy MPI (nepřímé vstřikování)",
-                    "podstatně vyšší než u systémů MPI (nepřímé vstřikování)"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 95,
-                "question": "Označení Monomotronic nebo SPI u vstřikování zážehových motorů znamená:",
-                "options": [
-                    "jednobodové vstřikování benzínu",
-                    "mechanické postupné vstřikování benzínu",
-                    "vícebodové vstřikování benzínu"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 96,
-                "question": "Úprava výfukových plynů zážehových motorů v katalyzátoru probíhá při:",
-                "options": [
-                    "redukci",
-                    "oxidaci",
-                    "oxidaci a redukci"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 97,
-                "question": "Podtlakový ventil v chladicím systému má za úkol:",
-                "options": [
-                    "umožnit rychlejší ohřev motoru na provozní teplotu",
-                    "umožnit doplňování chladicí kapaliny při netěsnosti systému",
-                    "umožnit přisávání vzduchu při chladnutí motoru"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 98,
-                "question": "Vstřikovací tryska v systému Common rail:",
-                "options": [
-                    "je tryska jednootvorová",
-                    "je tryska čepová",
-                    "je tryska víceotvorová"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 99,
-                "question": "Akumulátor 6V/45Ah se od akumulátoru 12V/45Ah liší:",
-                "options": [
-                    "rozdílnou jmenovitou kapacitou",
-                    "rozdílným jmenovitým napětím a jmenovitou kapacitou",
-                    "rozdílným jmenovitým napětím"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 100,
-                "question": "Tranzistor se užívá:",
-                "options": [
-                    "ke stabilizaci střídavého napětí",
-                    "k usměrnění střídavého proudu",
-                    "k řízení a spínání velkých proudů malým proudem"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 101,
-                "question": "Ohmův zákon je vyjádřen vztahem:",
-                "options": [
-                    "I = U / R",
-                    "I = U . R",
-                    "I = R / U"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 102,
-                "question": "V pracovním vinutí třífázového alternátoru se indukuje:",
-                "options": [
-                    "třífázové stejnosměrné napětí",
-                    "třífázové střídavé napětí",
-                    "jednofázové stejnosměrné napětí"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 103,
-                "question": "Dobu žhavení žhavicích svíček řídí:",
-                "options": [
-                    "teplota nasávaného vzduchu",
-                    "teplota motoru",
-                    "řídicí jednotka"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 104,
-                "question": "Ze dvou zapalovacích svíček má jedna kratší špičku izolátoru a více zasunutou v dutině pouzdra. Jedná se o svíčku:",
-                "options": [
-                    "teplou",
-                    "vlažnou",
-                    "studenou"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 105,
-                "question": "Celkový odpor dvou paralelně zapojených rezistorů s hodnotami odporu 100 Ω a 100 Ω je:",
-                "options": [
-                    "100 Ω",
-                    "50 Ω",
-                    "200 Ω"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 106,
-                "question": "Zapalovací svíčku s kuželovou dosedací plochou zašroubujeme rukou do hlavy motoru a pak klíčem dotáhneme:",
-                "options": [
-                    "o 90 stupňů",
-                    "o 180 stupňů",
-                    "předepsaným utahovacím momentem udaným výrobcem"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 107,
-                "question": "Celkový odpor dvou paralelně zapojených rezistorů s hodnotami odporu 200 Ω a 200 Ω je:",
-                "options": [
-                    "200 Ω",
-                    "400 Ω",
-                    "100 Ω"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 108,
-                "question": "Kapacita akumulátoru je udávána v jednotkách:",
-                "options": [
-                    "Ah",
-                    "A",
-                    "W"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 109,
-                "question": "Při výměně halogenové žárovky:",
-                "options": [
-                    "odpojíme přívod proudu vyjmutím pojistky",
-                    "namažeme patici žárovky silikonovým olejem",
-                    "je zakázáno dotýkat se prsty baňky žárovky"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 110,
-                "question": "Doplňte správnou odpověď: Plynovací napětí odpovídá ......... napětí, nad jehož hodnotou akumulátor výrazně plynuje.",
-                "options": [
-                    "stálému (konstantnímu)",
-                    "nabíjecímu",
-                    "vybíjecímu"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 111,
-                "question": "Polovodičová dioda se užívá:",
-                "options": [
-                    "k usměrnění střídavého proudu",
-                    "ke spínání velkých proudů",
-                    "jako proudový zesilovač"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 112,
-                "question": "U elektrických spouštěčů se užívá elektromotor:",
-                "options": [
-                    "asynchronní",
-                    "se sériovým buzením – elektromotor sériový",
-                    "s paralelním buzením – derivační elektromotor"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 113,
-                "question": "Napětí snímače tlaku změříme:",
-                "options": [
-                    "ampérmetrem",
-                    "voltmetrem nebo osciloskopem",
-                    "ohmmetrem"
-                ],
-                "correct": [1]
-            },
-	{
-                "id": 1,
-                "question": "Kuželíková ložiska se montují:",
-                "options": [
-                    "s axiální vůlí, popř. s předpětím dle údajů výrobce vozu",
-                    "s axiální vůlí alespoň 0,1 mm",
-                    "s radiální vůlí vnitřního kroužku na hřídeli dle údajů výrobce vozu"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 2,
-                "question": "Na vyvažovačce se před dynamickým vyvažováním nastavuje mimo jiné:",
-                "options": [
-                    "šířka a průměr ráfku, vzdálenost ráfku kola od vyvažovačky",
-                    "šířka a průměr ráfku, šířka pneumatiky",
-                    "šířka a průměr ráfku, výška pneumatiky"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 3,
-                "question": "Kontrola správné výšky hladiny hydraulického oleje v servořízení. Z nabídky vyberte správnou odpověď:",
-                "options": [
-                    "při studeném motoru - výška hladiny je mezi značkou max. a min.",
-                    "při studeném motoru - výška hladiny je na značce max.",
-                    "při teplotě motoru 80 °C - výška hladiny je na značce min."
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 4,
-                "question": "Šrouby na kruhovém víku utahujeme:",
-                "options": [
-                    "do kříže",
-                    "zásadně uzavřeným klíčem dokola ve směru hodinových ručiček",
-                    "dokola proti směru hodinových ručiček"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 5,
-                "question": "Bezdušová pneumatika je označena:",
-                "options": [
-                    "TUBELESS",
-                    "TUBE TYPE",
-                    "REGROOVABLE"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 6,
-                "question": "Při rozběhu válců zkušebny brzd ukazují přístroje zkušebny brzdnou sílu 0,1 kN. Zjevně se jedná o:",
-                "options": [
-                    "valivé odpory kola",
-                    "chybu obsluhy",
-                    "špatně zkalibrovanou zkušebnu"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 7,
-                "question": "Sbíhavost kol u řízení pro tuhou nápravu se seřizuje:",
-                "options": [
-                    "výměnou podložek mezi spodním ramenem a stabilizátorem",
-                    "změnou délky spojovací tyče",
-                    "změnou délky řídící tyče"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 8,
-                "question": "Mobilní vyvažovačka slouží především:",
-                "options": [
-                    "k vyvážení hnacích hřídelů, brzdových bubnů a kotoučů",
-                    "k dovyvážení všech rotujících částí uložení kola včetně kola samého",
-                    "k dynamickému vyvážení demontovaných kol"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 9,
-                "question": "Při odtahu nepojízdného vozidla s brzdami se vzduchovým ovládáním se pružinový brzdový válec ruční brzdy uvolní:",
-                "options": [
-                    "uvolněním přívodního potrubí a vypuštěním vzduchu z válce",
-                    "mechanicky šroubem",
-                    "vyjmutím čepu spojujícího pístnici válce s pákou brzdového klíče"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 10,
-                "question": "Nesouměrnost brzdění kol téže nápravy nemá být vyšší než:",
-                "options": [
-                    "25%",
-                    "20%",
-                    "30%"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 11,
-                "question": "Jakými dvěma způsoby může být připevněno brzdové obložení k brzdové čelisti u bubnových brzd?",
-                "options": [
-                    "nýtováním nebo pájením",
-                    "lepením nebo svařováním",
-                    "nýtováním nebo lepením"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 12,
-                "question": "Samojistící matici s polyamidovým kroužkem:",
-                "options": [
-                    "můžeme opětovně použít pouze s pérovou podložkou",
-                    "při montáži vždy měníme za novou",
-                    "můžeme opětovně použít, pokud důlčíkem napěchujeme polyamid do závitu šroubu"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 13,
-                "question": "Rozvor je:",
-                "options": [
-                    "vzdálenost stopníků kol na téže nápravě",
-                    "vzdálenost středních rovin pneumatik kol na téže nápravě",
-                    "vzdálenost středů dvou náprav umístěných za sebou na téže straně vozidla"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 14,
-                "question": "Blokování kola na válcové zkušebně brzd se na grafickém záznamu projeví:",
-                "options": [
-                    "ukončením nárůstu brzdné síly",
-                    "ukončením nárůstu ovládacího tlaku",
-                    "ukončením nárůstu ovládací síly"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 15,
-                "question": "Kde v automobilu se využívají bezpečnostní skla kalená?",
-                "options": [
-                    "nepoužívají se",
-                    "na vnějších zpětných zrcátkách",
-                    "na bočních a zadních oknech"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 16,
-                "question": "Při poruše ABS je vozidlo:",
-                "options": [
-                    "nepojízdné",
-                    "pojízdné až po vymazání závady z paměti počítače",
-                    "pojízdné - systém ABS je mimo funkci"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 17,
-                "question": "Únavu zkrutných tyčí odstraníme:",
-                "options": [
-                    "jejich výměnou za nové nebo nastavením předpětí stavěcích šroubů",
-                    "válečkováním za studena",
-                    "vzájemným prohozením pravé s levou"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 18,
-                "question": "Prodřené plastové potrubí rozvodu tlakového vzduchu brzdové soustavy se opravuje:",
-                "options": [
-                    "výměnou",
-                    "zavařením tavnou pistolí",
-                    "nasunutím a nalepením nákružku (záplata)"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 19,
-                "question": "Vadné tlumiče pérování se navenek projeví:",
-                "options": [
-                    "prodloužením brzdné dráhy, zhoršenou stabilitou vozu, četnými ploškami po obvodu dezénu pneumatiky",
-                    "vibracemi karosérie, sjížděním středové části běhounu po celém obvodu pneumatiky",
-                    "zvýšeným naklápěním vozidla v zatáčkách, sjížděním vnější části běhounu po celém obvodu pneumatiky"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 20,
-                "question": "Vozidlo táhne za jízdy ke straně. Příčinou může být:",
-                "options": [
-                    "nestejně nastavený odklon předních kol",
-                    "mastné obložení brzd na jednom z kol",
-                    "správně nastavená sbíhavost kol"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 21,
-                "question": "Pro snazší montáž pneumatiky na ráfek potřeme patky pneumatiky:",
-                "options": [
-                    "silikonovým olejem",
-                    "mazací pastou",
-                    "silikonovým tukem"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 22,
-                "question": "Při dynamickém vyvažování kola můžeme umístit:",
-                "options": [
-                    "z každé strany ráfku max. 2 závaží jen proti sobě",
-                    "max. jedno závaží z každé strany ráfku",
-                    "libovolný počet závaží po celém obvodu ráfku z obou stran"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 23,
-                "question": "Po výměně brzdových destiček kotoučových brzd se vymezení vůle provádí:",
-                "options": [
-                    "seřizovacím šroubem na třmenu kotoučové brzdy",
-                    "stavěcím šroubem na hlavním brzdovém válci",
-                    "samočinně po několikerém sešlápnutí brzdového pedálu"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 24,
-                "question": "Konstrukce řízení pro tuhou nápravu zahrnuje:",
-                "options": [
-                    "dvě spojovací tyče",
-                    "dvě řídící tyče",
-                    "jednu spojovací tyč"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 25,
-                "question": "Při montáži nového čepu zjistíme, že čep je volný v pouzdru:",
-                "options": [
-                    "pouzdro vyměníme za nové a případně vystružíme na rozměr čepu",
-                    "čep navaříme a přesoustružíme na rozměr pouzdra",
-                    "pouzdro mírně zmáčkneme ve svěráku"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 26,
-                "question": "Prasklý brzdový buben se opraví:",
-                "options": [
-                    "na buben nalisujeme za tepla ocelovou obruč a přesoustružíme činnou plochu",
-                    "zavařením a přesoustružením činné plochy",
-                    "vyměníme za nový"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 27,
-                "question": "Pro životnost pneumatiky má zásadní význam:",
-                "options": [
-                    "pravidelná výměna kol křížem",
-                    "pravidelná výměna kol mezi přední a zadní nápravou",
-                    "huštění na předepsaný tlak"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 28,
-                "question": "Panhardská tyč:",
-                "options": [
-                    "je příčný zkrutný stabilizátor",
-                    "přenáší podélné suvné síly u tuhých náprav se vzduchovými pružinami",
-                    "má za úkol přenášet boční síly u tuhých náprav s vinutými pružinami"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 29,
-                "question": "Při vystružování bronzového pouzdra otáčíme výstružníkem:",
-                "options": [
-                    "pouze doprava",
-                    "doprava při řezání a doleva při uvolňování třísek",
-                    "pouze doleva"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 30,
-                "question": "Při seřizování vypínacích páček spojky s obvodovými pružinami se výrazně mění:",
-                "options": [
-                    "velikost ovládací síly",
-                    "vůle ve vypínacím ústrojí",
-                    "měkkost záběru spojky"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 31,
-                "question": "U dvouhřídelové čtyřrychlostní převodovky je zařazen čtvrtý rychlostní stupeň:",
-                "options": [
-                    "je zařazen přímý záběr",
-                    "kroutící moment je přenášen jedním párem ozubených kol",
-                    "kroutící moment je přenášen dvěma páry ozubených kol"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 32,
-                "question": "Přímé spojení hnacího a hnaného hřídele je možné:",
-                "options": [
-                    "u tříhřídelové převodovky",
-                    "u dvouhřídelové převodovky",
-                    "u variátoru"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 33,
-                "question": "Řazení jednotlivých rychlostních stupňů se u planetové převodovky provádí:",
-                "options": [
-                    "zabržděním některé části planetového převodu",
-                    "přesouváním kol s přímým ozubením",
-                    "synchronizačními spojkami"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 34,
-                "question": "U hypoidního soukolí je:",
-                "options": [
-                    "osa pastorku rovnoběžná s osou talířového kola",
-                    "pastorek umístěn v ose talířového kola",
-                    "pastorek umístěn mimo osu talířového kola"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 35,
-                "question": "Pedál spojky má příliš velký volný chod, spojka:",
-                "options": [
-                    "trhavě zabírá",
-                    "špatně vypíná",
-                    "prokluzuje"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 36,
-                "question": "Zubová vůle mezi pastorkem a talířovým kolem se kontroluje:",
-                "options": [
-                    "mikrometrem",
-                    "pomocí listových měrek",
-                    "číselníkovým úchylkoměrem"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 37,
-                "question": "Vystředění třecího kotouče (lamely) spojky se provádí:",
-                "options": [
-                    "na převodovce hloubkoměrem",
-                    "na motoru montážním trnem",
-                    "na soustruhu pomocí číselníkového úchylkoměru"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 38,
-                "question": "Převod v rozvodovce nákladního automobilu i=5, převod reduktoru v kole i=2. Výsledný převod bude:",
-                "options": [
-                    "i=3",
-                    "i=7",
-                    "i=10"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 39,
-                "question": "Ohnutá nebo opotřebovaná řadicí vidlice může způsobit:",
-                "options": [
-                    "vyskakování“ zařazené rychlosti",
-                    "přehřívání převodovky",
-                    "prokluzování spojky"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 40,
-                "question": "Při zapnutí mechanické uzávěrky diferenciálu dojde:",
-                "options": [
-                    "k sepnutí Haldex spojky",
-                    "k přibrzdění prokluzujícího kola",
-                    "k mechanickému spojení klece diferenciálu a planetového kola diferenciálu"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 41,
-                "question": "U kuželového diferenciálu jsou hnací hřídele kol uloženy v:",
-                "options": [
-                    "satelitech",
-                    "planetových kolech",
-                    "talířovém kole"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 42,
-                "question": "Spojka s obvodovými pružinami trhavě zabírá. Příčinou může být:",
-                "options": [
-                    "nevyvážená spojka",
-                    "obložení spojkového kotouče je opotřebeno až na úroveň nýtů",
-                    "špatně seřízená poloha vypínacích páček"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 43,
-                "question": "Při montáži ozubeného věnce na setrvačník motoru:",
-                "options": [
-                    "se věnec narazí za studena",
-                    "se věnec lisuje za studena",
-                    "se věnec ohřeje asi na 180 °C"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 44,
-                "question": "Výhodou hypoidního soukolí je:",
-                "options": [
-                    "tichý chod, větší únosnost",
-                    "nenáročnost mazání",
-                    "není nutná montáž diferenciálu"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 45,
-                "question": "Kotoučová spojka s talířovou pružinou:",
-                "options": [
-                    "má tři vypínací páčky",
-                    "nemá vypínací páčky",
-                    "vyžaduje pravidelné seřizování"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 46,
-                "question": "Přemosťovací spojka v hydrodynamickém měniči má za úkol:",
-                "options": [
-                    "vyloučit skluz mezi čerpadlovým a turbínovým kolem",
-                    "vyrovnat otáčky hnacího a hnaného hřídele při řazení rychlostního stupně",
-                    "tlumit torzní kmity motoru při nízkých otáčkách"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 47,
-                "question": "Vyberte olej, který použijete pro automatickou převodovku:",
-                "options": [
-                    "SAE 75W - 90, GL-4",
-                    "SAE 5W - 40, API SL",
-                    "ATF 3+"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 48,
-                "question": "Při dotahování upevňovacích šroubů hlavy motoru postupujeme:",
-                "options": [
-                    "podle schématu výrobce motoru",
-                    "vždy ze středu křížem k okraji",
-                    "vždy ze středu spirálovitě k okraji"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 49,
-                "question": "Z naměřeného rozměru 126,00 mm otočíme bubínkem mikrometru 3 x o 360° ve směru přičítání. Výsledný rozměr bude:",
-                "options": [
-                    "127,50 mm",
-                    "129,00 mm",
-                    "128,50 mm"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 50,
-                "question": "Dvoustupňové olejové zubové čerpadlo reguluje olej ve dvou rozdílných úrovních:",
-                "options": [
-                    "změnou šířky záběru ozubeného hnaného kola",
-                    "zastavením ozubeného hnaného kola",
-                    "vinutou pružinou a kuličkou"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 51,
-                "question": "Při jízdě se rozsvítila kontrolka dobíjení a vzápětí stoupá teplota přehřívá motor. Příčinou může být:",
-                "options": [
-                    "prasklý řemen",
-                    "nedostatek chladicí kapaliny v chladicí soustavě",
-                    "chybná signalizace přístrojové desky"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 52,
-                "question": "Při měření kompresních tlaků nás zajímá zejména:",
-                "options": [
-                    "relativní hodnota tlaků ve válcích",
-                    "maximální hodnota tlaků ve válcích",
-                    "minimální hodnota a rozdíl hodnot tlaků naměřených v jednotlivých válcích"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 53,
-                "question": "Tzv. podpálení ventilu je způsobeno:",
-                "options": [
-                    "neúčinným chlazením motoru",
-                    "používáním paliva s nesprávným oktanovým číslem",
-                    "malou ventilovou vůlí"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 54,
-                "question": "Máme-li na jednom pístu tři pístní kroužky, pak stírací kroužek zamontujeme:",
-                "options": [
-                    "do třetí drážky ode dna pístu",
-                    "do prostřední drážky",
-                    "do první drážky u dna pístu"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 55,
-                "question": "Píst pro první vybrus má průměr:",
-                "options": [
-                    "stejný jako originální píst",
-                    "větší než originální píst",
-                    "menší než originální píst"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 56,
-                "question": "Vačková hřídel ventilového rozvodu čtyřdobého motoru má oproti klikové hřídeli:",
-                "options": [
-                    "dvojnásobné otáčky",
-                    "stejné otáčky",
-                    "poloviční otáčky"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 57,
-                "question": "Klikové (ojniční) čepy klikové hřídele řadového čtyřdobého šestiválcového motoru jsou umístěny:",
-                "options": [
-                    "po 60 stupních",
-                    "po 90 stupních",
-                    "po 120 stupních"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 58,
-                "question": "Tlakové mazání se suchou skříní se uplatní převážně:",
-                "options": [
-                    "u přeplňovaných motorů",
-                    "u dvoudobých zážehových motorů",
-                    "u terénních vozidel"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 59,
-                "question": "Červená kontrolka mazání se rozsvítí při:",
-                "options": [
-                    "poklesu tlaku oleje pod určitou minimální hodnotu",
-                    "dosažení pracovního tlaku oleje",
-                    "překročení maximálního dovoleného tlaku oleje"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 60,
-                "question": "U vznětových motorů s přímým vstřikem paliva je spalovací prostor vytvořen převážně:",
-                "options": [
-                    "v hlavě motoru",
-                    "v hlavě s komůrkou",
-                    "v pístu"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 61,
-                "question": "Tzv. malý chladící okruh (studený motor) tvoří:",
-                "options": [
-                    "čerpadlo, blok motoru, hlava motoru, komora termostatu, topení",
-                    "čerpadlo, blok motoru, hlava motoru, komora termostatu, chladič",
-                    "čerpadlo, blok motoru, hlava motoru, komora termostatu, expanzní nádoba"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 62,
-                "question": "Měřicí rozsahy mikrometru jsou:",
-                "options": [
-                    "po 50 mm",
-                    "po 20 mm",
-                    "po 25 mm"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 63,
-                "question": "Povrchy vnitřních stěn válců motoru jsou ošetřeny technologií APS - plazma. Jaké vlastnosti získá takto upravený povrch válců?",
-                "options": [
-                    "nižší spotřeba paliva, nižší obsah škodlivin ve výfukových plynech",
-                    "zvýšený odvod tepla, vyšší odolnost vůči korozi, vyšší odolnost vůči opotřebení",
-                    "rychlé zaběhnutí nového pístu ve válci"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 64,
-                "question": "Na jeden válec přísluší pět ventilů, vyberte správný údaj konstrukčního provedení:",
-                "options": [
-                    "čtyři sací a jeden výfukový ventil",
-                    "dva sací a tři výfukové ventily",
-                    "tři sací a dva výfukové ventily"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 65,
-                "question": "Pro vykonání jednoho zdvihu pístu u dvoudobého motoru je zapotřebí:",
-                "options": [
-                    "polovina otáčky klikového hřídele",
-                    "jedna otáčka klikového hřídele",
-                    "dvě otáčky klikového hřídele"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 66,
-                "question": "Chladicí kapalina vře již při teplotě 100 °C:",
-                "options": [
-                    "termostat nezavírá",
-                    "netěsní přetlakový ventil uzávěru chladiče",
-                    "vadné vodní čerpadlo"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 67,
-                "question": "Wankelův motor má rozvod:",
-                "options": [
-                    "pístem",
-                    "ventilový",
-                    "rotačním šoupátkem"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 68,
-                "question": "Systém odpojování válců ACT u čtyřválcových motorů je aktivován při nízkých a středních úrovních zátěže a uzavírá sací a výfukové ventily:",
-                "options": [
-                    "na druhém a třetím válci",
-                    "na prvním a třetím válci",
-                    "na prvním a čtvrtém válci"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 69,
-                "question": "Provedení bloků motorů chlazených kapalinou s otevřeným chladicím prostorem je označováno jako:",
-                "options": [
-                    "otevřené kanály",
-                    "open deck",
-                    "closed deck"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 70,
-                "question": "Posuvné měřítko měří s přesností:",
-                "options": [
-                    "0,01 mm 0,05 mm 0,02 mm",
-                    "0,1 mm 0,5 mm 0,2 mm",
-                    "0,1 mm 0,05 mm 0,02 mm"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 71,
-                "question": "Nasávaný vzduch proudí do válců konstrukčními díly v následující posloupnosti:",
-                "options": [
-                    "vzduchový filtr - turbodmychadlo - vodou chlazený chladič plnicího vzduchu - jednotka ovládání škrticí klapky - sací potrubí s vířivými klapkami - sací kanály - sací ventil",
-                    "vzduchový filtr - turbodmychadlo - vodou chlazený chladič plnicího vzduchu - jednotka ovládání škrticí klapky - sací kanály - sací ventil",
-                    "vzduchový filtr - turbodmychadlo - jednotka ovládání škrticí klapky - sací potrubí s vířivými klapkami - sací kanály - sací ventil"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 72,
-                "question": "Úprava výfukových plynů zážehových motorů v katalyzátoru probíhá při:",
-                "options": [
-                    "redukci",
-                    "oxidaci",
-                    "oxidaci a redukci"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 73,
-                "question": "Systémy Common Rail umožňují aplikovat i tzv. „dovstřik“, který:",
-                "options": [
-                    "je nutný pro regeneraci filtru DPF (filtr pevných částic)",
-                    "umožňuje podstatně zvýšit výkon motoru",
-                    "zajištuje zvýšenou akceleraci vozidla"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 74,
-                "question": "Pokud je stechiometrický poměr směsi roven 1, znamená to:",
-                "options": [
-                    "shoří veškeré palivo dokonale a spaliny neobsahují žádný kyslík",
-                    "motor může podávat maximální výkon",
-                    "shoří veškeré palivo dokonale a spaliny neobsahují žádný NOx"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 75,
-                "question": "Označení Monomotronic nebo SPI u vstřikování zážehových motorů znamená:",
-                "options": [
-                    "jednobodové vstřikování benzínu",
-                    "mechanické postupné vstřikování benzínu",
-                    "vícebodové vstřikování benzínu"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 76,
-                "question": "Nejstarší generace parkovacích asistentů s čidly jen vzadu se aktivovala obvykle:",
-                "options": [
-                    "zařazením zpátečky nebo samostatným spínačem",
-                    "samostatným spínačem",
-                    "zařazením jakékoli rychlosti na manuální či automatické převodovce"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 77,
-                "question": "SCR systém:",
-                "options": [
-                    "zvyšuje výkon motoru",
-                    "snižuje obsah oxidů dusíku ve výfukových plynech",
-                    "snižuje obsah nespálených uhlovodíků ve výfukových plynech"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 78,
-                "question": "Čerpadlo motorového oleje bývá poháněno:",
-                "options": [
-                    "řetězem od vačkové hřídele",
-                    "řemenem od převodovky",
-                    "řetězem od klikové hřídele"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 79,
-                "question": "Kouřivost vznětových motorů se měří:",
-                "options": [
-                    "při volnoběžných otáčkách motoru",
-                    "metodou volné akcelerace do maximálních otáček",
-                    "při zvýšených otáčkách motoru (2500 až 2800 ot./min)"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 80,
-                "question": "U sekvenčního vstřikování vstřikovací ventily vstřikují:",
-                "options": [
-                    "všechny najednou",
-                    "jednotlivě dle pořadí zapalování",
-                    "skupinově po dvou ventilech"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 81,
-                "question": "U systému PDE (Pumpe duese = sdružené vstřikovače) je jehla v trysce otevírána:",
-                "options": [
-                    "tlakem paliva",
-                    "pružinou",
-                    "přiímo elektromagnetem"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 82,
-                "question": "Označení MPI u vstřikování benzínu znamená:",
-                "options": [
-                    "mechanické postupné vstřikování benzínu",
-                    "vícebodové vstřikování benzínu",
-                    "jednobodové postupné vstřikování benzínu"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 83,
-                "question": "Pro katalyzátor je nebezpečný zejména:",
-                "options": [
-                    "zvýšený obsah uhlovodíků ve výfukových plynech",
-                    "zvýšený obsah oxidů dusíku ve výfukových plynech",
-                    "zvýšený obsah oxidu uhelnatého ve výfukových plynech"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 84,
-                "question": "V okruhu klimatizace je chladicí prostředek ve stavu:",
-                "options": [
-                    "pouze plynném",
-                    "pouze kapalném",
-                    "plynném i kapalném"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 85,
-                "question": "Naměřené navýšené množství HC ve výfukových plynech signalizuje poruchu:",
-                "options": [
-                    "snímače polohy škrticí klapky",
-                    "zapalování",
-                    "lambda sondy"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 86,
-                "question": "Dopravní elektrické čerpadlo v palivové nádrži nemůže palivo v nádrži zapálit, protože:",
-                "options": [
-                    "je kompletně zalito palivem bez přístupu vzduchu a kyslíku",
-                    "je použit bezuhlíkový komutátorový motor",
-                    "je absolutně těsné"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 87,
-                "question": "Měřicí dosah čidel parkovacích asistentů nejčastěji činí:",
-                "options": [
-                    "1 m",
-                    "10 m",
-                    "3 m"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 88,
-                "question": "Lambda sonda reaguje:",
-                "options": [
-                    "na přítomnost a množství CO ve výfukových plynech",
-                    "na přítomnost a množství kyslíku ve výfukových plynech",
-                    "na přítomnost nespáleného paliva ve výfukových plynech"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 89,
-                "question": "Obtok škrtící klapky (bypas) ovlivňuje:",
-                "options": [
-                    "volnoběh",
-                    "maximální otáčky",
-                    "akceleraci"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 90,
-                "question": "U systému PDE (Pumpe duese = sdružené vstřikovače):",
-                "options": [
-                    "je použito společné dvoupístové vysokotlaké čerpadlo",
-                    "má každý vstřikovač zabudované svoje vysokotlaké čerpadlo",
-                    "je vysoký tlak tvořen tandemovým čerpadlem"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 91,
-                "question": "Etanol můžeme použít do motoru:",
-                "options": [
-                    "benzínového",
-                    "benzínového i naftového",
-                    "naftového"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 92,
-                "question": "Podtlakový ventil v chladicím systému má za úkol:",
-                "options": [
-                    "umožnit rychlejší ohřev motoru na provozní teplotu",
-                    "umožnit doplňování chladicí kapaliny při netěsnosti systému",
-                    "umožnit přisávání vzduchu při chladnutí motoru"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 93,
-                "question": "Mezi prvky pasivní bezpečnosti patří:",
-                "options": [
-                    "účinný brzdový systém",
-                    "zadržovací systémy",
-                    "aerodynamická stabilita"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 94,
-                "question": "V případě elektrického odpojování jednotlivých airbagů či jejich řídicí jednotky je třeba:",
-                "options": [
-                    "po vypnutí zapalování a odpojení vozidlového akumulátoru vyčkat (cca minutu) na vybití systému",
-                    "vypnout zapalování a odpojit vozidlový akumulátor",
-                    "vypnout zapalování jako u všech ostatních elektrických systémů"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 95,
-                "question": "Vysokotlaké čerpadlo paliva u systému vstřikování vznětových motorů Common Rail stlačuje palivo na systémový tlak až:",
-                "options": [
-                    "2 200 bar",
-                    "1 000 bar",
-                    "1 600 bar"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 96,
-                "question": "Tři složky výfukových plynů benzínových motorů, které měříme, jsou:",
-                "options": [
-                    "NOx, CO, CH4",
-                    "NOx, H2O, CH4",
-                    "NOx, O2, CO"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 97,
-                "question": "Čidla parkovacích asistentů pracují obvykle na principu:",
-                "options": [
-                    "ultrazvukovém",
-                    "infrazvukovém",
-                    "infračerveném"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 98,
-                "question": "Vstřikovací tryska v systému Common rail:",
-                "options": [
-                    "je tryska jednootvorová",
-                    "je tryska čepová",
-                    "je tryska víceotvorová"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 99,
-                "question": "U systému vstřikování vznětových motorů Common Rail se trysky vstřikovačů otevírají:",
-                "options": [
-                    "když tlak paliva nadzvedne trysku vstřikovače",
-                    "když je uvolněn průtok paliva aktivovaným magnetickým ventilem",
-                    "když tlak paliva dosáhne hodnoty 1000 bar"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 100,
-                "question": "Olověný akumulátor doplňujeme za provozu:",
-                "options": [
-                    "kyselinou sírovou",
-                    "elektrolytem",
-                    "destilovanou vodou"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 101,
-                "question": "U zapalovací cívky má primární vinutí:",
-                "options": [
-                    "méně závitů než sekundární vinutí",
-                    "stejný počet závitů jako sekundární vinutí",
-                    "více závitů než sekundární vinutí"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 102,
-                "question": "Na snímači teploty po odpojení konektoru měříme:",
-                "options": [
-                    "odpor",
-                    "napětí",
-                    "proud"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 103,
-                "question": "U vozidla s elektrickou soustavou o napětí 24 V používáme:",
-                "options": [
-                    "dva akumulátory 12 V zapojené do série",
-                    "akumulátor 24 V",
-                    "dva akumulátory 12 V zapojené paralelně"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 104,
-                "question": "Převeďte jeden kilovolt (kV) na volty:",
-                "options": [
-                    "1 kV = 100 000 V",
-                    "1 kV = 0,001 V",
-                    "1 kV = 1 000 V"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 105,
-                "question": "Lambdasonda u zážehového motoru:",
-                "options": [
-                    "slouží k zjištění NOx ve výfukových plynech",
-                    "měří složení výfukových plynů",
-                    "měří obsah kyslíku ve výfukových plynech"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 106,
-                "question": "Vynechávání zapalování se projeví ve složení výfukových plynů výrazným zvýšením obsahu:",
-                "options": [
-                    "oxidu uhelnatého",
-                    "oxidu uhličitého",
-                    "nespálených uhlovodíků"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 107,
-                "question": "Ohmův zákon je vyjádřen vztahem:",
-                "options": [
-                    "R = U / I",
-                    "R = U . I",
-                    "R = I / U"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 108,
-                "question": "S klesající teplotou a při odběru proudu napětí akumulátoru:",
-                "options": [
-                    "nemění se",
-                    "stoupá",
-                    "klesá"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 109,
-                "question": "Jak se mění odpor snímače NTC v závislosti na teplotě?",
-                "options": [
-                    "se stoupající teplotou odpor stoupá",
-                    "se stoupající teplotou odpor klesá",
-                    "s klesající teplotou odpor klesá"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 110,
-                "question": "El. odpor většiny vodičů s rostoucí teplotou:",
-                "options": [
-                    "roste",
-                    "se nemění",
-                    "klesá"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 111,
-                "question": "Při paralelním zapojení rezistorů je jejich výsledný odpor:",
-                "options": [
-                    "větší než součet jednotlivých odporů",
-                    "menší než nejmenší z nich",
-                    "stejný jako největší z odporů"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 112,
-                "question": "Články v olověném akumulátoru jsou zapojeny:",
-                "options": [
-                    "kombinovaně",
-                    "sériově",
-                    "paralelně"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 113,
-                "question": "V sériovém obvodu jsou zapojeny dva rezistory, každý má odpor 100 Ω. Obvod je připojen k akumulátoru o napětí 12 V. Jaké je napětí na jednotlivých rezistorech?",
-                "options": [
-                    "na každém 6 V",
-                    "na každém 8 V",
-                    "na každém 12 V"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 114,
-                "question": "Lambdasonda u vznětového motoru:",
-                "options": [
-                    "má význam pro regulaci emisí",
-                    "upravuje tlak paliva",
-                    "se nevyskytuje"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 115,
-                "question": "Pilník s jednoduchým sekem je vhodný pro pilování např.:",
-                "options": [
-                    "uhlíkové oceli",
-                    "hliníku",
-                    "dřeva"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 116,
-                "question": "Účelem tlumičů pérování je:",
-                "options": [
-                    "utlumení rozkmitání vozidla po přejezdu nerovnosti",
-                    "tlumit přenos akustického hluku od pneumatik",
-                    "zachycovat suvné síly"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 117,
-                "question": "Jako mechanický stabilizátor se nejčastěji uplatní:",
-                "options": [
-                    "tlumič pérování",
-                    "progresivní vinutá pružina",
-                    "zkrutná tyč"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 118,
-                "question": "Jaká je nevýhoda obdélníkového (žebřinového) rámu?",
-                "options": [
-                    "velká hmotnost",
-                    "malá tuhost v krutu",
-                    "složitý"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 119,
-                "question": "S rostoucí hmotností vozidla se brzdná dráha:",
-                "options": [
-                    "nemění",
-                    "prodlužuje",
-                    "zkracuje"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 120,
-                "question": "Na jaké nápravě je vyšší brzdný účinek?",
-                "options": [
-                    "obě nápravy vyžadují stejný brzdný účinek",
-                    "na přední nápravě",
-                    "na zadní nápravě"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 121,
-                "question": "U vozidel s předním pohonem se na hnacím hřídeli používají na straně kola tyto klouby:",
-                "options": [
-                    "kamenový",
-                    "pružný",
-                    "homokinetický"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 122,
-                "question": "Při přepnutí voliče samočinné převodovky z parkovací polohy do polohy pro jízdu musí řidič:",
-                "options": [
-                    "odjistit parkovací brzdu",
-                    "sešlápnout pedál brzdy",
-                    "sešlápnout pedál plynu"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 123,
-                "question": "Zubová vůle soukolí rozvodovky se seřídí:",
-                "options": [
-                    "posunutím talířového kola ze záběru nebo do záběru s pastorkem",
-                    "posunutím pastorku ze záběru nebo do záběru s talířovým kolem",
-                    "výměnou vymezovacích podložek pod maticí unášeče pastorku"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 124,
-                "question": "Ozubená kola jsou na předlohovém hřídeli uložena:",
-                "options": [
-                    "točně",
-                    "suvně",
-                    "napevno"
-                ],
                 "correct": [2]
-            },
-            {
-                "id": 125,
-                "question": "U stojícího vozidla s běžícím motorem a zařazeným neutrálem se ve dvouhřídelové převodovce:",
-                "options": [
-                    "otáčí pouze hnaný hřídel",
-                    "otáčí pouze hnací hřídel a s ním spoluzabírající ozubená kola",
-                    "otáčí hnací hřídel i hnaný hřídel včetně všech kol"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 126,
-                "question": "Plnoprůtokový čistič oleje:",
-                "options": [
-                    "se vyměňuje při každé výměně oleje za nový",
-                    "se vyměňuje při každé druhé výměně oleje za nový",
-                    "se proplachuje technickým benzinem"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 127,
-                "question": "Wankelův motor má spalovací prostor vytvořen mezi:",
-                "options": [
-                    "hlavou a pístem motoru",
-                    "bokem pístu a vnitřní stěnou skříně motoru",
-                    "pístem a klikovou skříní"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 128,
-                "question": "Kontrola množství oleje v motoru se provádí:",
-                "options": [
-                    "několik minut po zastavení motoru",
-                    "jen při tak nakloněném vozidle, aby olej mohl stéct k olejové měrce",
-                    "ihned po zastavení motoru"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 129,
-                "question": "U hydraulického vymezování vůle ventilů se za chodu motoru udržuje ventilová vůle:",
-                "options": [
-                    "na výfukovém ventilu větší než na sacím",
-                    "na sacím ventilu větší než na výfukovém",
-                    "na obou ventilech je stejná"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 130,
-                "question": "Pořadí zapalování na motoru lze zjistit:",
-                "options": [
-                    "podle značek na vačkové hřídeli",
-                    "podle pořadí otvírání např. sacích ventilů",
-                    "podle značek na klikové hřídeli"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 131,
-                "question": "V chladicí kapalině se objevil olej. Možná příčina této závady může být:",
-                "options": [
-                    "vadné axiální těsnění vodního čerpadla",
-                    "vadný výměník tepla olej – chladicí kapalina",
-                    "špatné utěsnění vložených válců v bloku motoru"
-                ],
-                "correct": [1]
             },
             {
-                "id": 132,
+                "id": 239,
                 "question": "Motorový olej označený SAE 15W-40 je určen pro provoz:",
                 "options": [
                     "pouze v letním období",
@@ -6567,294 +4527,104 @@
                 "correct": [2]
             },
             {
-                "id": 133,
-                "question": "Redukční ventil v tlakové mazací soustavě:",
+                "id": 240,
+                "question": "Sací potrubí má namontovány vířivé klapky, které zlepšují tvorbu směsi ve spalovacím prostoru. Jaké vlastnosti má takto upravený motor?",
                 "options": [
-                    "je zapojen u čističe oleje a zabraňuje odtoku oleje z filtru při stojícím motoru",
-                    "je zapojen před plnoprůtokový filtr a v případě jeho zanesení zajišťuje obtok",
-                    "je zapojen za olejové čerpadlo a reguluje horní hranici tlaku oleje v soustavě"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 134,
-                "question": "Termostat kapalinového chlazení začíná otevírat při teplotě:",
-                "options": [
-                    "85 až 95 °C",
-                    "105 až 110 °C",
-                    "95 až 104 °C"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 135,
-                "question": "Vysokotlaké čerpadlo systému Common Rail je mazáno:",
-                "options": [
-                    "motorovým olejem",
-                    "převodovým olejem",
-                    "naftou"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 136,
-                "question": "Klimatizační soustava běžného automobilu obsahuje kromě jiných komponentů dva tepelné výměníky, jsou to:",
-                "options": [
-                    "výparník klimatizace v přídi vozu a kondenzátor před vstupem vzduchu do kabiny",
-                    "kondenzátor klimatizace v přídi vozu a výparník před vstupem vzduchu do kabiny",
-                    "výparník klimatizace v přídi vozu a radiátor před vstupem vzduchu do kabiny"
+                    "zvýšený odvod tepla, vyšší odolnost vůči opotřebení",
+                    "nižší spotřeba paliva a nižší obsah škodlivin ve výfukových plynech",
+                    "nižší spotřeba paliva, nižší výkon motoru"
                 ],
                 "correct": [1]
             },
             {
-                "id": 137,
-                "question": "Vstřikování látky označované jako Ad Blue:",
+                "id": 241,
+                "question": "Mazání motoru směsí paliva a oleje se uplatňuje:",
                 "options": [
-                    "napomáhá zvýšení výkonu motoru",
-                    "napomáhá snižování množství NOx ve výfukových plynech",
-                    "napomáhá snižování množství CO2 ve výfukových plynech"
+                    "u čtyřdobých pomaloběžných stacionárních motorů",
+                    "u dvoudobých motorů",
+                    "u čtyřdobých motorů terénních vozidel"
                 ],
                 "correct": [1]
             },
             {
-                "id": 138,
-                "question": "Označení FSI nebo GDI u vstřikování zážehových motorů znamená:",
+                "id": 242,
+                "question": "Mokrá vložka se používá:",
                 "options": [
-                    "vícebodové nepřímé vstřikování benzínu",
-                    "jednobodové nepřímé vstřikování benzínu",
-                    "přímé vstřikování benzínu"
+                    "u motorů chlazených náporem vzduchu",
+                    "u motorů chlazených nuceným oběhem vzduchu",
+                    "u kapalinou chlazených motorů"
                 ],
                 "correct": [2]
             },
             {
-                "id": 139,
-                "question": "Zařízení nazývané hovorově turbo využívá k zlepšování výkonu motoru:",
+                "id": 243,
+                "question": "Konstrukcí obtokového olejového systému:",
                 "options": [
-                    "samostatný hnací motor (nejčastěji elektrický)",
-                    "pohon od motoru (např. řemenem)",
-                    "pohon výfukovými spalinami"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 140,
-                "question": "Systém nazývaný adaptivní tempomat umí upravit nastavenou rychlost (snížit a zpět zrychlit) v závislosti na situaci před vozidlem. Pro sledování této situace může využívat:",
-                "options": [
-                    "ultrafialovou kameru",
-                    "krátkovlnný radar",
-                    "infračervenou kameru"
+                    "protéká veškerý olej dopravovaný do mazacích míst čističem oleje",
+                    "protéká jen část oleje dopravovaného do mazacích míst čističem oleje",
+                    "protéká veškerý olej pouze mezi sacím košem a olejovým čerpadlem"
                 ],
                 "correct": [1]
             },
             {
-                "id": 141,
-                "question": "Jaká čidla jsou obvykle využívána pro hlídání mrtvého úhlu zpětných zrcátek?",
+                "id": 244,
+                "question": "Celý čtyřdobý pracovní cyklus proběhne u rotačního pístového motoru (Wankel):",
                 "options": [
-                    "senzor vysílající elektromagnetické vlny",
-                    "senzor vysílající magnetické vlny",
-                    "senzor vysílající ultrazvukové vlny"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 142,
-                "question": "Kontrola výšky hladiny chladicí kapaliny mezi ryskami MIN a MAX, se provádí:",
-                "options": [
-                    "při studeném motoru",
-                    "teplota motoru nemá na kontrolu vliv",
-                    "při zahřátém motoru"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 143,
-                "question": "Co znamená pohon na LPG?",
-                "options": [
-                    "pohon na zkapalněný vodík",
-                    "pohon na stlačený zemní plyn",
-                    "pohon na zkapalněný ropný plyn"
+                    "za jednu polovinu otáčky hřídele",
+                    "za dvě otáčky rotačního pístu",
+                    "za jednu otáčku rotačního pístu"
                 ],
                 "correct": [2]
             },
             {
-                "id": 144,
-                "question": "Při použití etanolu jako alternativního paliva můžeme očekávat:",
+                "id": 245,
+                "question": "Při provádění tlakové zkoušky spalovacího prostoru se místo netěsnosti zjišťuje:",
                 "options": [
-                    "horší teplé starty, ale navýšení výkonu",
-                    "nerozeznáme rozdíl oproti původnímu palivu",
-                    "horší starty v zimě a snížení výkonu"
+                    "mýdlovou vodou",
+                    "pomocí sondy infraanalyzátoru",
+                    "poslechem"
                 ],
                 "correct": [2]
             },
             {
-                "id": 145,
-                "question": "U elektronických vstřikovacích systémů zážehových motorů je množství paliva řízeno:",
+                "id": 246,
+                "question": "U motorů se třemi ventily na válec jsou:",
                 "options": [
-                    "dobou otevření vstřikovacích ventilů",
-                    "počtem otevřených vstřikovacích ventilů",
-                    "velikostí otevření vstřikovacích ventilů"
+                    "dva ventily sací a jeden výfukový",
+                    "jeden ventil sací, jeden výfukový a jeden odlehčovací",
+                    "dva ventily výfukové a jeden sací"
                 ],
                 "correct": [0]
             },
             {
-                "id": 146,
-                "question": "V případě přerušovaného vstřikování Motronic MPI jsou vstřikovače otevírány:",
+                "id": 247,
+                "question": "Při měření kompresních tlaků se klikovou hřídelí motoru otáčí:",
                 "options": [
-                    "tlakem 3bar",
-                    "elektromagnetem",
-                    "tlakem 1bar"
+                    "tak dlouho, dokud stoupá tlak v měřicím tlakoměru",
+                    "asi 5 sekund",
+                    "asi 1 sekundu"
                 ],
                 "correct": [1]
             },
             {
-                "id": 147,
-                "question": "HFM (MAF) snímač zjišťuje:",
+                "id": 248,
+                "question": "Ovalita čepu klikové hřídele se odstraní:",
                 "options": [
-                    "objem nasávaného vzduchu",
-                    "hmotnost nasávaného vzduchu",
-                    "tlak v sacím potrubí"
+                    "soustružením",
+                    "broušením",
+                    "nelze odstranit"
                 ],
                 "correct": [1]
             },
             {
-                "id": 148,
-                "question": "Třísložkový (třícestný) katalyzátor snižuje množství těchto škodlivých látek:",
+                "id": 249,
+                "question": "Systém odpojování válců ACT u čtyřválcových motorů je aktivován při nízkých a středních úrovních zátěže a uzavírá sací a výfukové ventily:",
                 "options": [
-                    "oxid uhelnatý, oxidy dusíku, uhlovodíky",
-                    "čpavek, oxid uhličitý, uhlovodíky",
-                    "oxid uhličitý, oxidy síry, uhlovodíky"
+                    "na druhém a třetím válci",
+                    "na prvním a třetím válci",
+                    "na prvním a čtvrtém válci"
                 ],
                 "correct": [0]
-            },
-            {
-                "id": 149,
-                "question": "U sekvenčního vstřikování vstřikovací ventily vstřikují:",
-                "options": [
-                    "všechny najednou",
-                    "jednotlivě dle pořadí zapalování",
-                    "skupinově po dvou ventilech"
-                ],
-                "correct": [1]
-            },
-            {
-                "id": 150,
-                "question": "Množství vstříknutého paliva v případě palivového systému PDE (Pumpe duese = sdružené vstřikovače) je dáno:",
-                "options": [
-                    "délkou uzavření elektromagneticky ovládaného ventilu elementu PDE",
-                    "vyšším tlakem dopravního čerpadla",
-                    "velikostí zdvihu pístu elementu PDE"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 151,
-                "question": "Kde se většinou nachází kamera pro systém hlídání jízdního pruhu?",
-                "options": [
-                    "v bočním zrcátku",
-                    "v předním nárazníku",
-                    "za čelním oknem na úrovni vnitřního zrcátka"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 152,
-                "question": "Systém recirkulace spalin se v současné době objevuje:",
-                "options": [
-                    "u benzínových i naftových motorů",
-                    "jen u benzínových motorů",
-                    "jen u naftových motorů"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 153,
-                "question": "Zkratka EOBD znamená:",
-                "options": [
-                    "systém přímého vstřikování paliva u zážehových motorů",
-                    "data pro vstřikování benzínu /evropská odborná benzínová data /",
-                    "evropská palubní diagnostika"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 154,
-                "question": "Svorka 50 je propojena:",
-                "options": [
-                    "s vinutím elektromagnetického spínače spouštěče",
-                    "s přepínačem světel",
-                    "s elektronickým spínačem zapalování"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 155,
-                "question": "Vyberte správný zápis převodu velikosti odporu na základní jednotku:",
-                "options": [
-                    "1 mΩ = 0,001 Ω",
-                    "1 mΩ = 1 000 000 Ω",
-                    "1 mΩ = 1000 Ω"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 156,
-                "question": "Snímače otáček klikové hřídele mohou být:",
-                "options": [
-                    "Hallův, indukční",
-                    "Hallův, NTC",
-                    "indukční, PTC"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 157,
-                "question": "Jednovodičová soustava znamená:",
-                "options": [
-                    "elektrický obvod není uzavřen, zdroj a spotřebič jsou propojeny jedním vodičem",
-                    "jednotlivé spotřebiče ve vozidle jsou propojeny do série, proto si vystačíme s jedním vodičem",
-                    "zdroj a spotřebič jsou propojeny jedním vodičem, obvod je uzavřen vodivou karoserií vozidla"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 158,
-                "question": "Při vybíjení olověného akumulátoru se:",
-                "options": [
-                    "na obou deskách vytváří síran olovnatý",
-                    "na kladné desce vytváří čisté olovo a na záporné oxid olovičitý",
-                    "na kladné desce vytváří oxid olovičitý a na záporné čisté olovo"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 159,
-                "question": "Částice se záporným elektrickým nábojem je:",
-                "options": [
-                    "elektron",
-                    "proton",
-                    "kation"
-                ],
-                "correct": [0]
-            },
-            {
-                "id": 160,
-                "question": "Tranzistor má tyto tři vývody:",
-                "options": [
-                    "emitor, konektor, báze",
-                    "termistor, kolektor, báze",
-                    "emitor, kolektor, báze"
-                ],
-                "correct": [2]
-            },
-            {
-                "id": 161,
-                "question": "Snímač NTC mění svůj el. odpor v závislosti na:",
-                "options": [
-                    "magnetické indukci",
-                    "teplotě",
-                    "osvětlení"
-                ],
-                "correct": [1]
             }
         ]
     }   
